@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B34A9901B283B1E0077F9F3 /* jisyaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A98E1B283B1E0077F9F3 /* jisyaku.png */; };
+		1B34A9931B2840EC0077F9F3 /* yellow-maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9921B2840EC0077F9F3 /* yellow-maru.png */; };
+		1B34A9951B2842050077F9F3 /* red-maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9941B2842050077F9F3 /* red-maru.png */; };
+		1B34A9971B2848750077F9F3 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9961B2848750077F9F3 /* frame.png */; };
+		1B34A99C1B284B440077F9F3 /* hito4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9981B284B440077F9F3 /* hito4.png */; };
+		1B34A99D1B284B440077F9F3 /* hito1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9991B284B440077F9F3 /* hito1.png */; };
+		1B34A99E1B284B440077F9F3 /* hito2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A99A1B284B440077F9F3 /* hito2.png */; };
+		1B34A99F1B284B440077F9F3 /* hito3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A99B1B284B440077F9F3 /* hito3.png */; };
+		1B34A9A11B2881510077F9F3 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9A01B2881510077F9F3 /* house.png */; };
+		1B34A9A31B2893530077F9F3 /* house-maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9A21B2893530077F9F3 /* house-maru.png */; };
+		1B34A9A91B28978B0077F9F3 /* tab-home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9A81B28978B0077F9F3 /* tab-home.png */; };
+		1B34A9AF1B2899700077F9F3 /* tab-time.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9AE1B2899700077F9F3 /* tab-time.png */; };
+		1B34A9B11B289A920077F9F3 /* tab-mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9B01B289A920077F9F3 /* tab-mail.png */; };
+		1B34A9B31B29296E0077F9F3 /* tab-friend.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9B21B29296E0077F9F3 /* tab-friend.png */; };
+		1B34A9B51B292ABB0077F9F3 /* tab-prof.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9B41B292ABB0077F9F3 /* tab-prof.png */; };
+		1B34A9B71B292B430077F9F3 /* tab-help.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9B61B292B430077F9F3 /* tab-help.png */; };
+		1B34A9BC1B292F1C0077F9F3 /* home1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B34A9BB1B292F1C0077F9F3 /* home1ViewController.swift */; };
+		1B34A9BE1B293A4B0077F9F3 /* nabi-batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9BD1B293A4B0077F9F3 /* nabi-batsu.png */; };
+		1B34A9D11B2969BC0077F9F3 /* tabconer-off-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9CB1B2969BC0077F9F3 /* tabconer-off-left.png */; };
+		1B34A9D21B2969BC0077F9F3 /* tabconer-on-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9CC1B2969BC0077F9F3 /* tabconer-on-left.png */; };
+		1B34A9D31B2969BC0077F9F3 /* tabconer-off-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9CD1B2969BC0077F9F3 /* tabconer-off-right.png */; };
+		1B34A9D51B2969BC0077F9F3 /* tabconer-on-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9CF1B2969BC0077F9F3 /* tabconer-on-right.png */; };
+		1B34A9DA1B296F3F0077F9F3 /* tabconer-off-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9D91B296F3F0077F9F3 /* tabconer-off-center.png */; };
+		1B34A9DC1B2975D20077F9F3 /* tabconer-on-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9DB1B2975D20077F9F3 /* tabconer-on-center.png */; };
+		1B34A9DE1B2998190077F9F3 /* tab-pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9DD1B2998190077F9F3 /* tab-pen.png */; };
+		1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910421B255F370014F0DF /* AppDelegate.swift */; };
+		1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910441B255F380014F0DF /* ochatto.xcdatamodeld */; };
+		1B49104B1B255F380014F0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4910491B255F380014F0DF /* Main.storyboard */; };
+		1B49104D1B255F380014F0DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B49104C1B255F380014F0DF /* Images.xcassets */; };
+		1B4910501B255F380014F0DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B49104E1B255F380014F0DF /* LaunchScreen.xib */; };
+		1B49105C1B255F380014F0DF /* ochattoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49105B1B255F380014F0DF /* ochattoTests.swift */; };
+		1B4910661B256E250014F0DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910651B256E250014F0DF /* HomeViewController.swift */; };
+		1B4910681B256EE00014F0DF /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910671B256EE00014F0DF /* TimeLineViewController.swift */; };
+		1B49106A1B256EF90014F0DF /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910691B256EF90014F0DF /* MailViewController.swift */; };
+		1B49106C1B256F150014F0DF /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49106B1B256F150014F0DF /* FriendViewController.swift */; };
+		1B49106E1B256F340014F0DF /* ProfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49106D1B256F340014F0DF /* ProfViewController.swift */; };
+		1B4910701B256F480014F0DF /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49106F1B256F480014F0DF /* HelpViewController.swift */; };
+		1B4910721B257A6E0014F0DF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4910711B257A6E0014F0DF /* MapKit.framework */; };
+		1B4910741B25A26D0014F0DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4910731B25A26D0014F0DF /* CoreLocation.framework */; };
+		1B4910761B25CA0D0014F0DF /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910751B25CA0D0014F0DF /* Configuration.swift */; };
+		1B56F06A1B25E8710061B5DB /* pin_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0611B25E8710061B5DB /* pin_blue.png */; };
+		1B56F06B1B25E8710061B5DB /* pin_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0621B25E8710061B5DB /* pin_gray.png */; };
+		1B56F06C1B25E8710061B5DB /* pin_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0631B25E8710061B5DB /* pin_green.png */; };
+		1B56F06D1B25E8710061B5DB /* pin_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0641B25E8710061B5DB /* pin_orange.png */; };
+		1B56F06E1B25E8710061B5DB /* pin_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0651B25E8710061B5DB /* pin_purple.png */; };
+		1B56F06F1B25E8710061B5DB /* pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0661B25E8710061B5DB /* pin_red.png */; };
+		1B56F0701B25E8710061B5DB /* pin_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0671B25E8710061B5DB /* pin_wheel.png */; };
+		1B56F0711B25E8710061B5DB /* pin_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0681B25E8710061B5DB /* pin_white.png */; };
+		1B56F0721B25E8710061B5DB /* pin_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0691B25E8710061B5DB /* pin_yellow.png */; };
+		1B58C71F1B2E745C004D2212 /* RebuewKoukaiSet_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B58C71E1B2E745C004D2212 /* RebuewKoukaiSet_View.swift */; };
+		1B58C7231B2E8FA7004D2212 /* tabconer-orenge-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B58C7201B2E8FA7004D2212 /* tabconer-orenge-center.png */; };
+		1B58C7241B2E8FA7004D2212 /* tabconer-orenge-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B58C7211B2E8FA7004D2212 /* tabconer-orenge-right.png */; };
+		1B58C7251B2E8FA7004D2212 /* tabconer-orenge-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B58C7221B2E8FA7004D2212 /* tabconer-orenge-left.png */; };
+		1B58C7291B2E90AE004D2212 /* tabconer-murasaki-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B58C7261B2E90AE004D2212 /* tabconer-murasaki-center.png */; };
+		1B58C72A1B2E90AE004D2212 /* tabconer-murasaki-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B58C7271B2E90AE004D2212 /* tabconer-murasaki-left.png */; };
+		1B58C72B1B2E90AE004D2212 /* tabconer-murasaki-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B58C7281B2E90AE004D2212 /* tabconer-murasaki-right.png */; };
+		1B58C7301B2EB06C004D2212 /* Status_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B58C72F1B2EB06C004D2212 /* Status_View.swift */; };
+		1B6A41B71B2BBCE7004E693B /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41B61B2BBCE7004E693B /* plus.png */; };
+		1B6A41BB1B2C132E004E693B /* tabconer-green-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41B81B2C132E004E693B /* tabconer-green-right.png */; };
+		1B6A41BC1B2C132E004E693B /* tabconer-green-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41B91B2C132E004E693B /* tabconer-green-left.png */; };
+		1B6A41BF1B2C14BA004E693B /* tabconer-green-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41BE1B2C14BA004E693B /* tabconer-green-center.png */; };
+		1B6A41C31B2C162C004E693B /* tabconer-yellow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41C01B2C162C004E693B /* tabconer-yellow-left.png */; };
+		1B6A41C41B2C162C004E693B /* tabconer-yellow-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41C11B2C162C004E693B /* tabconer-yellow-center.png */; };
+		1B6A41C51B2C162C004E693B /* tabconer-yellow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41C21B2C162C004E693B /* tabconer-yellow-right.png */; };
+		1B6A41C71B2C21D6004E693B /* PrivatFasshonNikki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6A41C61B2C21D6004E693B /* PrivatFasshonNikki.swift */; };
+		1B6A41D21B2C37D1004E693B /* mainus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41D01B2C37D1004E693B /* mainus.png */; };
+		1B6A41D31B2C37D1004E693B /* purasu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41D11B2C37D1004E693B /* purasu.png */; };
+		1B6A42071B2C5131004E693B /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41D51B2C5131004E693B /* Android.mk */; };
+		1B6A42081B2C5131004E693B /* AndroidClock.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41D61B2C5131004E693B /* AndroidClock.ttf */; };
+		1B6A42091B2C5131004E693B /* AndroidClock_Highlight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41D71B2C5131004E693B /* AndroidClock_Highlight.ttf */; };
+		1B6A420A1B2C5131004E693B /* AndroidClock_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41D81B2C5131004E693B /* AndroidClock_Solid.ttf */; };
+		1B6A420B1B2C5131004E693B /* AndroidEmoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41D91B2C5131004E693B /* AndroidEmoji.ttf */; };
+		1B6A420C1B2C5131004E693B /* Clockopia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41DA1B2C5131004E693B /* Clockopia.ttf */; };
+		1B6A420D1B2C5131004E693B /* DroidKufi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41DB1B2C5131004E693B /* DroidKufi-Bold.ttf */; };
+		1B6A420E1B2C5131004E693B /* DroidKufi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41DC1B2C5131004E693B /* DroidKufi-Regular.ttf */; };
+		1B6A420F1B2C5131004E693B /* DroidNaskh-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41DD1B2C5131004E693B /* DroidNaskh-Bold.ttf */; };
+		1B6A42101B2C5131004E693B /* DroidNaskh-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41DE1B2C5131004E693B /* DroidNaskh-Regular.ttf */; };
+		1B6A42111B2C5131004E693B /* DroidNaskhUI-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41DF1B2C5131004E693B /* DroidNaskhUI-Regular.ttf */; };
+		1B6A42121B2C5131004E693B /* DroidSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E01B2C5131004E693B /* DroidSans-Bold.ttf */; };
+		1B6A42131B2C5131004E693B /* DroidSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E11B2C5131004E693B /* DroidSans.ttf */; };
+		1B6A42141B2C5131004E693B /* DroidSansArabic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E21B2C5131004E693B /* DroidSansArabic.ttf */; };
+		1B6A42151B2C5131004E693B /* DroidSansArmenian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E31B2C5131004E693B /* DroidSansArmenian.ttf */; };
+		1B6A42161B2C5131004E693B /* DroidSansEthiopic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E41B2C5131004E693B /* DroidSansEthiopic-Bold.ttf */; };
+		1B6A42171B2C5131004E693B /* DroidSansEthiopic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E51B2C5131004E693B /* DroidSansEthiopic-Regular.ttf */; };
+		1B6A42181B2C5131004E693B /* DroidSansFallback.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E61B2C5131004E693B /* DroidSansFallback.ttf */; };
+		1B6A42191B2C5131004E693B /* DroidSansFallbackFull.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E71B2C5131004E693B /* DroidSansFallbackFull.ttf */; };
+		1B6A421A1B2C5131004E693B /* DroidSansFallbackLegacy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E81B2C5131004E693B /* DroidSansFallbackLegacy.ttf */; };
+		1B6A421B1B2C5131004E693B /* DroidSansGeorgian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41E91B2C5131004E693B /* DroidSansGeorgian.ttf */; };
+		1B6A421C1B2C5131004E693B /* DroidSansHebrew-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41EA1B2C5131004E693B /* DroidSansHebrew-Bold.ttf */; };
+		1B6A421D1B2C5131004E693B /* DroidSansHebrew-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41EB1B2C5131004E693B /* DroidSansHebrew-Regular.ttf */; };
+		1B6A421E1B2C5131004E693B /* DroidSansJapanese.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41EC1B2C5131004E693B /* DroidSansJapanese.ttf */; };
+		1B6A421F1B2C5131004E693B /* DroidSansMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41ED1B2C5131004E693B /* DroidSansMono.ttf */; };
+		1B6A42201B2C5131004E693B /* DroidSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41EE1B2C5131004E693B /* DroidSerif-Bold.ttf */; };
+		1B6A42211B2C5131004E693B /* DroidSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41EF1B2C5131004E693B /* DroidSerif-BoldItalic.ttf */; };
+		1B6A42221B2C5131004E693B /* DroidSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F01B2C5131004E693B /* DroidSerif-Italic.ttf */; };
+		1B6A42231B2C5131004E693B /* DroidSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F11B2C5131004E693B /* DroidSerif-Regular.ttf */; };
+		1B6A42241B2C5131004E693B /* fallback_fonts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F21B2C5131004E693B /* fallback_fonts.xml */; };
+		1B6A42251B2C5131004E693B /* fonts.mk in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F31B2C5131004E693B /* fonts.mk */; };
+		1B6A42261B2C5131004E693B /* MODULE_LICENSE_APACHE2 in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F41B2C5131004E693B /* MODULE_LICENSE_APACHE2 */; };
+		1B6A42271B2C5131004E693B /* MTLc3m.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F51B2C5131004E693B /* MTLc3m.ttf */; };
+		1B6A42281B2C5131004E693B /* MTLmr3m.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F61B2C5131004E693B /* MTLmr3m.ttf */; };
+		1B6A42291B2C5131004E693B /* NOTICE in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F71B2C5131004E693B /* NOTICE */; };
+		1B6A422A1B2C5131004E693B /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F81B2C5131004E693B /* README.txt */; };
+		1B6A422B1B2C5131004E693B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41F91B2C5131004E693B /* Roboto-Bold.ttf */; };
+		1B6A422C1B2C5131004E693B /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41FA1B2C5131004E693B /* Roboto-BoldItalic.ttf */; };
+		1B6A422D1B2C5131004E693B /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41FB1B2C5131004E693B /* Roboto-Italic.ttf */; };
+		1B6A422E1B2C5131004E693B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41FC1B2C5131004E693B /* Roboto-Light.ttf */; };
+		1B6A422F1B2C5131004E693B /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41FD1B2C5131004E693B /* Roboto-LightItalic.ttf */; };
+		1B6A42301B2C5131004E693B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41FE1B2C5131004E693B /* Roboto-Regular.ttf */; };
+		1B6A42311B2C5131004E693B /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A41FF1B2C5131004E693B /* Roboto-Thin.ttf */; };
+		1B6A42321B2C5131004E693B /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A42001B2C5131004E693B /* Roboto-ThinItalic.ttf */; };
+		1B6A42331B2C5131004E693B /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A42011B2C5131004E693B /* RobotoCondensed-Bold.ttf */; };
+		1B6A42341B2C5131004E693B /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A42021B2C5131004E693B /* RobotoCondensed-BoldItalic.ttf */; };
+		1B6A42351B2C5131004E693B /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A42031B2C5131004E693B /* RobotoCondensed-Italic.ttf */; };
+		1B6A42361B2C5131004E693B /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A42041B2C5131004E693B /* RobotoCondensed-Regular.ttf */; };
+		1B6A42371B2C5131004E693B /* system_fonts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A42051B2C5131004E693B /* system_fonts.xml */; };
+		1B6A42381B2C5131004E693B /* vendor_fonts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A42061B2C5131004E693B /* vendor_fonts.xml */; };
+		1B6A423A1B2D24E5004E693B /* hito.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6A42391B2D24E5004E693B /* hito.png */; };
+		1B8918C11B2AB347005047D9 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B8918C01B2AB347005047D9 /* pin.png */; };
+		1B8918C31B2AB996005047D9 /* acount-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B8918C21B2AB996005047D9 /* acount-button.png */; };
+		1B8918C51B2AC0D3005047D9 /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918C41B2AC0D3005047D9 /* AcountViewController.swift */; };
+		1B8918C91B2AD4F9005047D9 /* HonninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918C81B2AD4F9005047D9 /* HonninViewController.swift */; };
+		1B8918CB1B2AD924005047D9 /* PasswordWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918CA1B2AD924005047D9 /* PasswordWhoViewController.swift */; };
+		1B8918CD1B2ADBD4005047D9 /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918CC1B2ADBD4005047D9 /* PasswordChangeViewController.swift */; };
+		1B99C1661B29BC0300389F82 /* SosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1651B29BC0300389F82 /* SosViewController.swift */; };
+		1B99C1681B29CA4E00389F82 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1671B29CA4E00389F82 /* AlertViewController.swift */; };
+		1B99C16A1B29D7F700389F82 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1691B29D7F700389F82 /* DiaryViewController.swift */; };
+		1BD309D41B2B10480018FC6D /* Prof2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4910561B255F380014F0DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B4910351B255F370014F0DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B49103C1B255F370014F0DF;
+			remoteInfo = ochatto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B34A98E1B283B1E0077F9F3 /* jisyaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jisyaku.png; sourceTree = "<group>"; };
+		1B34A9921B2840EC0077F9F3 /* yellow-maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-maru.png"; sourceTree = "<group>"; };
+		1B34A9941B2842050077F9F3 /* red-maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-maru.png"; sourceTree = "<group>"; };
+		1B34A9961B2848750077F9F3 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		1B34A9981B284B440077F9F3 /* hito4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito4.png; sourceTree = "<group>"; };
+		1B34A9991B284B440077F9F3 /* hito1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito1.png; sourceTree = "<group>"; };
+		1B34A99A1B284B440077F9F3 /* hito2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito2.png; sourceTree = "<group>"; };
+		1B34A99B1B284B440077F9F3 /* hito3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito3.png; sourceTree = "<group>"; };
+		1B34A9A01B2881510077F9F3 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		1B34A9A21B2893530077F9F3 /* house-maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house-maru.png"; sourceTree = "<group>"; };
+		1B34A9A81B28978B0077F9F3 /* tab-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-home.png"; sourceTree = "<group>"; };
+		1B34A9AE1B2899700077F9F3 /* tab-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-time.png"; sourceTree = "<group>"; };
+		1B34A9B01B289A920077F9F3 /* tab-mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-mail.png"; sourceTree = "<group>"; };
+		1B34A9B21B29296E0077F9F3 /* tab-friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-friend.png"; sourceTree = "<group>"; };
+		1B34A9B41B292ABB0077F9F3 /* tab-prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-prof.png"; sourceTree = "<group>"; };
+		1B34A9B61B292B430077F9F3 /* tab-help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-help.png"; sourceTree = "<group>"; };
+		1B34A9BB1B292F1C0077F9F3 /* home1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = home1ViewController.swift; path = image/home1ViewController.swift; sourceTree = "<group>"; };
+		1B34A9BD1B293A4B0077F9F3 /* nabi-batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nabi-batsu.png"; sourceTree = "<group>"; };
+		1B34A9CB1B2969BC0077F9F3 /* tabconer-off-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-off-left.png"; sourceTree = "<group>"; };
+		1B34A9CC1B2969BC0077F9F3 /* tabconer-on-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-on-left.png"; sourceTree = "<group>"; };
+		1B34A9CD1B2969BC0077F9F3 /* tabconer-off-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-off-right.png"; sourceTree = "<group>"; };
+		1B34A9CF1B2969BC0077F9F3 /* tabconer-on-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-on-right.png"; sourceTree = "<group>"; };
+		1B34A9D91B296F3F0077F9F3 /* tabconer-off-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-off-center.png"; sourceTree = "<group>"; };
+		1B34A9DB1B2975D20077F9F3 /* tabconer-on-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-on-center.png"; sourceTree = "<group>"; };
+		1B34A9DD1B2998190077F9F3 /* tab-pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-pen.png"; sourceTree = "<group>"; };
+		1B49103D1B255F370014F0DF /* ochatto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ochatto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4910411B255F370014F0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4910421B255F370014F0DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B4910451B255F380014F0DF /* ochatto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ochatto.xcdatamodel; sourceTree = "<group>"; };
+		1B49104A1B255F380014F0DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B49104C1B255F380014F0DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B49104F1B255F380014F0DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B4910551B255F380014F0DF /* ochattoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ochattoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B49105A1B255F380014F0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B49105B1B255F380014F0DF /* ochattoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ochattoTests.swift; sourceTree = "<group>"; };
+		1B4910651B256E250014F0DF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B4910671B256EE00014F0DF /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		1B4910691B256EF90014F0DF /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		1B49106B1B256F150014F0DF /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		1B49106D1B256F340014F0DF /* ProfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfViewController.swift; sourceTree = "<group>"; };
+		1B49106F1B256F480014F0DF /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		1B4910711B257A6E0014F0DF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1B4910731B25A26D0014F0DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1B4910751B25CA0D0014F0DF /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		1B56F0611B25E8710061B5DB /* pin_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_blue.png; sourceTree = "<group>"; };
+		1B56F0621B25E8710061B5DB /* pin_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_gray.png; sourceTree = "<group>"; };
+		1B56F0631B25E8710061B5DB /* pin_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_green.png; sourceTree = "<group>"; };
+		1B56F0641B25E8710061B5DB /* pin_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_orange.png; sourceTree = "<group>"; };
+		1B56F0651B25E8710061B5DB /* pin_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_purple.png; sourceTree = "<group>"; };
+		1B56F0661B25E8710061B5DB /* pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_red.png; sourceTree = "<group>"; };
+		1B56F0671B25E8710061B5DB /* pin_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_wheel.png; sourceTree = "<group>"; };
+		1B56F0681B25E8710061B5DB /* pin_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_white.png; sourceTree = "<group>"; };
+		1B56F0691B25E8710061B5DB /* pin_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_yellow.png; sourceTree = "<group>"; };
+		1B58C71E1B2E745C004D2212 /* RebuewKoukaiSet_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebuewKoukaiSet_View.swift; sourceTree = "<group>"; };
+		1B58C7201B2E8FA7004D2212 /* tabconer-orenge-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-orenge-center.png"; sourceTree = "<group>"; };
+		1B58C7211B2E8FA7004D2212 /* tabconer-orenge-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-orenge-right.png"; sourceTree = "<group>"; };
+		1B58C7221B2E8FA7004D2212 /* tabconer-orenge-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-orenge-left.png"; sourceTree = "<group>"; };
+		1B58C7261B2E90AE004D2212 /* tabconer-murasaki-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-murasaki-center.png"; sourceTree = "<group>"; };
+		1B58C7271B2E90AE004D2212 /* tabconer-murasaki-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-murasaki-left.png"; sourceTree = "<group>"; };
+		1B58C7281B2E90AE004D2212 /* tabconer-murasaki-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-murasaki-right.png"; sourceTree = "<group>"; };
+		1B58C72F1B2EB06C004D2212 /* Status_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status_View.swift; sourceTree = "<group>"; };
+		1B6A41B61B2BBCE7004E693B /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		1B6A41B81B2C132E004E693B /* tabconer-green-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-green-right.png"; sourceTree = "<group>"; };
+		1B6A41B91B2C132E004E693B /* tabconer-green-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-green-left.png"; sourceTree = "<group>"; };
+		1B6A41BE1B2C14BA004E693B /* tabconer-green-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-green-center.png"; sourceTree = "<group>"; };
+		1B6A41C01B2C162C004E693B /* tabconer-yellow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-yellow-left.png"; sourceTree = "<group>"; };
+		1B6A41C11B2C162C004E693B /* tabconer-yellow-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-yellow-center.png"; sourceTree = "<group>"; };
+		1B6A41C21B2C162C004E693B /* tabconer-yellow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-yellow-right.png"; sourceTree = "<group>"; };
+		1B6A41C61B2C21D6004E693B /* PrivatFasshonNikki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivatFasshonNikki.swift; path = image/PrivatFasshonNikki.swift; sourceTree = "<group>"; };
+		1B6A41D01B2C37D1004E693B /* mainus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainus.png; sourceTree = "<group>"; };
+		1B6A41D11B2C37D1004E693B /* purasu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purasu.png; sourceTree = "<group>"; };
+		1B6A41D51B2C5131004E693B /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		1B6A41D61B2C5131004E693B /* AndroidClock.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AndroidClock.ttf; sourceTree = "<group>"; };
+		1B6A41D71B2C5131004E693B /* AndroidClock_Highlight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AndroidClock_Highlight.ttf; sourceTree = "<group>"; };
+		1B6A41D81B2C5131004E693B /* AndroidClock_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AndroidClock_Solid.ttf; sourceTree = "<group>"; };
+		1B6A41D91B2C5131004E693B /* AndroidEmoji.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AndroidEmoji.ttf; sourceTree = "<group>"; };
+		1B6A41DA1B2C5131004E693B /* Clockopia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clockopia.ttf; sourceTree = "<group>"; };
+		1B6A41DB1B2C5131004E693B /* DroidKufi-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Bold.ttf"; sourceTree = "<group>"; };
+		1B6A41DC1B2C5131004E693B /* DroidKufi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Regular.ttf"; sourceTree = "<group>"; };
+		1B6A41DD1B2C5131004E693B /* DroidNaskh-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidNaskh-Bold.ttf"; sourceTree = "<group>"; };
+		1B6A41DE1B2C5131004E693B /* DroidNaskh-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidNaskh-Regular.ttf"; sourceTree = "<group>"; };
+		1B6A41DF1B2C5131004E693B /* DroidNaskhUI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidNaskhUI-Regular.ttf"; sourceTree = "<group>"; };
+		1B6A41E01B2C5131004E693B /* DroidSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSans-Bold.ttf"; sourceTree = "<group>"; };
+		1B6A41E11B2C5131004E693B /* DroidSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSans.ttf; sourceTree = "<group>"; };
+		1B6A41E21B2C5131004E693B /* DroidSansArabic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansArabic.ttf; sourceTree = "<group>"; };
+		1B6A41E31B2C5131004E693B /* DroidSansArmenian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansArmenian.ttf; sourceTree = "<group>"; };
+		1B6A41E41B2C5131004E693B /* DroidSansEthiopic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSansEthiopic-Bold.ttf"; sourceTree = "<group>"; };
+		1B6A41E51B2C5131004E693B /* DroidSansEthiopic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSansEthiopic-Regular.ttf"; sourceTree = "<group>"; };
+		1B6A41E61B2C5131004E693B /* DroidSansFallback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansFallback.ttf; sourceTree = "<group>"; };
+		1B6A41E71B2C5131004E693B /* DroidSansFallbackFull.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansFallbackFull.ttf; sourceTree = "<group>"; };
+		1B6A41E81B2C5131004E693B /* DroidSansFallbackLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansFallbackLegacy.ttf; sourceTree = "<group>"; };
+		1B6A41E91B2C5131004E693B /* DroidSansGeorgian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansGeorgian.ttf; sourceTree = "<group>"; };
+		1B6A41EA1B2C5131004E693B /* DroidSansHebrew-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSansHebrew-Bold.ttf"; sourceTree = "<group>"; };
+		1B6A41EB1B2C5131004E693B /* DroidSansHebrew-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSansHebrew-Regular.ttf"; sourceTree = "<group>"; };
+		1B6A41EC1B2C5131004E693B /* DroidSansJapanese.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansJapanese.ttf; sourceTree = "<group>"; };
+		1B6A41ED1B2C5131004E693B /* DroidSansMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansMono.ttf; sourceTree = "<group>"; };
+		1B6A41EE1B2C5131004E693B /* DroidSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSerif-Bold.ttf"; sourceTree = "<group>"; };
+		1B6A41EF1B2C5131004E693B /* DroidSerif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1B6A41F01B2C5131004E693B /* DroidSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSerif-Italic.ttf"; sourceTree = "<group>"; };
+		1B6A41F11B2C5131004E693B /* DroidSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSerif-Regular.ttf"; sourceTree = "<group>"; };
+		1B6A41F21B2C5131004E693B /* fallback_fonts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fallback_fonts.xml; sourceTree = "<group>"; };
+		1B6A41F31B2C5131004E693B /* fonts.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fonts.mk; sourceTree = "<group>"; };
+		1B6A41F41B2C5131004E693B /* MODULE_LICENSE_APACHE2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MODULE_LICENSE_APACHE2; sourceTree = "<group>"; };
+		1B6A41F51B2C5131004E693B /* MTLc3m.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MTLc3m.ttf; sourceTree = "<group>"; };
+		1B6A41F61B2C5131004E693B /* MTLmr3m.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MTLmr3m.ttf; sourceTree = "<group>"; };
+		1B6A41F71B2C5131004E693B /* NOTICE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
+		1B6A41F81B2C5131004E693B /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		1B6A41F91B2C5131004E693B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1B6A41FA1B2C5131004E693B /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1B6A41FB1B2C5131004E693B /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		1B6A41FC1B2C5131004E693B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		1B6A41FD1B2C5131004E693B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		1B6A41FE1B2C5131004E693B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1B6A41FF1B2C5131004E693B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		1B6A42001B2C5131004E693B /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1B6A42011B2C5131004E693B /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		1B6A42021B2C5131004E693B /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1B6A42031B2C5131004E693B /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		1B6A42041B2C5131004E693B /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		1B6A42051B2C5131004E693B /* system_fonts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = system_fonts.xml; sourceTree = "<group>"; };
+		1B6A42061B2C5131004E693B /* vendor_fonts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vendor_fonts.xml; sourceTree = "<group>"; };
+		1B6A42391B2D24E5004E693B /* hito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito.png; sourceTree = "<group>"; };
+		1B8918BE1B2AACCF005047D9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		1B8918BF1B2AACCF005047D9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1B8918C01B2AB347005047D9 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		1B8918C21B2AB996005047D9 /* acount-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "acount-button.png"; sourceTree = "<group>"; };
+		1B8918C41B2AC0D3005047D9 /* AcountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AcountViewController.swift; path = image/AcountViewController.swift; sourceTree = "<group>"; };
+		1B8918C81B2AD4F9005047D9 /* HonninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HonninViewController.swift; path = image/HonninViewController.swift; sourceTree = "<group>"; };
+		1B8918CA1B2AD924005047D9 /* PasswordWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordWhoViewController.swift; path = image/PasswordWhoViewController.swift; sourceTree = "<group>"; };
+		1B8918CC1B2ADBD4005047D9 /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
+		1B99C1651B29BC0300389F82 /* SosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SosViewController.swift; sourceTree = "<group>"; };
+		1B99C1671B29CA4E00389F82 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		1B99C1691B29D7F700389F82 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryViewController.swift; path = image/DiaryViewController.swift; sourceTree = "<group>"; };
+		1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prof2ViewController.swift; path = image/Prof2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B49103A1B255F370014F0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4910741B25A26D0014F0DF /* CoreLocation.framework in Frameworks */,
+				1B4910721B257A6E0014F0DF /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4910521B255F380014F0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4910341B255F370014F0DF = {
+			isa = PBXGroup;
+			children = (
+				1B4910731B25A26D0014F0DF /* CoreLocation.framework */,
+				1B4910711B257A6E0014F0DF /* MapKit.framework */,
+				1B49103F1B255F370014F0DF /* ochatto */,
+				1B4910581B255F380014F0DF /* ochattoTests */,
+				1B49103E1B255F370014F0DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B49103E1B255F370014F0DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B49103D1B255F370014F0DF /* ochatto.app */,
+				1B4910551B255F380014F0DF /* ochattoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B49103F1B255F370014F0DF /* ochatto */ = {
+			isa = PBXGroup;
+			children = (
+				1B6A41D41B2C5131004E693B /* fonts */,
+				1B56F0601B25E8710061B5DB /* image */,
+				1B4910421B255F370014F0DF /* AppDelegate.swift */,
+				1B4910491B255F380014F0DF /* Main.storyboard */,
+				1B58C7181B2E71D6004D2212 /* TabGroupe */,
+				1B4910751B25CA0D0014F0DF /* Configuration.swift */,
+				1B49104C1B255F380014F0DF /* Images.xcassets */,
+				1B49104E1B255F380014F0DF /* LaunchScreen.xib */,
+				1B4910441B255F380014F0DF /* ochatto.xcdatamodeld */,
+				1B4910401B255F370014F0DF /* Supporting Files */,
+			);
+			path = ochatto;
+			sourceTree = "<group>";
+		};
+		1B4910401B255F370014F0DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B4910411B255F370014F0DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B4910581B255F380014F0DF /* ochattoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B49105B1B255F380014F0DF /* ochattoTests.swift */,
+				1B4910591B255F380014F0DF /* Supporting Files */,
+			);
+			path = ochattoTests;
+			sourceTree = "<group>";
+		};
+		1B4910591B255F380014F0DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B49105A1B255F380014F0DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B56F0601B25E8710061B5DB /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1B58C7261B2E90AE004D2212 /* tabconer-murasaki-center.png */,
+				1B58C7271B2E90AE004D2212 /* tabconer-murasaki-left.png */,
+				1B58C7281B2E90AE004D2212 /* tabconer-murasaki-right.png */,
+				1B58C7201B2E8FA7004D2212 /* tabconer-orenge-center.png */,
+				1B58C7211B2E8FA7004D2212 /* tabconer-orenge-right.png */,
+				1B58C7221B2E8FA7004D2212 /* tabconer-orenge-left.png */,
+				1B6A41D01B2C37D1004E693B /* mainus.png */,
+				1B6A41D11B2C37D1004E693B /* purasu.png */,
+				1B6A41C01B2C162C004E693B /* tabconer-yellow-left.png */,
+				1B6A41C11B2C162C004E693B /* tabconer-yellow-center.png */,
+				1B6A41C21B2C162C004E693B /* tabconer-yellow-right.png */,
+				1B6A41BE1B2C14BA004E693B /* tabconer-green-center.png */,
+				1B6A41B81B2C132E004E693B /* tabconer-green-right.png */,
+				1B6A41B91B2C132E004E693B /* tabconer-green-left.png */,
+				1B6A41B61B2BBCE7004E693B /* plus.png */,
+				1B8918C21B2AB996005047D9 /* acount-button.png */,
+				1B8918C01B2AB347005047D9 /* pin.png */,
+				1B34A9DD1B2998190077F9F3 /* tab-pen.png */,
+				1B34A9DB1B2975D20077F9F3 /* tabconer-on-center.png */,
+				1B34A9D91B296F3F0077F9F3 /* tabconer-off-center.png */,
+				1B34A9CB1B2969BC0077F9F3 /* tabconer-off-left.png */,
+				1B34A9CC1B2969BC0077F9F3 /* tabconer-on-left.png */,
+				1B34A9CD1B2969BC0077F9F3 /* tabconer-off-right.png */,
+				1B34A9CF1B2969BC0077F9F3 /* tabconer-on-right.png */,
+				1B34A9BD1B293A4B0077F9F3 /* nabi-batsu.png */,
+				1B34A9B61B292B430077F9F3 /* tab-help.png */,
+				1B34A9B41B292ABB0077F9F3 /* tab-prof.png */,
+				1B34A9B21B29296E0077F9F3 /* tab-friend.png */,
+				1B34A9B01B289A920077F9F3 /* tab-mail.png */,
+				1B34A9AE1B2899700077F9F3 /* tab-time.png */,
+				1B34A9A81B28978B0077F9F3 /* tab-home.png */,
+				1B34A9A21B2893530077F9F3 /* house-maru.png */,
+				1B34A9A01B2881510077F9F3 /* house.png */,
+				1B34A9981B284B440077F9F3 /* hito4.png */,
+				1B34A9991B284B440077F9F3 /* hito1.png */,
+				1B34A99A1B284B440077F9F3 /* hito2.png */,
+				1B34A99B1B284B440077F9F3 /* hito3.png */,
+				1B34A9961B2848750077F9F3 /* frame.png */,
+				1B34A9941B2842050077F9F3 /* red-maru.png */,
+				1B34A9921B2840EC0077F9F3 /* yellow-maru.png */,
+				1B34A98E1B283B1E0077F9F3 /* jisyaku.png */,
+				1B56F0611B25E8710061B5DB /* pin_blue.png */,
+				1B56F0621B25E8710061B5DB /* pin_gray.png */,
+				1B56F0631B25E8710061B5DB /* pin_green.png */,
+				1B56F0641B25E8710061B5DB /* pin_orange.png */,
+				1B56F0651B25E8710061B5DB /* pin_purple.png */,
+				1B56F0661B25E8710061B5DB /* pin_red.png */,
+				1B56F0671B25E8710061B5DB /* pin_wheel.png */,
+				1B56F0681B25E8710061B5DB /* pin_white.png */,
+				1B56F0691B25E8710061B5DB /* pin_yellow.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		1B58C7181B2E71D6004D2212 /* TabGroupe */ = {
+			isa = PBXGroup;
+			children = (
+				1B4910651B256E250014F0DF /* HomeViewController.swift */,
+				1B4910671B256EE00014F0DF /* TimeLineViewController.swift */,
+				1B4910691B256EF90014F0DF /* MailViewController.swift */,
+				1B49106B1B256F150014F0DF /* FriendViewController.swift */,
+				1B49106D1B256F340014F0DF /* ProfViewController.swift */,
+				1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */,
+				1B49106F1B256F480014F0DF /* HelpViewController.swift */,
+				1B99C1691B29D7F700389F82 /* DiaryViewController.swift */,
+				1B58C71B1B2E72DC004D2212 /* NaviPush */,
+				1B58C7191B2E724C004D2212 /* Prof1 */,
+				1B58C71A1B2E725B004D2212 /* Prof2 */,
+				1B58C71D1B2E73AD004D2212 /* Acount */,
+				1B58C71C1B2E737B004D2212 /* Home1 */,
+			);
+			name = TabGroupe;
+			sourceTree = "<group>";
+		};
+		1B58C7191B2E724C004D2212 /* Prof1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Prof1;
+			sourceTree = "<group>";
+		};
+		1B58C71A1B2E725B004D2212 /* Prof2 */ = {
+			isa = PBXGroup;
+			children = (
+				1B6A41C61B2C21D6004E693B /* PrivatFasshonNikki.swift */,
+				1B58C71E1B2E745C004D2212 /* RebuewKoukaiSet_View.swift */,
+				1B58C72F1B2EB06C004D2212 /* Status_View.swift */,
+			);
+			name = Prof2;
+			sourceTree = "<group>";
+		};
+		1B58C71B1B2E72DC004D2212 /* NaviPush */ = {
+			isa = PBXGroup;
+			children = (
+				1B99C1671B29CA4E00389F82 /* AlertViewController.swift */,
+				1B99C1651B29BC0300389F82 /* SosViewController.swift */,
+			);
+			name = NaviPush;
+			sourceTree = "<group>";
+		};
+		1B58C71C1B2E737B004D2212 /* Home1 */ = {
+			isa = PBXGroup;
+			children = (
+				1B34A9BB1B292F1C0077F9F3 /* home1ViewController.swift */,
+				1B8918C81B2AD4F9005047D9 /* HonninViewController.swift */,
+				1B8918CA1B2AD924005047D9 /* PasswordWhoViewController.swift */,
+				1B8918CC1B2ADBD4005047D9 /* PasswordChangeViewController.swift */,
+			);
+			name = Home1;
+			sourceTree = "<group>";
+		};
+		1B58C71D1B2E73AD004D2212 /* Acount */ = {
+			isa = PBXGroup;
+			children = (
+				1B8918C41B2AC0D3005047D9 /* AcountViewController.swift */,
+			);
+			name = Acount;
+			sourceTree = "<group>";
+		};
+		1B6A41D41B2C5131004E693B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B6A41D51B2C5131004E693B /* Android.mk */,
+				1B6A42391B2D24E5004E693B /* hito.png */,
+				1B6A41D61B2C5131004E693B /* AndroidClock.ttf */,
+				1B6A41D71B2C5131004E693B /* AndroidClock_Highlight.ttf */,
+				1B6A41D81B2C5131004E693B /* AndroidClock_Solid.ttf */,
+				1B6A41D91B2C5131004E693B /* AndroidEmoji.ttf */,
+				1B6A41DA1B2C5131004E693B /* Clockopia.ttf */,
+				1B6A41DB1B2C5131004E693B /* DroidKufi-Bold.ttf */,
+				1B6A41DC1B2C5131004E693B /* DroidKufi-Regular.ttf */,
+				1B6A41DD1B2C5131004E693B /* DroidNaskh-Bold.ttf */,
+				1B6A41DE1B2C5131004E693B /* DroidNaskh-Regular.ttf */,
+				1B6A41DF1B2C5131004E693B /* DroidNaskhUI-Regular.ttf */,
+				1B6A41E01B2C5131004E693B /* DroidSans-Bold.ttf */,
+				1B6A41E11B2C5131004E693B /* DroidSans.ttf */,
+				1B6A41E21B2C5131004E693B /* DroidSansArabic.ttf */,
+				1B6A41E31B2C5131004E693B /* DroidSansArmenian.ttf */,
+				1B6A41E41B2C5131004E693B /* DroidSansEthiopic-Bold.ttf */,
+				1B6A41E51B2C5131004E693B /* DroidSansEthiopic-Regular.ttf */,
+				1B6A41E61B2C5131004E693B /* DroidSansFallback.ttf */,
+				1B6A41E71B2C5131004E693B /* DroidSansFallbackFull.ttf */,
+				1B6A41E81B2C5131004E693B /* DroidSansFallbackLegacy.ttf */,
+				1B6A41E91B2C5131004E693B /* DroidSansGeorgian.ttf */,
+				1B6A41EA1B2C5131004E693B /* DroidSansHebrew-Bold.ttf */,
+				1B6A41EB1B2C5131004E693B /* DroidSansHebrew-Regular.ttf */,
+				1B6A41EC1B2C5131004E693B /* DroidSansJapanese.ttf */,
+				1B6A41ED1B2C5131004E693B /* DroidSansMono.ttf */,
+				1B6A41EE1B2C5131004E693B /* DroidSerif-Bold.ttf */,
+				1B6A41EF1B2C5131004E693B /* DroidSerif-BoldItalic.ttf */,
+				1B6A41F01B2C5131004E693B /* DroidSerif-Italic.ttf */,
+				1B6A41F11B2C5131004E693B /* DroidSerif-Regular.ttf */,
+				1B6A41F21B2C5131004E693B /* fallback_fonts.xml */,
+				1B6A41F31B2C5131004E693B /* fonts.mk */,
+				1B6A41F41B2C5131004E693B /* MODULE_LICENSE_APACHE2 */,
+				1B6A41F51B2C5131004E693B /* MTLc3m.ttf */,
+				1B6A41F61B2C5131004E693B /* MTLmr3m.ttf */,
+				1B6A41F71B2C5131004E693B /* NOTICE */,
+				1B6A41F81B2C5131004E693B /* README.txt */,
+				1B6A41F91B2C5131004E693B /* Roboto-Bold.ttf */,
+				1B6A41FA1B2C5131004E693B /* Roboto-BoldItalic.ttf */,
+				1B6A41FB1B2C5131004E693B /* Roboto-Italic.ttf */,
+				1B6A41FC1B2C5131004E693B /* Roboto-Light.ttf */,
+				1B6A41FD1B2C5131004E693B /* Roboto-LightItalic.ttf */,
+				1B6A41FE1B2C5131004E693B /* Roboto-Regular.ttf */,
+				1B6A41FF1B2C5131004E693B /* Roboto-Thin.ttf */,
+				1B6A42001B2C5131004E693B /* Roboto-ThinItalic.ttf */,
+				1B6A42011B2C5131004E693B /* RobotoCondensed-Bold.ttf */,
+				1B6A42021B2C5131004E693B /* RobotoCondensed-BoldItalic.ttf */,
+				1B6A42031B2C5131004E693B /* RobotoCondensed-Italic.ttf */,
+				1B6A42041B2C5131004E693B /* RobotoCondensed-Regular.ttf */,
+				1B6A42051B2C5131004E693B /* system_fonts.xml */,
+				1B6A42061B2C5131004E693B /* vendor_fonts.xml */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B49103C1B255F370014F0DF /* ochatto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B49105F1B255F380014F0DF /* Build configuration list for PBXNativeTarget "ochatto" */;
+			buildPhases = (
+				1B4910391B255F370014F0DF /* Sources */,
+				1B49103A1B255F370014F0DF /* Frameworks */,
+				1B49103B1B255F370014F0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ochatto;
+			productName = ochatto;
+			productReference = 1B49103D1B255F370014F0DF /* ochatto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B4910541B255F380014F0DF /* ochattoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4910621B255F380014F0DF /* Build configuration list for PBXNativeTarget "ochattoTests" */;
+			buildPhases = (
+				1B4910511B255F380014F0DF /* Sources */,
+				1B4910521B255F380014F0DF /* Frameworks */,
+				1B4910531B255F380014F0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4910571B255F380014F0DF /* PBXTargetDependency */,
+			);
+			name = ochattoTests;
+			productName = ochattoTests;
+			productReference = 1B4910551B255F380014F0DF /* ochattoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B4910351B255F370014F0DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mobile Innovation, LLC.";
+				TargetAttributes = {
+					1B49103C1B255F370014F0DF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1B4910541B255F380014F0DF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1B49103C1B255F370014F0DF;
+					};
+				};
+			};
+			buildConfigurationList = 1B4910381B255F370014F0DF /* Build configuration list for PBXProject "ochatto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B4910341B255F370014F0DF;
+			productRefGroup = 1B49103E1B255F370014F0DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B49103C1B255F370014F0DF /* ochatto */,
+				1B4910541B255F380014F0DF /* ochattoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B49103B1B255F370014F0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6A42161B2C5131004E693B /* DroidSansEthiopic-Bold.ttf in Resources */,
+				1B6A42131B2C5131004E693B /* DroidSans.ttf in Resources */,
+				1B6A420C1B2C5131004E693B /* Clockopia.ttf in Resources */,
+				1B34A9A31B2893530077F9F3 /* house-maru.png in Resources */,
+				1B6A42181B2C5131004E693B /* DroidSansFallback.ttf in Resources */,
+				1B6A42281B2C5131004E693B /* MTLmr3m.ttf in Resources */,
+				1B34A9A11B2881510077F9F3 /* house.png in Resources */,
+				1B56F06D1B25E8710061B5DB /* pin_orange.png in Resources */,
+				1B49104B1B255F380014F0DF /* Main.storyboard in Resources */,
+				1B58C7291B2E90AE004D2212 /* tabconer-murasaki-center.png in Resources */,
+				1B6A42071B2C5131004E693B /* Android.mk in Resources */,
+				1B6A422D1B2C5131004E693B /* Roboto-Italic.ttf in Resources */,
+				1B6A41BC1B2C132E004E693B /* tabconer-green-left.png in Resources */,
+				1B56F06F1B25E8710061B5DB /* pin_red.png in Resources */,
+				1B6A41C51B2C162C004E693B /* tabconer-yellow-right.png in Resources */,
+				1B6A42381B2C5131004E693B /* vendor_fonts.xml in Resources */,
+				1B6A422E1B2C5131004E693B /* Roboto-Light.ttf in Resources */,
+				1B6A41BF1B2C14BA004E693B /* tabconer-green-center.png in Resources */,
+				1B56F0721B25E8710061B5DB /* pin_yellow.png in Resources */,
+				1B6A421D1B2C5131004E693B /* DroidSansHebrew-Regular.ttf in Resources */,
+				1B56F0701B25E8710061B5DB /* pin_wheel.png in Resources */,
+				1B34A9B71B292B430077F9F3 /* tab-help.png in Resources */,
+				1B56F06A1B25E8710061B5DB /* pin_blue.png in Resources */,
+				1B6A42331B2C5131004E693B /* RobotoCondensed-Bold.ttf in Resources */,
+				1B6A42101B2C5131004E693B /* DroidNaskh-Regular.ttf in Resources */,
+				1B6A42271B2C5131004E693B /* MTLc3m.ttf in Resources */,
+				1B6A42121B2C5131004E693B /* DroidSans-Bold.ttf in Resources */,
+				1B56F0711B25E8710061B5DB /* pin_white.png in Resources */,
+				1B4910501B255F380014F0DF /* LaunchScreen.xib in Resources */,
+				1B6A422C1B2C5131004E693B /* Roboto-BoldItalic.ttf in Resources */,
+				1B6A422F1B2C5131004E693B /* Roboto-LightItalic.ttf in Resources */,
+				1B58C7251B2E8FA7004D2212 /* tabconer-orenge-left.png in Resources */,
+				1B34A9DC1B2975D20077F9F3 /* tabconer-on-center.png in Resources */,
+				1B6A42361B2C5131004E693B /* RobotoCondensed-Regular.ttf in Resources */,
+				1B6A42251B2C5131004E693B /* fonts.mk in Resources */,
+				1B56F06C1B25E8710061B5DB /* pin_green.png in Resources */,
+				1B34A9DE1B2998190077F9F3 /* tab-pen.png in Resources */,
+				1B6A42141B2C5131004E693B /* DroidSansArabic.ttf in Resources */,
+				1B34A9971B2848750077F9F3 /* frame.png in Resources */,
+				1B6A42081B2C5131004E693B /* AndroidClock.ttf in Resources */,
+				1B34A9D51B2969BC0077F9F3 /* tabconer-on-right.png in Resources */,
+				1B34A9B11B289A920077F9F3 /* tab-mail.png in Resources */,
+				1B34A9D11B2969BC0077F9F3 /* tabconer-off-left.png in Resources */,
+				1B6A420B1B2C5131004E693B /* AndroidEmoji.ttf in Resources */,
+				1B34A9A91B28978B0077F9F3 /* tab-home.png in Resources */,
+				1B6A421F1B2C5131004E693B /* DroidSansMono.ttf in Resources */,
+				1B6A421C1B2C5131004E693B /* DroidSansHebrew-Bold.ttf in Resources */,
+				1B6A42301B2C5131004E693B /* Roboto-Regular.ttf in Resources */,
+				1B8918C11B2AB347005047D9 /* pin.png in Resources */,
+				1B6A42321B2C5131004E693B /* Roboto-ThinItalic.ttf in Resources */,
+				1B6A41C31B2C162C004E693B /* tabconer-yellow-left.png in Resources */,
+				1B34A9DA1B296F3F0077F9F3 /* tabconer-off-center.png in Resources */,
+				1B34A99C1B284B440077F9F3 /* hito4.png in Resources */,
+				1B34A9AF1B2899700077F9F3 /* tab-time.png in Resources */,
+				1B34A9901B283B1E0077F9F3 /* jisyaku.png in Resources */,
+				1B6A420E1B2C5131004E693B /* DroidKufi-Regular.ttf in Resources */,
+				1B6A41D31B2C37D1004E693B /* purasu.png in Resources */,
+				1B34A9B31B29296E0077F9F3 /* tab-friend.png in Resources */,
+				1B6A42291B2C5131004E693B /* NOTICE in Resources */,
+				1B6A420A1B2C5131004E693B /* AndroidClock_Solid.ttf in Resources */,
+				1B6A42171B2C5131004E693B /* DroidSansEthiopic-Regular.ttf in Resources */,
+				1B6A42191B2C5131004E693B /* DroidSansFallbackFull.ttf in Resources */,
+				1B6A42351B2C5131004E693B /* RobotoCondensed-Italic.ttf in Resources */,
+				1B6A42231B2C5131004E693B /* DroidSerif-Regular.ttf in Resources */,
+				1B58C72A1B2E90AE004D2212 /* tabconer-murasaki-left.png in Resources */,
+				1B6A41BB1B2C132E004E693B /* tabconer-green-right.png in Resources */,
+				1B34A99F1B284B440077F9F3 /* hito3.png in Resources */,
+				1B6A42151B2C5131004E693B /* DroidSansArmenian.ttf in Resources */,
+				1B8918C31B2AB996005047D9 /* acount-button.png in Resources */,
+				1B6A422B1B2C5131004E693B /* Roboto-Bold.ttf in Resources */,
+				1B6A42311B2C5131004E693B /* Roboto-Thin.ttf in Resources */,
+				1B6A42371B2C5131004E693B /* system_fonts.xml in Resources */,
+				1B6A42111B2C5131004E693B /* DroidNaskhUI-Regular.ttf in Resources */,
+				1B6A420F1B2C5131004E693B /* DroidNaskh-Bold.ttf in Resources */,
+				1B56F06B1B25E8710061B5DB /* pin_gray.png in Resources */,
+				1B34A9D21B2969BC0077F9F3 /* tabconer-on-left.png in Resources */,
+				1B34A99E1B284B440077F9F3 /* hito2.png in Resources */,
+				1B6A421B1B2C5131004E693B /* DroidSansGeorgian.ttf in Resources */,
+				1B6A41B71B2BBCE7004E693B /* plus.png in Resources */,
+				1B6A42091B2C5131004E693B /* AndroidClock_Highlight.ttf in Resources */,
+				1B34A9951B2842050077F9F3 /* red-maru.png in Resources */,
+				1B49104D1B255F380014F0DF /* Images.xcassets in Resources */,
+				1B6A423A1B2D24E5004E693B /* hito.png in Resources */,
+				1B6A420D1B2C5131004E693B /* DroidKufi-Bold.ttf in Resources */,
+				1B6A42261B2C5131004E693B /* MODULE_LICENSE_APACHE2 in Resources */,
+				1B6A42341B2C5131004E693B /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				1B34A99D1B284B440077F9F3 /* hito1.png in Resources */,
+				1B6A421E1B2C5131004E693B /* DroidSansJapanese.ttf in Resources */,
+				1B56F06E1B25E8710061B5DB /* pin_purple.png in Resources */,
+				1B34A9BE1B293A4B0077F9F3 /* nabi-batsu.png in Resources */,
+				1B6A42221B2C5131004E693B /* DroidSerif-Italic.ttf in Resources */,
+				1B6A41C41B2C162C004E693B /* tabconer-yellow-center.png in Resources */,
+				1B58C7231B2E8FA7004D2212 /* tabconer-orenge-center.png in Resources */,
+				1B58C7241B2E8FA7004D2212 /* tabconer-orenge-right.png in Resources */,
+				1B6A41D21B2C37D1004E693B /* mainus.png in Resources */,
+				1B34A9B51B292ABB0077F9F3 /* tab-prof.png in Resources */,
+				1B6A42201B2C5131004E693B /* DroidSerif-Bold.ttf in Resources */,
+				1B58C72B1B2E90AE004D2212 /* tabconer-murasaki-right.png in Resources */,
+				1B34A9931B2840EC0077F9F3 /* yellow-maru.png in Resources */,
+				1B6A42241B2C5131004E693B /* fallback_fonts.xml in Resources */,
+				1B34A9D31B2969BC0077F9F3 /* tabconer-off-right.png in Resources */,
+				1B6A42211B2C5131004E693B /* DroidSerif-BoldItalic.ttf in Resources */,
+				1B6A422A1B2C5131004E693B /* README.txt in Resources */,
+				1B6A421A1B2C5131004E693B /* DroidSansFallbackLegacy.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4910531B255F380014F0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B4910391B255F370014F0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49106E1B256F340014F0DF /* ProfViewController.swift in Sources */,
+				1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */,
+				1B4910661B256E250014F0DF /* HomeViewController.swift in Sources */,
+				1B8918CD1B2ADBD4005047D9 /* PasswordChangeViewController.swift in Sources */,
+				1B4910761B25CA0D0014F0DF /* Configuration.swift in Sources */,
+				1B99C1661B29BC0300389F82 /* SosViewController.swift in Sources */,
+				1B4910701B256F480014F0DF /* HelpViewController.swift in Sources */,
+				1B49106C1B256F150014F0DF /* FriendViewController.swift in Sources */,
+				1B58C71F1B2E745C004D2212 /* RebuewKoukaiSet_View.swift in Sources */,
+				1BD309D41B2B10480018FC6D /* Prof2ViewController.swift in Sources */,
+				1B6A41C71B2C21D6004E693B /* PrivatFasshonNikki.swift in Sources */,
+				1B99C1681B29CA4E00389F82 /* AlertViewController.swift in Sources */,
+				1B58C7301B2EB06C004D2212 /* Status_View.swift in Sources */,
+				1B4910681B256EE00014F0DF /* TimeLineViewController.swift in Sources */,
+				1B99C16A1B29D7F700389F82 /* DiaryViewController.swift in Sources */,
+				1B8918CB1B2AD924005047D9 /* PasswordWhoViewController.swift in Sources */,
+				1B34A9BC1B292F1C0077F9F3 /* home1ViewController.swift in Sources */,
+				1B8918C51B2AC0D3005047D9 /* AcountViewController.swift in Sources */,
+				1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */,
+				1B8918C91B2AD4F9005047D9 /* HonninViewController.swift in Sources */,
+				1B49106A1B256EF90014F0DF /* MailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4910511B255F380014F0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B49105C1B255F380014F0DF /* ochattoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B4910571B255F380014F0DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B49103C1B255F370014F0DF /* ochatto */;
+			targetProxy = 1B4910561B255F380014F0DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B4910491B255F380014F0DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B49104A1B255F380014F0DF /* Base */,
+				1B8918BE1B2AACCF005047D9 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B49104E1B255F380014F0DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B49104F1B255F380014F0DF /* Base */,
+				1B8918BF1B2AACCF005047D9 /* ja */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B49105D1B255F380014F0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B49105E1B255F380014F0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B4910601B255F380014F0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ochatto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1B4910611B255F380014F0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ochatto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1B4910631B255F380014F0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ochattoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ochatto.app/ochatto";
+			};
+			name = Debug;
+		};
+		1B4910641B255F380014F0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ochattoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ochatto.app/ochatto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B4910381B255F370014F0DF /* Build configuration list for PBXProject "ochatto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B49105D1B255F380014F0DF /* Debug */,
+				1B49105E1B255F380014F0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B49105F1B255F380014F0DF /* Build configuration list for PBXNativeTarget "ochatto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4910601B255F380014F0DF /* Debug */,
+				1B4910611B255F380014F0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4910621B255F380014F0DF /* Build configuration list for PBXNativeTarget "ochattoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4910631B255F380014F0DF /* Debug */,
+				1B4910641B255F380014F0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B4910441B255F380014F0DF /* ochatto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B4910451B255F380014F0DF /* ochatto.xcdatamodel */,
+			);
+			currentVersion = 1B4910451B255F380014F0DF /* ochatto.xcdatamodel */;
+			path = ochatto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B4910351B255F370014F0DF /* Project object */;
+}

@@ -1,0 +1,348 @@
+
+/* Class = "UILabel"; text = "「今日は久々の女子会！！」"; ObjectID = "0Dv-nc-qoi"; */
+"0Dv-nc-qoi.text" = "「今日は久々の女子会！！」";
+
+/* Class = "UILabel"; text = "5分前"; ObjectID = "10A-XH-nfs"; */
+"10A-XH-nfs.text" = "5分前";
+
+/* Class = "UILabel"; text = "＋追加"; ObjectID = "1R4-rb-W1C"; */
+"1R4-rb-W1C.text" = "＋追加";
+
+/* Class = "UITabBarItem"; title = "Mail"; ObjectID = "28e-n3-B5J"; */
+"28e-n3-B5J.title" = "Mail";
+
+/* Class = "UILabel"; text = "5分前"; ObjectID = "2Sb-bv-hbc"; */
+"2Sb-bv-hbc.text" = "5分前";
+
+/* Class = "UILabel"; text = "クラモト"; ObjectID = "2nH-2a-krb"; */
+"2nH-2a-krb.text" = "クラモト";
+
+/* Class = "UILabel"; text = "公開"; ObjectID = "2vu-K6-4gQ"; */
+"2vu-K6-4gQ.text" = "公開";
+
+/* Class = "UIButton"; normalTitle = "レビュー"; ObjectID = "3DA-FB-aSv"; */
+"3DA-FB-aSv.normalTitle" = "レビュー";
+
+/* Class = "UITextView"; text = "もちろんです。この日は地元のみなさんと一緒に楽しみたいと思います。"; ObjectID = "3FF-cG-Scm"; */
+"3FF-cG-Scm.text" = "もちろんです。この日は地元のみなさんと一緒に楽しみたいと思います。";
+
+/* Class = "UILabel"; text = "東京都渋谷区原宿"; ObjectID = "4ck-q0-sdb"; */
+"4ck-q0-sdb.text" = "東京都渋谷区原宿";
+
+/* Class = "UIButton"; normalTitle = "日誌"; ObjectID = "6Nv-s9-7H3"; */
+"6Nv-s9-7H3.normalTitle" = "日誌";
+
+/* Class = "UITextView"; text = "「助けて。心臓がおかしい。家にいます。救急車を呼んで。」"; ObjectID = "6OS-lo-E6s"; */
+"6OS-lo-E6s.text" = "「助けて。心臓がおかしい。家にいます。救急車を呼んで。」";
+
+/* Class = "UITextView"; text = "「びっくりした！」"; ObjectID = "6ea-EX-c6R"; */
+"6ea-EX-c6R.text" = "「びっくりした！」";
+
+/* Class = "UITabBarItem"; title = "友達"; ObjectID = "74e-mm-f8V"; */
+"74e-mm-f8V.title" = "友達";
+
+/* Class = "UIButton"; normalTitle = "○この日記を削除する"; ObjectID = "7Mu-sL-XQh"; */
+"7Mu-sL-XQh.normalTitle" = "○この日記を削除する";
+
+/* Class = "UITabBarItem"; title = "Help"; ObjectID = "9ts-S3-HJh"; */
+"9ts-S3-HJh.title" = "Help";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BqT-FL-ePX"; */
+"BqT-FL-ePX.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Timeline"; ObjectID = "Bva-Dd-cj1"; */
+"Bva-Dd-cj1.title" = "Timeline";
+
+/* Class = "UILabel"; text = "白城旅館"; ObjectID = "Cdg-Ow-lOe"; */
+"Cdg-Ow-lOe.text" = "白城旅館";
+
+/* Class = "UILabel"; text = "タイトル"; ObjectID = "DyW-CF-fz6"; */
+"DyW-CF-fz6.text" = "タイトル";
+
+/* Class = "UILabel"; text = "11:00"; ObjectID = "E1m-d3-PVK"; */
+"E1m-d3-PVK.text" = "11:00";
+
+/* Class = "UILabel"; text = "カワムラさんの現在地"; ObjectID = "E64-qg-2Nf"; */
+"E64-qg-2Nf.text" = "カワムラさんの現在地";
+
+/* Class = "UILabel"; text = "この地域に住むあなたの友達"; ObjectID = "EAF-Ez-vYq"; */
+"EAF-Ez-vYq.text" = "この地域に住むあなたの友達";
+
+/* Class = "UILabel"; text = "1時間半前"; ObjectID = "Ein-tf-QaO"; */
+"Ein-tf-QaO.text" = "1時間半前";
+
+/* Class = "UIButton"; normalTitle = "送信"; ObjectID = "G0f-cG-OGh"; */
+"G0f-cG-OGh.normalTitle" = "送信";
+
+/* Class = "UITextView"; text = "キノシタさんがOchattoに書き込みました。"; ObjectID = "GRF-XH-ahy"; */
+"GRF-XH-ahy.text" = "キノシタさんがOchattoに書き込みました。";
+
+/* Class = "UILabel"; text = "13:14"; ObjectID = "Gh1-Qg-s3A"; */
+"Gh1-Qg-s3A.text" = "13:14";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gld-49-xGC"; */
+"Gld-49-xGC.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "メール"; ObjectID = "Gmh-Fh-Zrv"; */
+"Gmh-Fh-Zrv.normalTitle" = "メール";
+
+/* Class = "UILabel"; text = "2015/04/02 12:00"; ObjectID = "GvO-e0-uH9"; */
+"GvO-e0-uH9.text" = "2015/04/02 12:00";
+
+/* Class = "UITextView"; text = "リスト「大学の友だち」カトウさんがLV1/嬉しいです。"; ObjectID = "IZZ-qR-zeG"; */
+"IZZ-qR-zeG.text" = "リスト「大学の友だち」カトウさんがLV1/嬉しいです。";
+
+/* Class = "UILabel"; text = "○全てのユーザーに公開"; ObjectID = "IhG-Yr-3ZC"; */
+"IhG-Yr-3ZC.text" = "○全てのユーザーに公開";
+
+/* Class = "UILabel"; text = "10日前"; ObjectID = "IjL-O3-9eU"; */
+"IjL-O3-9eU.text" = "10日前";
+
+/* Class = "UITextView"; text = "僕も行きたいです！！"; ObjectID = "ImY-FA-1TX"; */
+"ImY-FA-1TX.text" = "僕も行きたいです！！";
+
+/* Class = "UITextView"; text = "アヤカさんからメールです。"; ObjectID = "JhA-jF-28K"; */
+"JhA-jF-28K.text" = "アヤカさんからメールです。";
+
+/* Class = "UILabel"; text = "4月30日　19:40"; ObjectID = "K10-nW-RNG"; */
+"K10-nW-RNG.text" = "4月30日　19:40";
+
+/* Class = "UILabel"; text = "ALERT"; ObjectID = "Kva-GV-8B4"; */
+"Kva-GV-8B4.text" = "ALERT";
+
+/* Class = "UILabel"; text = "13:14"; ObjectID = "LkM-qR-Bvl"; */
+"LkM-qR-Bvl.text" = "13:14";
+
+/* Class = "UITextView"; text = "老舗って聞いてたけど、う～ん…。ご飯の味つけが甘すぎて美味しくなかったです。"; ObjectID = "Lns-Z6-38E"; */
+"Lns-Z6-38E.text" = "老舗って聞いてたけど、う～ん…。ご飯の味つけが甘すぎて美味しくなかったです。";
+
+/* Class = "UILabel"; text = "東京都世田谷区豪徳寺"; ObjectID = "MV8-ud-X0d"; */
+"MV8-ud-X0d.text" = "東京都世田谷区豪徳寺";
+
+/* Class = "UILabel"; text = "1時間前"; ObjectID = "Mig-rE-cM1"; */
+"Mig-rE-cM1.text" = "1時間前";
+
+/* Class = "UILabel"; text = "10日前"; ObjectID = "Nsy-JC-KUk"; */
+"Nsy-JC-KUk.text" = "10日前";
+
+/* Class = "UILabel"; text = "Social"; ObjectID = "O7J-YO-xaM"; */
+"O7J-YO-xaM.text" = "Social";
+
+/* Class = "UILabel"; text = "Private"; ObjectID = "OG4-v3-G0i"; */
+"OG4-v3-G0i.text" = "Private";
+
+/* Class = "UILabel"; text = "2014/11/10"; ObjectID = "OTZ-Qn-oHc"; */
+"OTZ-Qn-oHc.text" = "2014/11/10";
+
+/* Class = "UIButton"; normalTitle = "お知らせ"; ObjectID = "OTn-6Q-FxX"; */
+"OTn-6Q-FxX.normalTitle" = "お知らせ";
+
+/* Class = "UILabel"; text = "10分前"; ObjectID = "OfM-pj-9H2"; */
+"OfM-pj-9H2.text" = "10分前";
+
+/* Class = "UITabBarItem"; title = "prof"; ObjectID = "OnA-0l-aOa"; */
+"OnA-0l-aOa.title" = "prof";
+
+/* Class = "UIButton"; normalTitle = "フォローする"; ObjectID = "PLU-Xt-LIk"; */
+"PLU-Xt-LIk.normalTitle" = "フォローする";
+
+/* Class = "UITextView"; text = "東京都民なので必要はないのに泊まりに行ってしまう旅館です。ゆっくりものを考えたり書いたりするときは必ずお世話になります。これぞ旅館！！"; ObjectID = "PSI-uU-c7L"; */
+"PSI-uU-c7L.text" = "東京都民なので必要はないのに泊まりに行ってしまう旅館です。ゆっくりものを考えたり書いたりするときは必ずお世話になります。これぞ旅館！！";
+
+/* Class = "UILabel"; text = "マキ　　　メール　「なつこも渋谷？こっちに来ない？！」１２：００"; ObjectID = "PTa-zp-qM7"; */
+"PTa-zp-qM7.text" = "マキ　　　メール　「なつこも渋谷？こっちに来ない？！」１２：００";
+
+/* Class = "UITabBarItem"; title = "日記"; ObjectID = "Q2k-LQ-zal"; */
+"Q2k-LQ-zal.title" = "日記";
+
+/* Class = "UITextView"; text = "イシカワさんからメールです。"; ObjectID = "QQE-nt-mF3"; */
+"QQE-nt-mF3.text" = "イシカワさんからメールです。";
+
+/* Class = "UITextView"; text = "「私は大丈夫。だけどケガ人が…」"; ObjectID = "QZW-mB-DHp"; */
+"QZW-mB-DHp.text" = "「私は大丈夫。だけどケガ人が…」";
+
+/* Class = "UILabel"; text = "フジイ　さん"; ObjectID = "Qmy-RQ-B5u"; */
+"Qmy-RQ-B5u.text" = "フジイ　さん";
+
+/* Class = "UILabel"; text = "キノシタ"; ObjectID = "Scy-e2-Vyt"; */
+"Scy-e2-Vyt.text" = "キノシタ";
+
+/* Class = "UITabBarItem"; title = "友達"; ObjectID = "T1q-kd-lHR"; */
+"T1q-kd-lHR.title" = "友達";
+
+/* Class = "UILabel"; text = "30分前"; ObjectID = "TaM-n4-hMn"; */
+"TaM-n4-hMn.text" = "30分前";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "TvC-Ym-FZd"; */
+"TvC-Ym-FZd.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "メールボックス"; ObjectID = "Vww-Pm-LPL"; */
+"Vww-Pm-LPL.normalTitle" = "メールボックス";
+
+/* Class = "UILabel"; text = "「すごい隠れ家カフェ見付けた」"; ObjectID = "WeF-D2-ENx"; */
+"WeF-D2-ENx.text" = "「すごい隠れ家カフェ見付けた」";
+
+/* Class = "UIButton"; normalTitle = "公式発表"; ObjectID = "XdU-n6-glO"; */
+"XdU-n6-glO.normalTitle" = "公式発表";
+
+/* Class = "UILabel"; text = "1時間前"; ObjectID = "YSs-r4-I6J"; */
+"YSs-r4-I6J.text" = "1時間前";
+
+/* Class = "UILabel"; text = "東京都渋谷区"; ObjectID = "YsN-Dv-8xf"; */
+"YsN-Dv-8xf.text" = "東京都渋谷区";
+
+/* Class = "UILabel"; text = "13:15"; ObjectID = "ZDT-Qf-q4y"; */
+"ZDT-Qf-q4y.text" = "13:15";
+
+/* Class = "UILabel"; text = "ホンダ"; ObjectID = "ZFg-E7-4rW"; */
+"ZFg-E7-4rW.text" = "ホンダ";
+
+/* Class = "UILabel"; text = "アイカワ"; ObjectID = "ZSX-AU-qKQ"; */
+"ZSX-AU-qKQ.text" = "アイカワ";
+
+/* Class = "UILabel"; text = "10分前"; ObjectID = "b8B-tx-BmN"; */
+"b8B-tx-BmN.text" = "10分前";
+
+/* Class = "UILabel"; text = "2015/01/10"; ObjectID = "bDc-PC-EWw"; */
+"bDc-PC-EWw.text" = "2015/01/10";
+
+/* Class = "UITabBarItem"; title = "日記の作成"; ObjectID = "bji-nN-jXI"; */
+"bji-nN-jXI.title" = "日記の作成";
+
+/* Class = "UITabBarItem"; title = "TimeLine"; ObjectID = "c9Z-VV-Ipe"; */
+"c9Z-VV-Ipe.title" = "TimeLine";
+
+/* Class = "UILabel"; text = "キノシタ　ＬＶ４　「やばい・・・病院まだだろ・・・」　１３：０５"; ObjectID = "cBp-E0-XcX"; */
+"cBp-E0-XcX.text" = "キノシタ　ＬＶ４　「やばい・・・病院まだだろ・・・」　１３：０５";
+
+/* Class = "UIButton"; normalTitle = "公開"; ObjectID = "d8E-b8-8ms"; */
+"d8E-b8-8ms.normalTitle" = "公開";
+
+/* Class = "UITextView"; text = "「私達は大丈夫です。」"; ObjectID = "d8b-t0-6jb"; */
+"d8b-t0-6jb.text" = "「私達は大丈夫です。」";
+
+/* Class = "UILabel"; text = "白城旅館"; ObjectID = "dKn-6l-qWk"; */
+"dKn-6l-qWk.text" = "白城旅館";
+
+/* Class = "UILabel"; text = "2015/4/30 13:00"; ObjectID = "eID-sU-rbK"; */
+"eID-sU-rbK.text" = "2015/4/30 13:00";
+
+/* Class = "UITextView"; text = "中国地方東部を震源にマグニチュード５の地震がありました。"; ObjectID = "fAT-xE-uhr"; */
+"fAT-xE-uhr.text" = "中国地方東部を震源にマグニチュード５の地震がありました。";
+
+/* Class = "UILabel"; text = "「来月で創業100周年！」"; ObjectID = "hAM-lO-STK"; */
+"hAM-lO-STK.text" = "「来月で創業100周年！」";
+
+/* Class = "UILabel"; text = "＋追加"; ObjectID = "hkT-xp-TyJ"; */
+"hkT-xp-TyJ.text" = "＋追加";
+
+/* Class = "UILabel"; text = "「来月で創業100周年！」"; ObjectID = "iEc-Xp-ONB"; */
+"iEc-Xp-ONB.text" = "「来月で創業100周年！」";
+
+/* Class = "UILabel"; text = "サツキ　さん"; ObjectID = "iNp-xe-sLg"; */
+"iNp-xe-sLg.text" = "サツキ　さん";
+
+/* Class = "UIButton"; normalTitle = "なつこ"; ObjectID = "iPz-cD-XsB"; */
+"iPz-cD-XsB.normalTitle" = "なつこ";
+
+/* Class = "UILabel"; text = "女性　／　２０代"; ObjectID = "iTU-Az-KzR"; */
+"iTU-Az-KzR.text" = "女性　／　２０代";
+
+/* Class = "UILabel"; text = "白城旅館"; ObjectID = "ifo-y0-6I4"; */
+"ifo-y0-6I4.text" = "白城旅館";
+
+/* Class = "UITabBarItem"; title = "Prof"; ObjectID = "ls8-Bj-YTY"; */
+"ls8-Bj-YTY.title" = "Prof";
+
+/* Class = "UILabel"; text = "クミコ"; ObjectID = "mjx-UX-3zE"; */
+"mjx-UX-3zE.text" = "クミコ";
+
+/* Class = "UIButton"; normalTitle = "Ochatto"; ObjectID = "mkp-TS-7Y2"; */
+"mkp-TS-7Y2.normalTitle" = "Ochatto";
+
+/* Class = "UILabel"; text = "白城旅館"; ObjectID = "muB-51-FKc"; */
+"muB-51-FKc.text" = "白城旅館";
+
+/* Class = "UITextView"; text = "なつこさんからFriend申請です。"; ObjectID = "n8m-aN-np2"; */
+"n8m-aN-np2.text" = "なつこさんからFriend申請です。";
+
+/* Class = "UILabel"; text = "イシダ"; ObjectID = "nHF-bM-zxx"; */
+"nHF-bM-zxx.text" = "イシダ";
+
+/* Class = "UILabel"; text = "キノシタ　さん"; ObjectID = "neK-mz-Z9s"; */
+"neK-mz-Z9s.text" = "キノシタ　さん";
+
+/* Class = "UILabel"; text = "なつこ"; ObjectID = "nwJ-Cp-ql9"; */
+"nwJ-Cp-ql9.text" = "なつこ";
+
+/* Class = "UILabel"; text = "アキナ"; ObjectID = "o4p-UC-z5m"; */
+"o4p-UC-z5m.text" = "アキナ";
+
+/* Class = "UILabel"; text = "1時間前"; ObjectID = "oYL-r7-tQ5"; */
+"oYL-r7-tQ5.text" = "1時間前";
+
+/* Class = "UILabel"; text = "30分前"; ObjectID = "ojq-Q1-ihB"; */
+"ojq-Q1-ihB.text" = "30分前";
+
+/* Class = "UILabel"; text = "20分前"; ObjectID = "pbH-3Q-5JW"; */
+"pbH-3Q-5JW.text" = "20分前";
+
+/* Class = "UILabel"; text = "特定の個人に配信する"; ObjectID = "qUl-QA-5ui"; */
+"qUl-QA-5ui.text" = "特定の個人に配信する";
+
+/* Class = "UITextView"; text = "当旅館は山陰山脈の創業者が始めました。甘めの味つけは山陰の特徴です。ご理解くださいませ。"; ObjectID = "r5r-N1-e40"; */
+"r5r-N1-e40.text" = "当旅館は山陰山脈の創業者が始めました。甘めの味つけは山陰の特徴です。ご理解くださいませ。";
+
+/* Class = "UITextView"; text = "おめでとうございます。飛び入り参加OKですか？"; ObjectID = "rHq-73-3Jj"; */
+"rHq-73-3Jj.text" = "おめでとうございます。飛び入り参加OKですか？";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "rIu-nF-PrN"; */
+"rIu-nF-PrN.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "フォローする"; ObjectID = "rba-LK-6eq"; */
+"rba-LK-6eq.normalTitle" = "フォローする";
+
+/* Class = "UILabel"; text = "非公開"; ObjectID = "s6T-ha-puD"; */
+"s6T-ha-puD.text" = "非公開";
+
+/* Class = "UILabel"; text = "リストの選択"; ObjectID = "sQq-Pj-nez"; */
+"sQq-Pj-nez.text" = "リストの選択";
+
+/* Class = "UILabel"; text = "なつこさん"; ObjectID = "sfK-E0-Wtp"; */
+"sfK-E0-Wtp.text" = "なつこさん";
+
+/* Class = "UITabBarItem"; title = "Mail"; ObjectID = "u1w-9Z-KTq"; */
+"u1w-9Z-KTq.title" = "Mail";
+
+/* Class = "UILabel"; text = "ホームエリア："; ObjectID = "vIY-gp-5vD"; */
+"vIY-gp-5vD.text" = "ホームエリア：";
+
+/* Class = "UITextView"; text = "へえ！１００週年なんですね！"; ObjectID = "vRN-Ec-22c"; */
+"vRN-Ec-22c.text" = "へえ！１００週年なんですね！";
+
+/* Class = "UITextView"; text = "わ！私も行きます！初めてですけど、気になりました！"; ObjectID = "wJ4-Mc-Usj"; */
+"wJ4-Mc-Usj.text" = "わ！私も行きます！初めてですけど、気になりました！";
+
+/* Class = "UITextView"; text = "レナさんからメールです。"; ObjectID = "wVV-ZZ-K8y"; */
+"wVV-ZZ-K8y.text" = "レナさんからメールです。";
+
+/* Class = "UILabel"; text = "SOSを受信しました"; ObjectID = "wWx-1d-ELN"; */
+"wWx-1d-ELN.text" = "SOSを受信しました";
+
+/* Class = "UILabel"; text = "アイサワ　さま"; ObjectID = "wgu-b1-Wbt"; */
+"wgu-b1-Wbt.text" = "アイサワ　さま";
+
+/* Class = "UITabBarItem"; title = "Help"; ObjectID = "x6b-c9-ulD"; */
+"x6b-c9-ulD.title" = "Help";
+
+/* Class = "UILabel"; text = "返信する"; ObjectID = "xhx-MI-Z9C"; */
+"xhx-MI-Z9C.text" = "返信する";
+
+/* Class = "UITextView"; text = "白城旅館　１００年記念祝賀会開催！　http://www.yahoo.co.jp"; ObjectID = "yPY-w1-oMj"; */
+"yPY-w1-oMj.text" = "白城旅館　１００年記念祝賀会開催！　http://www.yahoo.co.jp";
+
+/* Class = "UITextView"; text = "ニシムラさんがレビューに書き込みました。返事を書きましょう"; ObjectID = "yp8-36-xVJ"; */
+"yp8-36-xVJ.text" = "ニシムラさんがレビューに書き込みました。返事を書きましょう";
+
+/* Class = "UILabel"; text = "1日前"; ObjectID = "zLB-Mf-aIQ"; */
+"zLB-Mf-aIQ.text" = "1日前";
