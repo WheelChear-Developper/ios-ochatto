@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A8282A5-E2DE-4DC8-9D0D-53CE05610471</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ochatto</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EEF974C9C5179FF62AFCB78F54ABADBAD8B31EDD</key>
+		<string>bitbucket.org:amatani/ochatto.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ochatto.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EEF974C9C5179FF62AFCB78F54ABADBAD8B31EDD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:amatani/ochatto.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EEF974C9C5179FF62AFCB78F54ABADBAD8B31EDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EEF974C9C5179FF62AFCB78F54ABADBAD8B31EDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ochatto</string>
+		</dict>
+	</array>
+</dict>
+</plist>
