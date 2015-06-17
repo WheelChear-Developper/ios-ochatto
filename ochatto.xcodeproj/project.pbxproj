@@ -131,6 +131,7 @@
 		1B8918C91B2AD4F9005047D9 /* HonninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918C81B2AD4F9005047D9 /* HonninViewController.swift */; };
 		1B8918CB1B2AD924005047D9 /* PasswordWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918CA1B2AD924005047D9 /* PasswordWhoViewController.swift */; };
 		1B8918CD1B2ADBD4005047D9 /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918CC1B2ADBD4005047D9 /* PasswordChangeViewController.swift */; };
+		1B8931181B317C6800AF315C /* Intaresut_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8931171B317C6800AF315C /* Intaresut_ViewController.swift */; };
 		1B99C1661B29BC0300389F82 /* SosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1651B29BC0300389F82 /* SosViewController.swift */; };
 		1B99C1681B29CA4E00389F82 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1671B29CA4E00389F82 /* AlertViewController.swift */; };
 		1B99C16A1B29D7F700389F82 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1691B29D7F700389F82 /* DiaryViewController.swift */; };
@@ -278,6 +279,7 @@
 		1B8918C81B2AD4F9005047D9 /* HonninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HonninViewController.swift; path = image/HonninViewController.swift; sourceTree = "<group>"; };
 		1B8918CA1B2AD924005047D9 /* PasswordWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordWhoViewController.swift; path = image/PasswordWhoViewController.swift; sourceTree = "<group>"; };
 		1B8918CC1B2ADBD4005047D9 /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
+		1B8931171B317C6800AF315C /* Intaresut_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intaresut_ViewController.swift; sourceTree = "<group>"; };
 		1B99C1651B29BC0300389F82 /* SosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SosViewController.swift; sourceTree = "<group>"; };
 		1B99C1671B29CA4E00389F82 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		1B99C1691B29D7F700389F82 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryViewController.swift; path = image/DiaryViewController.swift; sourceTree = "<group>"; };
@@ -427,37 +429,28 @@
 			isa = PBXGroup;
 			children = (
 				1B4910651B256E250014F0DF /* HomeViewController.swift */,
-				1B4910671B256EE00014F0DF /* TimeLineViewController.swift */,
-				1B4910691B256EF90014F0DF /* MailViewController.swift */,
-				1B49106B1B256F150014F0DF /* FriendViewController.swift */,
-				1B49106D1B256F340014F0DF /* ProfViewController.swift */,
-				1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */,
-				1B49106F1B256F480014F0DF /* HelpViewController.swift */,
-				1B99C1691B29D7F700389F82 /* DiaryViewController.swift */,
+				1B8931191B31903B00AF315C /* Timeline */,
+				1B89311B1B3190D000AF315C /* Mail */,
+				1B89311C1B3190E800AF315C /* Friend */,
+				1B89311A1B31907B00AF315C /* prof */,
+				1B89311D1B31910700AF315C /* Help */,
+				1B89311E1B31911C00AF315C /* Diary */,
 				1B58C71B1B2E72DC004D2212 /* NaviPush */,
-				1B58C7191B2E724C004D2212 /* Prof1 */,
-				1B58C71A1B2E725B004D2212 /* Prof2 */,
 				1B58C71D1B2E73AD004D2212 /* Acount */,
 				1B58C71C1B2E737B004D2212 /* Home1 */,
 			);
 			name = TabGroupe;
 			sourceTree = "<group>";
 		};
-		1B58C7191B2E724C004D2212 /* Prof1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Prof1;
-			sourceTree = "<group>";
-		};
-		1B58C71A1B2E725B004D2212 /* Prof2 */ = {
+		1B58C71A1B2E725B004D2212 /* Prof-sub */ = {
 			isa = PBXGroup;
 			children = (
 				1B6A41C61B2C21D6004E693B /* PrivatFasshonNikki.swift */,
 				1B58C71E1B2E745C004D2212 /* RebuewKoukaiSet_View.swift */,
 				1B58C72F1B2EB06C004D2212 /* Status_View.swift */,
+				1B8931171B317C6800AF315C /* Intaresut_ViewController.swift */,
 			);
-			name = Prof2;
+			name = "Prof-sub";
 			sourceTree = "<group>";
 		};
 		1B58C71B1B2E72DC004D2212 /* NaviPush */ = {
@@ -544,6 +537,56 @@
 				1B6A42061B2C5131004E693B /* vendor_fonts.xml */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		1B8931191B31903B00AF315C /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				1B4910671B256EE00014F0DF /* TimeLineViewController.swift */,
+			);
+			name = Timeline;
+			sourceTree = "<group>";
+		};
+		1B89311A1B31907B00AF315C /* prof */ = {
+			isa = PBXGroup;
+			children = (
+				1B49106D1B256F340014F0DF /* ProfViewController.swift */,
+				1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */,
+				1B58C71A1B2E725B004D2212 /* Prof-sub */,
+			);
+			name = prof;
+			sourceTree = "<group>";
+		};
+		1B89311B1B3190D000AF315C /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				1B4910691B256EF90014F0DF /* MailViewController.swift */,
+			);
+			name = Mail;
+			sourceTree = "<group>";
+		};
+		1B89311C1B3190E800AF315C /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				1B49106B1B256F150014F0DF /* FriendViewController.swift */,
+			);
+			name = Friend;
+			sourceTree = "<group>";
+		};
+		1B89311D1B31910700AF315C /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				1B49106F1B256F480014F0DF /* HelpViewController.swift */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		1B89311E1B31911C00AF315C /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				1B99C1691B29D7F700389F82 /* DiaryViewController.swift */,
+			);
+			name = Diary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -747,6 +790,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8931181B317C6800AF315C /* Intaresut_ViewController.swift in Sources */,
 				1B49106E1B256F340014F0DF /* ProfViewController.swift in Sources */,
 				1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */,
 				1B4910661B256E250014F0DF /* HomeViewController.swift in Sources */,

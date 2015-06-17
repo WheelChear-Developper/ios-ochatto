@@ -17,10 +17,11 @@ class Status_View: UIViewController, UITableViewDataSource, UITableViewDelegate 
     @IBOutlet weak var Comment_TableWakuView: UIView!
     
     @IBOutlet weak var Level_TableView: UITableView!
+    @IBOutlet weak var Icon_TableView: UITableView!
+    @IBOutlet weak var Comment_TableView: UITableView!
     
     @IBAction func naviclose(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
-//        self.navigationController?.popViewControllerAnimated(true)
     }
     
     @IBAction func tab1_push(sender: AnyObject) {
@@ -49,6 +50,12 @@ class Status_View: UIViewController, UITableViewDataSource, UITableViewDelegate 
         
         Level_TableView.delegate = self
         Level_TableView.dataSource = self
+        
+        Icon_TableView.delegate = self
+        Icon_TableView.dataSource = self
+        
+        Comment_TableView.delegate = self
+        Comment_TableView.dataSource = self
         
         self.navigationItem.title = "会社の仲間 - ステータス"
         
@@ -85,6 +92,22 @@ class Status_View: UIViewController, UITableViewDataSource, UITableViewDelegate 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if (tableView == Level_TableView){
             return 5
+        }else if (tableView == Icon_TableView){
+            return 5
+        }else if (tableView == Comment_TableView){
+            return 5
+        }else{
+            return 0
+        }
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        if (tableView == Level_TableView){
+            return 26
+        }else if (tableView == Icon_TableView){
+            return 60
+        }else if (tableView == Comment_TableView){
+            return 60
         }else{
             return 0
         }
@@ -116,8 +139,49 @@ class Status_View: UIViewController, UITableViewDataSource, UITableViewDelegate 
             if(indexPath.row == 4){
                 let cell = tableView.dequeueReusableCellWithIdentifier("cell5", forIndexPath: indexPath) as! UITableViewCell
             }
-
-                        
+        }else
+            if (tableView == Icon_TableView){
+                if(indexPath.row == 0){
+                    let cell = tableView.dequeueReusableCellWithIdentifier("cell1", forIndexPath: indexPath) as! UITableViewCell
+                }
+                
+                if(indexPath.row == 1){
+                    let cell = tableView.dequeueReusableCellWithIdentifier("cell2", forIndexPath: indexPath) as! UITableViewCell
+                }
+                
+                if(indexPath.row == 2){
+                    let cell = tableView.dequeueReusableCellWithIdentifier("cell3", forIndexPath: indexPath) as! UITableViewCell
+                }
+                
+                if(indexPath.row == 3){
+                    let cell = tableView.dequeueReusableCellWithIdentifier("cell4", forIndexPath: indexPath) as! UITableViewCell
+                }
+                
+                if(indexPath.row == 4){
+                    let cell = tableView.dequeueReusableCellWithIdentifier("cell5", forIndexPath: indexPath) as! UITableViewCell
+                }
+            }else
+                if (tableView == Comment_TableView){
+                    if(indexPath.row == 0){
+                        let cell = tableView.dequeueReusableCellWithIdentifier("cell1", forIndexPath: indexPath) as! UITableViewCell
+                    }
+                    
+                    if(indexPath.row == 1){
+                        let cell = tableView.dequeueReusableCellWithIdentifier("cell2", forIndexPath: indexPath) as! UITableViewCell
+                    }
+                    
+                    if(indexPath.row == 2){
+                        let cell = tableView.dequeueReusableCellWithIdentifier("cell3", forIndexPath: indexPath) as! UITableViewCell
+                    }
+                    
+                    if(indexPath.row == 3){
+                        let cell = tableView.dequeueReusableCellWithIdentifier("cell4", forIndexPath: indexPath) as! UITableViewCell
+                    }
+                    
+                    if(indexPath.row == 4){
+                        let cell = tableView.dequeueReusableCellWithIdentifier("cell5", forIndexPath: indexPath) as! UITableViewCell
+                    }
+        
         }else{
             let cell = tableView.dequeueReusableCellWithIdentifier("", forIndexPath: indexPath) as! UITableViewCell
         }
