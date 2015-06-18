@@ -32,6 +32,7 @@
 		1B34A9DA1B296F3F0077F9F3 /* tabconer-off-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9D91B296F3F0077F9F3 /* tabconer-off-center.png */; };
 		1B34A9DC1B2975D20077F9F3 /* tabconer-on-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9DB1B2975D20077F9F3 /* tabconer-on-center.png */; };
 		1B34A9DE1B2998190077F9F3 /* tab-pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9DD1B2998190077F9F3 /* tab-pen.png */; };
+		1B446EA01B32B6F5001677C7 /* green-maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B446E9F1B32B6F5001677C7 /* green-maru.png */; };
 		1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910421B255F370014F0DF /* AppDelegate.swift */; };
 		1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910441B255F380014F0DF /* ochatto.xcdatamodeld */; };
 		1B49104B1B255F380014F0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4910491B255F380014F0DF /* Main.storyboard */; };
@@ -174,6 +175,7 @@
 		1B34A9D91B296F3F0077F9F3 /* tabconer-off-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-off-center.png"; sourceTree = "<group>"; };
 		1B34A9DB1B2975D20077F9F3 /* tabconer-on-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-on-center.png"; sourceTree = "<group>"; };
 		1B34A9DD1B2998190077F9F3 /* tab-pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-pen.png"; sourceTree = "<group>"; };
+		1B446E9F1B32B6F5001677C7 /* green-maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-maru.png"; sourceTree = "<group>"; };
 		1B49103D1B255F370014F0DF /* ochatto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ochatto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4910411B255F370014F0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B4910421B255F370014F0DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -371,6 +373,7 @@
 		1B56F0601B25E8710061B5DB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1B446E9F1B32B6F5001677C7 /* green-maru.png */,
 				1B58C7261B2E90AE004D2212 /* tabconer-murasaki-center.png */,
 				1B58C7271B2E90AE004D2212 /* tabconer-murasaki-left.png */,
 				1B58C7281B2E90AE004D2212 /* tabconer-murasaki-right.png */,
@@ -638,6 +641,7 @@
 				TargetAttributes = {
 					1B49103C1B255F370014F0DF = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 28UP93TVV6;
 					};
 					1B4910541B255F380014F0DF = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -693,6 +697,7 @@
 				1B34A9B71B292B430077F9F3 /* tab-help.png in Resources */,
 				1B56F06A1B25E8710061B5DB /* pin_blue.png in Resources */,
 				1B6A42331B2C5131004E693B /* RobotoCondensed-Bold.ttf in Resources */,
+				1B446EA01B32B6F5001677C7 /* green-maru.png in Resources */,
 				1B6A42101B2C5131004E693B /* DroidNaskh-Regular.ttf in Resources */,
 				1B6A42271B2C5131004E693B /* MTLc3m.ttf in Resources */,
 				1B6A42121B2C5131004E693B /* DroidSans-Bold.ttf in Resources */,
@@ -943,6 +948,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ochatto/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -957,6 +963,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ochatto/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
