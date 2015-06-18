@@ -782,7 +782,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184" y="-534"/>
+            <point key="canvasLocation" x="304" y="-534"/>
         </scene>
         <!--Home1 View Controller-->
         <scene sceneID="2WC-nH-yBY">
@@ -2054,7 +2054,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kmp-Ia-60U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1032" y="-534"/>
+            <point key="canvasLocation" x="2501" y="-534"/>
         </scene>
         <!--TimeLine-->
         <scene sceneID="j2F-3A-gW8">
@@ -2931,8 +2931,8 @@
                                                                                     <nil key="highlightedColor"/>
                                                                                     <variation key="default">
                                                                                         <mask key="constraints">
-                                                                                            <exclude reference="a45-De-ulZ"/>
                                                                                             <exclude reference="ZX9-C8-qCs"/>
+                                                                                            <exclude reference="a45-De-ulZ"/>
                                                                                         </mask>
                                                                                     </variation>
                                                                                 </label>
@@ -3058,8 +3058,8 @@
                                                                                     <nil key="highlightedColor"/>
                                                                                     <variation key="default">
                                                                                         <mask key="constraints">
-                                                                                            <exclude reference="8wL-IS-hso"/>
                                                                                             <exclude reference="8KT-HI-u3B"/>
+                                                                                            <exclude reference="8wL-IS-hso"/>
                                                                                         </mask>
                                                                                     </variation>
                                                                                 </label>
@@ -3377,7 +3377,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pxz-uq-pJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="185" y="138"/>
+            <point key="canvasLocation" x="298" y="176"/>
         </scene>
         <!--Help-->
         <scene sceneID="iIo-2k-UJa">
@@ -3397,7 +3397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CQl-bj-QLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="185" y="2829"/>
+            <point key="canvasLocation" x="298" y="3039"/>
         </scene>
         <!--prof-->
         <scene sceneID="pV8-jv-0ox">
@@ -3706,7 +3706,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BVH-tJ-T0Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184" y="2144"/>
+            <point key="canvasLocation" x="298" y="2320"/>
         </scene>
         <!--Mail-->
         <scene sceneID="X4W-l8-euu">
@@ -4304,7 +4304,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ckt-HY-yir" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184.5" y="807"/>
+            <point key="canvasLocation" x="298" y="891"/>
         </scene>
         <!--友達-->
         <scene sceneID="p80-Fd-84c">
@@ -4324,7 +4324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WLK-4X-4nS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="185" y="1480"/>
+            <point key="canvasLocation" x="298" y="1604"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="amI-md-R3E">
@@ -4349,7 +4349,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3OP-r7-m9J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1290" y="-534"/>
+            <point key="canvasLocation" x="-1524" y="-534"/>
         </scene>
         <!--Home-->
         <scene sceneID="WYE-kq-7J4">
@@ -4383,7 +4383,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9qt-bu-XbO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-540" y="138"/>
+            <point key="canvasLocation" x="-540" y="176"/>
         </scene>
         <!--Mail-->
         <scene sceneID="VpZ-oA-EHU">
@@ -4400,7 +4400,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYE-8g-m5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-540" y="807"/>
+            <point key="canvasLocation" x="-540" y="891"/>
         </scene>
         <!--友達-->
         <scene sceneID="E9x-Xn-Tgo">
@@ -4417,7 +4417,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JnQ-Uo-WUL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-540" y="1480"/>
+            <point key="canvasLocation" x="-540" y="1604"/>
         </scene>
         <!--Prof-->
         <scene sceneID="isC-oB-AAI">
@@ -4434,7 +4434,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vns-gb-ItW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-540" y="2150"/>
+            <point key="canvasLocation" x="-540" y="2320"/>
         </scene>
         <!--Help-->
         <scene sceneID="Bys-AQ-HO7">
@@ -4451,7 +4451,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P3d-2U-tsj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-540" y="2829"/>
+            <point key="canvasLocation" x="-540" y="3039"/>
         </scene>
         <!--Sos View Controller-->
         <scene sceneID="RPB-jQ-Rt9">
@@ -4572,7 +4572,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WzC-hr-HfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020" y="-1217"/>
+            <point key="canvasLocation" x="1118" y="-1303"/>
         </scene>
         <!--Alert View Controller-->
         <scene sceneID="WLf-76-Rr0">
@@ -4859,7 +4859,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fhP-WK-7Gf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020" y="-1872"/>
+            <point key="canvasLocation" x="1118" y="-2118"/>
         </scene>
         <!--日記-->
         <scene sceneID="029-xC-8Dk">
@@ -4876,7 +4876,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PI5-Im-pi9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-540" y="3503"/>
+            <point key="canvasLocation" x="-540" y="3771"/>
         </scene>
         <!--日記の作成-->
         <scene sceneID="WvH-8y-uoc">
@@ -5089,7 +5089,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CeZ-a6-6Cw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184" y="3503"/>
+            <point key="canvasLocation" x="298" y="3771"/>
         </scene>
         <!--Alert View Controller-->
         <scene sceneID="vd3-ic-APN">
@@ -5119,7 +5119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LyD-cL-g56" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020" y="807"/>
+            <point key="canvasLocation" x="1118" y="891"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3Kf-PY-reU">
@@ -5135,7 +5135,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FMv-H5-30x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1377" y="2144"/>
+            <point key="canvasLocation" x="2501" y="1518"/>
         </scene>
         <!--Title-->
         <scene sceneID="Y0F-Ce-Z7b">
@@ -5270,7 +5270,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mlz-TA-hEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2163" y="2144"/>
+            <point key="canvasLocation" x="3329" y="1518"/>
         </scene>
         <!--Honnin View Controller-->
         <scene sceneID="zPU-mY-hUM">
@@ -5399,7 +5399,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nv0-DX-EKR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3010.5" y="2144"/>
+            <point key="canvasLocation" x="4154" y="1518"/>
         </scene>
         <!--Password Who View Controller-->
         <scene sceneID="EVs-Xh-cmu">
@@ -5485,7 +5485,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bez-SW-uHf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3801" y="2144"/>
+            <point key="canvasLocation" x="4995" y="1518"/>
         </scene>
         <!--Password Change View Controller-->
         <scene sceneID="ixl-db-MEK">
@@ -5572,7 +5572,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29l-7y-u2s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4582.5" y="2144"/>
+            <point key="canvasLocation" x="5864" y="1518"/>
         </scene>
         <!--Prof2 View Controller-->
         <scene sceneID="ZYx-k0-7zr">
@@ -8254,7 +8254,7 @@
                                                     <constraint firstAttribute="height" constant="21" id="Ou4-23-rwO"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="26" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="isp-EM-TAW">
@@ -8886,7 +8886,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jHZ-kp-ly0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1377" y="2848"/>
+            <point key="canvasLocation" x="1681" y="2320"/>
         </scene>
         <!--Privat Fasshon Nikki-->
         <scene sceneID="4oH-Kl-mT6">
@@ -9372,7 +9372,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqp-8r-tDx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2953" y="2848"/>
+            <point key="canvasLocation" x="3329" y="2320"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gQn-T4-fLj">
@@ -9388,7 +9388,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qZo-8Z-CXK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2163" y="2848"/>
+            <point key="canvasLocation" x="2501" y="2320"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DWA-r8-KR9">
@@ -9404,7 +9404,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j7L-7U-qov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2163" y="3570"/>
+            <point key="canvasLocation" x="2501" y="3178"/>
         </scene>
         <!--日記の作成-->
         <scene sceneID="Rfq-8a-F7c">
@@ -9538,7 +9538,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xrw-Tc-yzQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2953" y="3570"/>
+            <point key="canvasLocation" x="3329" y="3178"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pk7-AU-TSQ">
@@ -9555,7 +9555,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZdX-sn-hA4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2163" y="4293"/>
+            <point key="canvasLocation" x="2501" y="3967"/>
         </scene>
         <!--Status View-->
         <scene sceneID="lf5-pY-exm">
@@ -10305,7 +10305,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="jXM-rD-Ase"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="１３：０５" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBg-8D-fIO">
@@ -10314,7 +10314,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="tPH-8g-1Ox"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「病院まただわ・・・」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOF-Gg-0hO">
@@ -10323,7 +10323,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="ppF-Jt-Lrc"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10395,7 +10395,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="TNL-Yo-eAs"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="１５：３０" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZs-AX-TPS">
@@ -10404,7 +10404,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="zSi-rK-Ufh"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「仕事多すぎ！」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mF-00-12u">
@@ -10413,7 +10413,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="XIh-WG-aCh"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10486,7 +10486,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="U3w-jr-9Rr"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="１７：３０" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SwH-ur-x49">
@@ -10495,7 +10495,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="2bY-eV-QON"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「眠い・・・けど頑張ろ」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hp6-As-LHX">
@@ -10504,7 +10504,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="W3y-7s-lQk"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10577,7 +10577,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="Z21-kf-DU8"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="１９：００" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53R-kQ-BM3">
@@ -10586,7 +10586,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="Swa-Rw-a0w"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「そろそろご飯。」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="si0-1C-3a5">
@@ -10595,7 +10595,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="0w6-2k-hZA"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10668,7 +10668,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="FOL-z0-8wD"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="１８：００" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnA-2c-94f">
@@ -10677,7 +10677,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="NdJ-KX-6Li"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「今日は早く帰ろう」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1T-fa-RR1">
@@ -10686,7 +10686,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="hz0-9V-bjx"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10784,7 +10784,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="mP1-wR-JTH"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10811,7 +10811,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="kTv-5q-lZP"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「病院まただわ・・・」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="go5-6r-Eko">
@@ -10820,7 +10820,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="GOt-zr-Emr"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10867,7 +10867,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="kJR-qP-mLx"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10894,7 +10894,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="Sqm-4x-PHs"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「仕事多すぎ！」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7aR-pJ-PO4">
@@ -10903,7 +10903,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="y8J-RE-d3O"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10950,7 +10950,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="Zqv-iw-FPM"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -10977,7 +10977,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="41O-By-c8x"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「眠い・・・けど頑張ろ」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mB1-hT-zgC">
@@ -10986,7 +10986,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="IVM-Wk-qJ7"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -11033,7 +11033,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="hgf-Ii-6sw"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -11060,7 +11060,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="gFu-Y2-DC2"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「そろそろご飯。」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mk-N0-RYz">
@@ -11069,7 +11069,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="gGJ-4h-ZMk"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -11116,7 +11116,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="gT0-Jd-1Gd"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -11143,7 +11143,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="LZc-uu-EW3"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="「今日は早く帰ろ」" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytx-pj-wrG">
@@ -11152,7 +11152,7 @@
                                                                                 <constraint firstAttribute="height" constant="21" id="GjG-G8-7ix"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -11266,7 +11266,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LPw-Ae-Fg9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2953" y="4293"/>
+            <point key="canvasLocation" x="3329" y="3967"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IRR-Af-wTm">
@@ -11282,7 +11282,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="POX-lg-Arr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2163" y="5042"/>
+            <point key="canvasLocation" x="2501" y="4792"/>
         </scene>
         <!--Intaresut View Controller-->
         <scene sceneID="FKQ-ef-jU5">
@@ -13752,7 +13752,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2g-a9-VCn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2953" y="5042"/>
+            <point key="canvasLocation" x="3329" y="4792"/>
         </scene>
     </scenes>
     <resources>
@@ -13800,6 +13800,6 @@
         <image name="yellow-maru.png" width="595" height="595"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TNM-iV-09A"/>
+        <segue reference="KKg-Xr-fBt"/>
     </inferredMetricsTieBreakers>
 </document>
