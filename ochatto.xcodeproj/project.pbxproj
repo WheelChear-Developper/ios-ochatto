@@ -136,6 +136,11 @@
 		1B99C1661B29BC0300389F82 /* SosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1651B29BC0300389F82 /* SosViewController.swift */; };
 		1B99C1681B29CA4E00389F82 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1671B29CA4E00389F82 /* AlertViewController.swift */; };
 		1B99C16A1B29D7F700389F82 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1691B29D7F700389F82 /* DiaryViewController.swift */; };
+		1BC43F0D1B346BC000999F3A /* icon-feelso.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC43F081B346BC000999F3A /* icon-feelso.png */; };
+		1BC43F0E1B346BC000999F3A /* icon-help.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC43F091B346BC000999F3A /* icon-help.png */; };
+		1BC43F0F1B346BC000999F3A /* icon-okigen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC43F0A1B346BC000999F3A /* icon-okigen.png */; };
+		1BC43F101B346BC000999F3A /* icon-imbusy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC43F0B1B346BC000999F3A /* icon-imbusy.png */; };
+		1BC43F111B346BC000999F3A /* icon-hitorinisasete.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC43F0C1B346BC000999F3A /* icon-hitorinisasete.png */; };
 		1BD309D41B2B10480018FC6D /* Prof2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -285,6 +290,11 @@
 		1B99C1651B29BC0300389F82 /* SosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SosViewController.swift; sourceTree = "<group>"; };
 		1B99C1671B29CA4E00389F82 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		1B99C1691B29D7F700389F82 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryViewController.swift; path = image/DiaryViewController.swift; sourceTree = "<group>"; };
+		1BC43F081B346BC000999F3A /* icon-feelso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-feelso.png"; sourceTree = "<group>"; };
+		1BC43F091B346BC000999F3A /* icon-help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-help.png"; sourceTree = "<group>"; };
+		1BC43F0A1B346BC000999F3A /* icon-okigen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-okigen.png"; sourceTree = "<group>"; };
+		1BC43F0B1B346BC000999F3A /* icon-imbusy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-imbusy.png"; sourceTree = "<group>"; };
+		1BC43F0C1B346BC000999F3A /* icon-hitorinisasete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-hitorinisasete.png"; sourceTree = "<group>"; };
 		1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prof2ViewController.swift; path = image/Prof2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -373,6 +383,11 @@
 		1B56F0601B25E8710061B5DB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1BC43F081B346BC000999F3A /* icon-feelso.png */,
+				1BC43F091B346BC000999F3A /* icon-help.png */,
+				1BC43F0A1B346BC000999F3A /* icon-okigen.png */,
+				1BC43F0B1B346BC000999F3A /* icon-imbusy.png */,
+				1BC43F0C1B346BC000999F3A /* icon-hitorinisasete.png */,
 				1B446E9F1B32B6F5001677C7 /* green-maru.png */,
 				1B58C7261B2E90AE004D2212 /* tabconer-murasaki-center.png */,
 				1B58C7271B2E90AE004D2212 /* tabconer-murasaki-left.png */,
@@ -682,6 +697,7 @@
 				1B34A9A11B2881510077F9F3 /* house.png in Resources */,
 				1B56F06D1B25E8710061B5DB /* pin_orange.png in Resources */,
 				1B49104B1B255F380014F0DF /* Main.storyboard in Resources */,
+				1BC43F111B346BC000999F3A /* icon-hitorinisasete.png in Resources */,
 				1B58C7291B2E90AE004D2212 /* tabconer-murasaki-center.png in Resources */,
 				1B6A42071B2C5131004E693B /* Android.mk in Resources */,
 				1B6A422D1B2C5131004E693B /* Roboto-Italic.ttf in Resources */,
@@ -697,6 +713,7 @@
 				1B34A9B71B292B430077F9F3 /* tab-help.png in Resources */,
 				1B56F06A1B25E8710061B5DB /* pin_blue.png in Resources */,
 				1B6A42331B2C5131004E693B /* RobotoCondensed-Bold.ttf in Resources */,
+				1BC43F101B346BC000999F3A /* icon-imbusy.png in Resources */,
 				1B446EA01B32B6F5001677C7 /* green-maru.png in Resources */,
 				1B6A42101B2C5131004E693B /* DroidNaskh-Regular.ttf in Resources */,
 				1B6A42271B2C5131004E693B /* MTLc3m.ttf in Resources */,
@@ -727,6 +744,7 @@
 				1B6A41C31B2C162C004E693B /* tabconer-yellow-left.png in Resources */,
 				1B34A9DA1B296F3F0077F9F3 /* tabconer-off-center.png in Resources */,
 				1B34A99C1B284B440077F9F3 /* hito4.png in Resources */,
+				1BC43F0D1B346BC000999F3A /* icon-feelso.png in Resources */,
 				1B34A9AF1B2899700077F9F3 /* tab-time.png in Resources */,
 				1B34A9901B283B1E0077F9F3 /* jisyaku.png in Resources */,
 				1B6A420E1B2C5131004E693B /* DroidKufi-Regular.ttf in Resources */,
@@ -741,6 +759,7 @@
 				1B58C72A1B2E90AE004D2212 /* tabconer-murasaki-left.png in Resources */,
 				1B6A41BB1B2C132E004E693B /* tabconer-green-right.png in Resources */,
 				1B34A99F1B284B440077F9F3 /* hito3.png in Resources */,
+				1BC43F0E1B346BC000999F3A /* icon-help.png in Resources */,
 				1B6A42151B2C5131004E693B /* DroidSansArmenian.ttf in Resources */,
 				1B8918C31B2AB996005047D9 /* acount-button.png in Resources */,
 				1B6A422B1B2C5131004E693B /* Roboto-Bold.ttf in Resources */,
@@ -776,6 +795,7 @@
 				1B6A42241B2C5131004E693B /* fallback_fonts.xml in Resources */,
 				1B34A9D31B2969BC0077F9F3 /* tabconer-off-right.png in Resources */,
 				1B6A42211B2C5131004E693B /* DroidSerif-BoldItalic.ttf in Resources */,
+				1BC43F0F1B346BC000999F3A /* icon-okigen.png in Resources */,
 				1B6A422A1B2C5131004E693B /* README.txt in Resources */,
 				1B6A421A1B2C5131004E693B /* DroidSansFallbackLegacy.ttf in Resources */,
 			);

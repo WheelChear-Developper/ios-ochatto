@@ -105,7 +105,7 @@ class Status_View: UIViewController, UITableViewDataSource, UITableViewDelegate 
         if (tableView == Level_TableView){
             return 26
         }else if (tableView == Icon_TableView){
-            return 60
+            return 80
         }else if (tableView == Comment_TableView){
             return 60
         }else{
