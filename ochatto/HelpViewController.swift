@@ -10,7 +10,7 @@ import UIKit
 
 class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     
-    @IBOutlet weak var Timeline_TableView: UITableView!
+    @IBOutlet weak var Help_TableView: UITableView!
     
     // Sectionで使用する配列を定義する.
     private let mySections: NSArray = ["お困りレベル５", "お困りレベル３〜４", "お困りレベル２〜１"]
@@ -22,17 +22,17 @@ class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBAction func red_push(sender: AnyObject) {
         var lastPath:NSIndexPath = NSIndexPath(forRow:0, inSection:0)
-        Timeline_TableView.scrollToRowAtIndexPath( lastPath , atScrollPosition: .Top, animated: true)
+        Help_TableView.scrollToRowAtIndexPath( lastPath , atScrollPosition: .Top, animated: true)
     }
     
     @IBAction func yellow_push(sender: AnyObject) {
         var lastPath:NSIndexPath = NSIndexPath(forRow:0, inSection:1)
-        Timeline_TableView.scrollToRowAtIndexPath( lastPath , atScrollPosition: .Top, animated: true)
+        Help_TableView.scrollToRowAtIndexPath( lastPath , atScrollPosition: .Top, animated: true)
     }
     
     @IBAction func green_push(sender: AnyObject) {
         var lastPath:NSIndexPath = NSIndexPath(forRow:0, inSection:2)
-        Timeline_TableView.scrollToRowAtIndexPath( lastPath , atScrollPosition: .Top, animated: true)
+        Help_TableView.scrollToRowAtIndexPath( lastPath , atScrollPosition: .Top, animated: true)
     }
     
     override func viewDidLoad() {
@@ -40,8 +40,8 @@ class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         self.navigationItem.title = "Help!"
         
-        Timeline_TableView.delegate = self
-        Timeline_TableView.dataSource = self
+        Help_TableView.delegate = self
+        Help_TableView.dataSource = self
         
     }
     

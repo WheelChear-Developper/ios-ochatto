@@ -32,6 +32,7 @@
 		1B34A9DA1B296F3F0077F9F3 /* tabconer-off-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9D91B296F3F0077F9F3 /* tabconer-off-center.png */; };
 		1B34A9DC1B2975D20077F9F3 /* tabconer-on-center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9DB1B2975D20077F9F3 /* tabconer-on-center.png */; };
 		1B34A9DE1B2998190077F9F3 /* tab-pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B34A9DD1B2998190077F9F3 /* tab-pen.png */; };
+		1B41E04A1B34FBE70007F007 /* HelpInfo_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B41E0491B34FBE70007F007 /* HelpInfo_ViewController.swift */; };
 		1B446EA01B32B6F5001677C7 /* green-maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B446E9F1B32B6F5001677C7 /* green-maru.png */; };
 		1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910421B255F370014F0DF /* AppDelegate.swift */; };
 		1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910441B255F380014F0DF /* ochatto.xcdatamodeld */; };
@@ -48,6 +49,10 @@
 		1B4910721B257A6E0014F0DF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4910711B257A6E0014F0DF /* MapKit.framework */; };
 		1B4910741B25A26D0014F0DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4910731B25A26D0014F0DF /* CoreLocation.framework */; };
 		1B4910761B25CA0D0014F0DF /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910751B25CA0D0014F0DF /* Configuration.swift */; };
+		1B50FF071B351CA9001609DE /* level-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B50FF051B351CA9001609DE /* level-star.png */; };
+		1B50FF081B351CA9001609DE /* level-maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B50FF061B351CA9001609DE /* level-maru.png */; };
+		1B50FF0A1B353E2A001609DE /* Toukou-push.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B50FF091B353E2A001609DE /* Toukou-push.png */; };
+		1B50FF0C1B357004001609DE /* photoplus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B50FF0B1B357004001609DE /* photoplus.png */; };
 		1B56F06A1B25E8710061B5DB /* pin_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0611B25E8710061B5DB /* pin_blue.png */; };
 		1B56F06B1B25E8710061B5DB /* pin_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0621B25E8710061B5DB /* pin_gray.png */; };
 		1B56F06C1B25E8710061B5DB /* pin_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B56F0631B25E8710061B5DB /* pin_green.png */; };
@@ -142,6 +147,10 @@
 		1BC43F101B346BC000999F3A /* icon-imbusy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC43F0B1B346BC000999F3A /* icon-imbusy.png */; };
 		1BC43F111B346BC000999F3A /* icon-hitorinisasete.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC43F0C1B346BC000999F3A /* icon-hitorinisasete.png */; };
 		1BD309D41B2B10480018FC6D /* Prof2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */; };
+		1BD89B051B36793700D41622 /* check-yes-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B031B36793700D41622 /* check-yes-mark.png */; };
+		1BD89B061B36793700D41622 /* check-no-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B041B36793700D41622 /* check-no-mark.png */; };
+		1BD89B081B367DB100D41622 /* syousai-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B071B367DB100D41622 /* syousai-button.png */; };
+		1BD89B0A1B367F4C00D41622 /* HelpMake_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B091B367F4C00D41622 /* HelpMake_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +189,7 @@
 		1B34A9D91B296F3F0077F9F3 /* tabconer-off-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-off-center.png"; sourceTree = "<group>"; };
 		1B34A9DB1B2975D20077F9F3 /* tabconer-on-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-on-center.png"; sourceTree = "<group>"; };
 		1B34A9DD1B2998190077F9F3 /* tab-pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-pen.png"; sourceTree = "<group>"; };
+		1B41E0491B34FBE70007F007 /* HelpInfo_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpInfo_ViewController.swift; sourceTree = "<group>"; };
 		1B446E9F1B32B6F5001677C7 /* green-maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-maru.png"; sourceTree = "<group>"; };
 		1B49103D1B255F370014F0DF /* ochatto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ochatto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4910411B255F370014F0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -200,6 +210,10 @@
 		1B4910711B257A6E0014F0DF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1B4910731B25A26D0014F0DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1B4910751B25CA0D0014F0DF /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		1B50FF051B351CA9001609DE /* level-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-star.png"; sourceTree = "<group>"; };
+		1B50FF061B351CA9001609DE /* level-maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-maru.png"; sourceTree = "<group>"; };
+		1B50FF091B353E2A001609DE /* Toukou-push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toukou-push.png"; sourceTree = "<group>"; };
+		1B50FF0B1B357004001609DE /* photoplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoplus.png; sourceTree = "<group>"; };
 		1B56F0611B25E8710061B5DB /* pin_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_blue.png; sourceTree = "<group>"; };
 		1B56F0621B25E8710061B5DB /* pin_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_gray.png; sourceTree = "<group>"; };
 		1B56F0631B25E8710061B5DB /* pin_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_green.png; sourceTree = "<group>"; };
@@ -296,6 +310,10 @@
 		1BC43F0B1B346BC000999F3A /* icon-imbusy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-imbusy.png"; sourceTree = "<group>"; };
 		1BC43F0C1B346BC000999F3A /* icon-hitorinisasete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-hitorinisasete.png"; sourceTree = "<group>"; };
 		1BD309D31B2B10480018FC6D /* Prof2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prof2ViewController.swift; path = image/Prof2ViewController.swift; sourceTree = "<group>"; };
+		1BD89B031B36793700D41622 /* check-yes-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-yes-mark.png"; sourceTree = "<group>"; };
+		1BD89B041B36793700D41622 /* check-no-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-no-mark.png"; sourceTree = "<group>"; };
+		1BD89B071B367DB100D41622 /* syousai-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syousai-button.png"; sourceTree = "<group>"; };
+		1BD89B091B367F4C00D41622 /* HelpMake_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMake_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,7 +401,14 @@
 		1B56F0601B25E8710061B5DB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1BD89B071B367DB100D41622 /* syousai-button.png */,
+				1BD89B031B36793700D41622 /* check-yes-mark.png */,
+				1BD89B041B36793700D41622 /* check-no-mark.png */,
+				1B50FF0B1B357004001609DE /* photoplus.png */,
+				1B50FF091B353E2A001609DE /* Toukou-push.png */,
 				1BC43F081B346BC000999F3A /* icon-feelso.png */,
+				1B50FF051B351CA9001609DE /* level-star.png */,
+				1B50FF061B351CA9001609DE /* level-maru.png */,
 				1BC43F091B346BC000999F3A /* icon-help.png */,
 				1BC43F0A1B346BC000999F3A /* icon-okigen.png */,
 				1BC43F0B1B346BC000999F3A /* icon-imbusy.png */,
@@ -595,6 +620,8 @@
 			isa = PBXGroup;
 			children = (
 				1B49106F1B256F480014F0DF /* HelpViewController.swift */,
+				1B41E0491B34FBE70007F007 /* HelpInfo_ViewController.swift */,
+				1BD89B091B367F4C00D41622 /* HelpMake_ViewController.swift */,
 			);
 			name = Help;
 			sourceTree = "<group>";
@@ -690,6 +717,7 @@
 			files = (
 				1B6A42161B2C5131004E693B /* DroidSansEthiopic-Bold.ttf in Resources */,
 				1B6A42131B2C5131004E693B /* DroidSans.ttf in Resources */,
+				1B50FF071B351CA9001609DE /* level-star.png in Resources */,
 				1B6A420C1B2C5131004E693B /* Clockopia.ttf in Resources */,
 				1B34A9A31B2893530077F9F3 /* house-maru.png in Resources */,
 				1B6A42181B2C5131004E693B /* DroidSansFallback.ttf in Resources */,
@@ -721,6 +749,7 @@
 				1B56F0711B25E8710061B5DB /* pin_white.png in Resources */,
 				1B4910501B255F380014F0DF /* LaunchScreen.xib in Resources */,
 				1B6A422C1B2C5131004E693B /* Roboto-BoldItalic.ttf in Resources */,
+				1B50FF0A1B353E2A001609DE /* Toukou-push.png in Resources */,
 				1B6A422F1B2C5131004E693B /* Roboto-LightItalic.ttf in Resources */,
 				1B58C7251B2E8FA7004D2212 /* tabconer-orenge-left.png in Resources */,
 				1B34A9DC1B2975D20077F9F3 /* tabconer-on-center.png in Resources */,
@@ -734,6 +763,7 @@
 				1B34A9D51B2969BC0077F9F3 /* tabconer-on-right.png in Resources */,
 				1B34A9B11B289A920077F9F3 /* tab-mail.png in Resources */,
 				1B34A9D11B2969BC0077F9F3 /* tabconer-off-left.png in Resources */,
+				1BD89B061B36793700D41622 /* check-no-mark.png in Resources */,
 				1B6A420B1B2C5131004E693B /* AndroidEmoji.ttf in Resources */,
 				1B34A9A91B28978B0077F9F3 /* tab-home.png in Resources */,
 				1B6A421F1B2C5131004E693B /* DroidSansMono.ttf in Resources */,
@@ -749,6 +779,7 @@
 				1B34A9901B283B1E0077F9F3 /* jisyaku.png in Resources */,
 				1B6A420E1B2C5131004E693B /* DroidKufi-Regular.ttf in Resources */,
 				1B6A41D31B2C37D1004E693B /* purasu.png in Resources */,
+				1BD89B081B367DB100D41622 /* syousai-button.png in Resources */,
 				1B34A9B31B29296E0077F9F3 /* tab-friend.png in Resources */,
 				1B6A42291B2C5131004E693B /* NOTICE in Resources */,
 				1B6A420A1B2C5131004E693B /* AndroidClock_Solid.ttf in Resources */,
@@ -776,6 +807,7 @@
 				1B34A9951B2842050077F9F3 /* red-maru.png in Resources */,
 				1B49104D1B255F380014F0DF /* Images.xcassets in Resources */,
 				1B6A423A1B2D24E5004E693B /* hito.png in Resources */,
+				1B50FF0C1B357004001609DE /* photoplus.png in Resources */,
 				1B6A420D1B2C5131004E693B /* DroidKufi-Bold.ttf in Resources */,
 				1B6A42261B2C5131004E693B /* MODULE_LICENSE_APACHE2 in Resources */,
 				1B6A42341B2C5131004E693B /* RobotoCondensed-BoldItalic.ttf in Resources */,
@@ -794,6 +826,8 @@
 				1B34A9931B2840EC0077F9F3 /* yellow-maru.png in Resources */,
 				1B6A42241B2C5131004E693B /* fallback_fonts.xml in Resources */,
 				1B34A9D31B2969BC0077F9F3 /* tabconer-off-right.png in Resources */,
+				1BD89B051B36793700D41622 /* check-yes-mark.png in Resources */,
+				1B50FF081B351CA9001609DE /* level-maru.png in Resources */,
 				1B6A42211B2C5131004E693B /* DroidSerif-BoldItalic.ttf in Resources */,
 				1BC43F0F1B346BC000999F3A /* icon-okigen.png in Resources */,
 				1B6A422A1B2C5131004E693B /* README.txt in Resources */,
@@ -820,6 +854,8 @@
 				1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */,
 				1B4910661B256E250014F0DF /* HomeViewController.swift in Sources */,
 				1B8918CD1B2ADBD4005047D9 /* PasswordChangeViewController.swift in Sources */,
+				1BD89B0A1B367F4C00D41622 /* HelpMake_ViewController.swift in Sources */,
+				1B41E04A1B34FBE70007F007 /* HelpInfo_ViewController.swift in Sources */,
 				1B4910761B25CA0D0014F0DF /* Configuration.swift in Sources */,
 				1B99C1661B29BC0300389F82 /* SosViewController.swift in Sources */,
 				1B4910701B256F480014F0DF /* HelpViewController.swift in Sources */,
