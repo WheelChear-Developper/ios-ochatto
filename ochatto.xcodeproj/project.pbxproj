@@ -160,6 +160,9 @@
 		1BD89B1C1B36C47200D41622 /* button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B1A1B36C47200D41622 /* button-off.png */; };
 		1BD89B1E1B36F60400D41622 /* HelpRebuewTsuuchi_write_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B1D1B36F60400D41622 /* HelpRebuewTsuuchi_write_ViewController.swift */; };
 		1BD89B201B36F9B700D41622 /* HelpRebuewWrite_write_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B1F1B36F9B700D41622 /* HelpRebuewWrite_write_View.swift */; };
+		1BD89B271B3708E700D41622 /* button-maisasu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B251B3708E700D41622 /* button-maisasu.png */; };
+		1BD89B281B3708E700D41622 /* button-batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B261B3708E700D41622 /* button-batsu.png */; };
+		1BD89B2A1B3711E800D41622 /* Privat_Fashon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B291B3711E800D41622 /* Privat_Fashon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -332,6 +335,9 @@
 		1BD89B1A1B36C47200D41622 /* button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off.png"; sourceTree = "<group>"; };
 		1BD89B1D1B36F60400D41622 /* HelpRebuewTsuuchi_write_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewTsuuchi_write_ViewController.swift; sourceTree = "<group>"; };
 		1BD89B1F1B36F9B700D41622 /* HelpRebuewWrite_write_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite_write_View.swift; sourceTree = "<group>"; };
+		1BD89B251B3708E700D41622 /* button-maisasu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-maisasu.png"; sourceTree = "<group>"; };
+		1BD89B261B3708E700D41622 /* button-batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-batsu.png"; sourceTree = "<group>"; };
+		1BD89B291B3711E800D41622 /* Privat_Fashon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privat_Fashon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -419,6 +425,8 @@
 		1B56F0601B25E8710061B5DB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1BD89B251B3708E700D41622 /* button-maisasu.png */,
+				1BD89B261B3708E700D41622 /* button-batsu.png */,
 				1BD89B191B36C47200D41622 /* button-on.png */,
 				1BD89B1A1B36C47200D41622 /* button-off.png */,
 				1BD89B101B36C19500D41622 /* face-ded.png */,
@@ -515,6 +523,7 @@
 				1B58C71E1B2E745C004D2212 /* RebuewKoukaiSet_View.swift */,
 				1B58C72F1B2EB06C004D2212 /* Status_View.swift */,
 				1B8931171B317C6800AF315C /* Intaresut_ViewController.swift */,
+				1BD89B291B3711E800D41622 /* Privat_Fashon.swift */,
 			);
 			name = "Prof-sub";
 			sourceTree = "<group>";
@@ -757,6 +766,7 @@
 				1B6A42071B2C5131004E693B /* Android.mk in Resources */,
 				1B6A422D1B2C5131004E693B /* Roboto-Italic.ttf in Resources */,
 				1B6A41BC1B2C132E004E693B /* tabconer-green-left.png in Resources */,
+				1BD89B281B3708E700D41622 /* button-batsu.png in Resources */,
 				1B56F06F1B25E8710061B5DB /* pin_red.png in Resources */,
 				1B6A41C51B2C162C004E693B /* tabconer-yellow-right.png in Resources */,
 				1B6A42381B2C5131004E693B /* vendor_fonts.xml in Resources */,
@@ -857,6 +867,7 @@
 				1B34A9931B2840EC0077F9F3 /* yellow-maru.png in Resources */,
 				1B6A42241B2C5131004E693B /* fallback_fonts.xml in Resources */,
 				1B34A9D31B2969BC0077F9F3 /* tabconer-off-right.png in Resources */,
+				1BD89B271B3708E700D41622 /* button-maisasu.png in Resources */,
 				1BD89B051B36793700D41622 /* check-yes-mark.png in Resources */,
 				1B50FF081B351CA9001609DE /* level-maru.png in Resources */,
 				1B6A42211B2C5131004E693B /* DroidSerif-BoldItalic.ttf in Resources */,
@@ -897,6 +908,7 @@
 				1B49106C1B256F150014F0DF /* FriendViewController.swift in Sources */,
 				1B58C71F1B2E745C004D2212 /* RebuewKoukaiSet_View.swift in Sources */,
 				1BD309D41B2B10480018FC6D /* Prof2ViewController.swift in Sources */,
+				1BD89B2A1B3711E800D41622 /* Privat_Fashon.swift in Sources */,
 				1B6A41C71B2C21D6004E693B /* PrivatFasshonNikki.swift in Sources */,
 				1B99C1681B29CA4E00389F82 /* AlertViewController.swift in Sources */,
 				1B58C7301B2EB06C004D2212 /* Status_View.swift in Sources */,

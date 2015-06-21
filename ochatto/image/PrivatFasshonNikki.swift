@@ -15,7 +15,7 @@ class PrivatFasshonNikki: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet weak var TableView: UITableView!
     
     @IBAction func naviclose(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -54,6 +54,24 @@ class PrivatFasshonNikki: UIViewController, UITableViewDataSource, UITableViewDe
     */
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        var h :CGFloat = 0
+            switch indexPath.row {
+            case 0:
+                h = 100
+            case 1:
+                h = 130
+            case 2:
+                h = 130
+            case 3:
+                h = 130
+            default:
+                break // do nothing
+            }
+        return h
     }
     
     /*
