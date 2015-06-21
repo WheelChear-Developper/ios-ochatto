@@ -151,6 +151,15 @@
 		1BD89B061B36793700D41622 /* check-no-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B041B36793700D41622 /* check-no-mark.png */; };
 		1BD89B081B367DB100D41622 /* syousai-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B071B367DB100D41622 /* syousai-button.png */; };
 		1BD89B0A1B367F4C00D41622 /* HelpMake_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B091B367F4C00D41622 /* HelpMake_ViewController.swift */; };
+		1BD89B0C1B36A2F800D41622 /* HelpRebuewTsuuchi_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B0B1B36A2F800D41622 /* HelpRebuewTsuuchi_ViewController.swift */; };
+		1BD89B0E1B36B0C000D41622 /* HelpRebuewWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B0D1B36B0C000D41622 /* HelpRebuewWrite.swift */; };
+		1BD89B151B36C19500D41622 /* face-ded.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B101B36C19500D41622 /* face-ded.png */; };
+		1BD89B171B36C19500D41622 /* face-niko.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B121B36C19500D41622 /* face-niko.png */; };
+		1BD89B181B36C19500D41622 /* face-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B131B36C19500D41622 /* face-normal.png */; };
+		1BD89B1B1B36C47200D41622 /* button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B191B36C47200D41622 /* button-on.png */; };
+		1BD89B1C1B36C47200D41622 /* button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD89B1A1B36C47200D41622 /* button-off.png */; };
+		1BD89B1E1B36F60400D41622 /* HelpRebuewTsuuchi_write_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B1D1B36F60400D41622 /* HelpRebuewTsuuchi_write_ViewController.swift */; };
+		1BD89B201B36F9B700D41622 /* HelpRebuewWrite_write_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89B1F1B36F9B700D41622 /* HelpRebuewWrite_write_View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -314,6 +323,15 @@
 		1BD89B041B36793700D41622 /* check-no-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-no-mark.png"; sourceTree = "<group>"; };
 		1BD89B071B367DB100D41622 /* syousai-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syousai-button.png"; sourceTree = "<group>"; };
 		1BD89B091B367F4C00D41622 /* HelpMake_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMake_ViewController.swift; sourceTree = "<group>"; };
+		1BD89B0B1B36A2F800D41622 /* HelpRebuewTsuuchi_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewTsuuchi_ViewController.swift; sourceTree = "<group>"; };
+		1BD89B0D1B36B0C000D41622 /* HelpRebuewWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite.swift; sourceTree = "<group>"; };
+		1BD89B101B36C19500D41622 /* face-ded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face-ded.png"; sourceTree = "<group>"; };
+		1BD89B121B36C19500D41622 /* face-niko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face-niko.png"; sourceTree = "<group>"; };
+		1BD89B131B36C19500D41622 /* face-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face-normal.png"; sourceTree = "<group>"; };
+		1BD89B191B36C47200D41622 /* button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on.png"; sourceTree = "<group>"; };
+		1BD89B1A1B36C47200D41622 /* button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off.png"; sourceTree = "<group>"; };
+		1BD89B1D1B36F60400D41622 /* HelpRebuewTsuuchi_write_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewTsuuchi_write_ViewController.swift; sourceTree = "<group>"; };
+		1BD89B1F1B36F9B700D41622 /* HelpRebuewWrite_write_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite_write_View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,11 +380,11 @@
 				1B6A41D41B2C5131004E693B /* fonts */,
 				1B56F0601B25E8710061B5DB /* image */,
 				1B4910421B255F370014F0DF /* AppDelegate.swift */,
+				1B49104C1B255F380014F0DF /* Images.xcassets */,
+				1B49104E1B255F380014F0DF /* LaunchScreen.xib */,
 				1B4910491B255F380014F0DF /* Main.storyboard */,
 				1B58C7181B2E71D6004D2212 /* TabGroupe */,
 				1B4910751B25CA0D0014F0DF /* Configuration.swift */,
-				1B49104C1B255F380014F0DF /* Images.xcassets */,
-				1B49104E1B255F380014F0DF /* LaunchScreen.xib */,
 				1B4910441B255F380014F0DF /* ochatto.xcdatamodeld */,
 				1B4910401B255F370014F0DF /* Supporting Files */,
 			);
@@ -401,6 +419,11 @@
 		1B56F0601B25E8710061B5DB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1BD89B191B36C47200D41622 /* button-on.png */,
+				1BD89B1A1B36C47200D41622 /* button-off.png */,
+				1BD89B101B36C19500D41622 /* face-ded.png */,
+				1BD89B121B36C19500D41622 /* face-niko.png */,
+				1BD89B131B36C19500D41622 /* face-normal.png */,
 				1BD89B071B367DB100D41622 /* syousai-button.png */,
 				1BD89B031B36793700D41622 /* check-yes-mark.png */,
 				1BD89B041B36793700D41622 /* check-no-mark.png */,
@@ -622,6 +645,10 @@
 				1B49106F1B256F480014F0DF /* HelpViewController.swift */,
 				1B41E0491B34FBE70007F007 /* HelpInfo_ViewController.swift */,
 				1BD89B091B367F4C00D41622 /* HelpMake_ViewController.swift */,
+				1BD89B0B1B36A2F800D41622 /* HelpRebuewTsuuchi_ViewController.swift */,
+				1BD89B1D1B36F60400D41622 /* HelpRebuewTsuuchi_write_ViewController.swift */,
+				1BD89B0D1B36B0C000D41622 /* HelpRebuewWrite.swift */,
+				1BD89B1F1B36F9B700D41622 /* HelpRebuewWrite_write_View.swift */,
 			);
 			name = Help;
 			sourceTree = "<group>";
@@ -738,6 +765,7 @@
 				1B56F0721B25E8710061B5DB /* pin_yellow.png in Resources */,
 				1B6A421D1B2C5131004E693B /* DroidSansHebrew-Regular.ttf in Resources */,
 				1B56F0701B25E8710061B5DB /* pin_wheel.png in Resources */,
+				1BD89B181B36C19500D41622 /* face-normal.png in Resources */,
 				1B34A9B71B292B430077F9F3 /* tab-help.png in Resources */,
 				1B56F06A1B25E8710061B5DB /* pin_blue.png in Resources */,
 				1B6A42331B2C5131004E693B /* RobotoCondensed-Bold.ttf in Resources */,
@@ -772,6 +800,7 @@
 				1B8918C11B2AB347005047D9 /* pin.png in Resources */,
 				1B6A42321B2C5131004E693B /* Roboto-ThinItalic.ttf in Resources */,
 				1B6A41C31B2C162C004E693B /* tabconer-yellow-left.png in Resources */,
+				1BD89B171B36C19500D41622 /* face-niko.png in Resources */,
 				1B34A9DA1B296F3F0077F9F3 /* tabconer-off-center.png in Resources */,
 				1B34A99C1B284B440077F9F3 /* hito4.png in Resources */,
 				1BC43F0D1B346BC000999F3A /* icon-feelso.png in Resources */,
@@ -801,6 +830,7 @@
 				1B56F06B1B25E8710061B5DB /* pin_gray.png in Resources */,
 				1B34A9D21B2969BC0077F9F3 /* tabconer-on-left.png in Resources */,
 				1B34A99E1B284B440077F9F3 /* hito2.png in Resources */,
+				1BD89B1B1B36C47200D41622 /* button-on.png in Resources */,
 				1B6A421B1B2C5131004E693B /* DroidSansGeorgian.ttf in Resources */,
 				1B6A41B71B2BBCE7004E693B /* plus.png in Resources */,
 				1B6A42091B2C5131004E693B /* AndroidClock_Highlight.ttf in Resources */,
@@ -818,6 +848,7 @@
 				1B6A42221B2C5131004E693B /* DroidSerif-Italic.ttf in Resources */,
 				1B6A41C41B2C162C004E693B /* tabconer-yellow-center.png in Resources */,
 				1B58C7231B2E8FA7004D2212 /* tabconer-orenge-center.png in Resources */,
+				1BD89B151B36C19500D41622 /* face-ded.png in Resources */,
 				1B58C7241B2E8FA7004D2212 /* tabconer-orenge-right.png in Resources */,
 				1B6A41D21B2C37D1004E693B /* mainus.png in Resources */,
 				1B34A9B51B292ABB0077F9F3 /* tab-prof.png in Resources */,
@@ -830,6 +861,7 @@
 				1B50FF081B351CA9001609DE /* level-maru.png in Resources */,
 				1B6A42211B2C5131004E693B /* DroidSerif-BoldItalic.ttf in Resources */,
 				1BC43F0F1B346BC000999F3A /* icon-okigen.png in Resources */,
+				1BD89B1C1B36C47200D41622 /* button-off.png in Resources */,
 				1B6A422A1B2C5131004E693B /* README.txt in Resources */,
 				1B6A421A1B2C5131004E693B /* DroidSansFallbackLegacy.ttf in Resources */,
 			);
@@ -852,11 +884,14 @@
 				1B8931181B317C6800AF315C /* Intaresut_ViewController.swift in Sources */,
 				1B49106E1B256F340014F0DF /* ProfViewController.swift in Sources */,
 				1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */,
+				1BD89B0C1B36A2F800D41622 /* HelpRebuewTsuuchi_ViewController.swift in Sources */,
+				1BD89B0E1B36B0C000D41622 /* HelpRebuewWrite.swift in Sources */,
 				1B4910661B256E250014F0DF /* HomeViewController.swift in Sources */,
 				1B8918CD1B2ADBD4005047D9 /* PasswordChangeViewController.swift in Sources */,
 				1BD89B0A1B367F4C00D41622 /* HelpMake_ViewController.swift in Sources */,
 				1B41E04A1B34FBE70007F007 /* HelpInfo_ViewController.swift in Sources */,
 				1B4910761B25CA0D0014F0DF /* Configuration.swift in Sources */,
+				1BD89B201B36F9B700D41622 /* HelpRebuewWrite_write_View.swift in Sources */,
 				1B99C1661B29BC0300389F82 /* SosViewController.swift in Sources */,
 				1B4910701B256F480014F0DF /* HelpViewController.swift in Sources */,
 				1B49106C1B256F150014F0DF /* FriendViewController.swift in Sources */,
@@ -869,6 +904,7 @@
 				1B99C16A1B29D7F700389F82 /* DiaryViewController.swift in Sources */,
 				1B8918CB1B2AD924005047D9 /* PasswordWhoViewController.swift in Sources */,
 				1B34A9BC1B292F1C0077F9F3 /* home1ViewController.swift in Sources */,
+				1BD89B1E1B36F60400D41622 /* HelpRebuewTsuuchi_write_ViewController.swift in Sources */,
 				1B8918C51B2AC0D3005047D9 /* AcountViewController.swift in Sources */,
 				1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */,
 				1B8918C91B2AD4F9005047D9 /* HonninViewController.swift in Sources */,
