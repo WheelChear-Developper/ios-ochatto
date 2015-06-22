@@ -17286,9 +17286,6 @@
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVx-bN-gkd" userLabel="DAMY-Scroll View">
                                         <rect key="frame" x="-85" y="-95" width="46" height="98"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="Nq4-tP-oRK" id="fEw-Gq-QXa"/>
-                                        </connections>
                                     </scrollView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7CM-xD-Fgd" userLabel="TabScroll View">
                                         <rect key="frame" x="0.0" y="0.0" width="590" height="26"/>
@@ -17332,9 +17329,6 @@
                                                                         <state key="normal" title="23">
                                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                         </state>
-                                                                        <connections>
-                                                                            <action selector="tab1_push:" destination="Nq4-tP-oRK" eventType="touchUpInside" id="Fug-Cc-HrB"/>
-                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -17424,9 +17418,6 @@
                                                                         <state key="normal" title="2">
                                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                         </state>
-                                                                        <connections>
-                                                                            <action selector="tab2_push:" destination="Nq4-tP-oRK" eventType="touchUpInside" id="zTZ-nm-PEu"/>
-                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -17509,9 +17500,6 @@
                                                                             <color key="titleColor" red="0.0" green="0.41176470590000003" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                         </state>
-                                                                        <connections>
-                                                                            <action selector="tab3_push:" destination="Nq4-tP-oRK" eventType="touchUpInside" id="QBG-lX-NzO"/>
-                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -17848,9 +17836,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="Help_TableView" destination="QyL-TU-6AN" id="gJK-ra-34D"/>
-                        <outlet property="Icon_TableView" destination="QyL-TU-6AN" id="BQk-ge-GKa"/>
-                        <outlet property="Icon_TableWakuView" destination="V1Q-hb-ZVP" id="8QZ-gG-Eo0"/>
+                        <outlet property="Help_TableView" destination="QyL-TU-6AN" id="Ypj-iQ-tzL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rcN-RM-pTU" userLabel="First Responder" sceneMemberID="firstResponder"/>
