@@ -138,6 +138,7 @@
 		1B8918CB1B2AD924005047D9 /* PasswordWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918CA1B2AD924005047D9 /* PasswordWhoViewController.swift */; };
 		1B8918CD1B2ADBD4005047D9 /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918CC1B2ADBD4005047D9 /* PasswordChangeViewController.swift */; };
 		1B8931181B317C6800AF315C /* Intaresut_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8931171B317C6800AF315C /* Intaresut_ViewController.swift */; };
+		1B98E5A61B37BC0600DA3750 /* Prof_Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98E5A51B37BC0600DA3750 /* Prof_Help.swift */; };
 		1B99C1661B29BC0300389F82 /* SosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1651B29BC0300389F82 /* SosViewController.swift */; };
 		1B99C1681B29CA4E00389F82 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1671B29CA4E00389F82 /* AlertViewController.swift */; };
 		1B99C16A1B29D7F700389F82 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99C1691B29D7F700389F82 /* DiaryViewController.swift */; };
@@ -313,6 +314,7 @@
 		1B8918CA1B2AD924005047D9 /* PasswordWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordWhoViewController.swift; path = image/PasswordWhoViewController.swift; sourceTree = "<group>"; };
 		1B8918CC1B2ADBD4005047D9 /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
 		1B8931171B317C6800AF315C /* Intaresut_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intaresut_ViewController.swift; sourceTree = "<group>"; };
+		1B98E5A51B37BC0600DA3750 /* Prof_Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prof_Help.swift; sourceTree = "<group>"; };
 		1B99C1651B29BC0300389F82 /* SosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SosViewController.swift; sourceTree = "<group>"; };
 		1B99C1671B29CA4E00389F82 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		1B99C1691B29D7F700389F82 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryViewController.swift; path = image/DiaryViewController.swift; sourceTree = "<group>"; };
@@ -524,6 +526,7 @@
 				1B58C72F1B2EB06C004D2212 /* Status_View.swift */,
 				1B8931171B317C6800AF315C /* Intaresut_ViewController.swift */,
 				1BD89B291B3711E800D41622 /* Privat_Fashon.swift */,
+				1B98E5A51B37BC0600DA3750 /* Prof_Help.swift */,
 			);
 			name = "Prof-sub";
 			sourceTree = "<group>";
@@ -901,6 +904,7 @@
 				1B8918CD1B2ADBD4005047D9 /* PasswordChangeViewController.swift in Sources */,
 				1BD89B0A1B367F4C00D41622 /* HelpMake_ViewController.swift in Sources */,
 				1B41E04A1B34FBE70007F007 /* HelpInfo_ViewController.swift in Sources */,
+				1B98E5A61B37BC0600DA3750 /* Prof_Help.swift in Sources */,
 				1B4910761B25CA0D0014F0DF /* Configuration.swift in Sources */,
 				1BD89B201B36F9B700D41622 /* HelpRebuewWrite_write_View.swift in Sources */,
 				1B99C1661B29BC0300389F82 /* SosViewController.swift in Sources */,
