@@ -15,7 +15,7 @@ class Prof2ViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet weak var Private_TableView: UITableView!
     @IBOutlet weak var Social_TableView: UITableView!
     @IBOutlet weak var Rebuew_TableView: UITableView!
-    
+    @IBOutlet weak var Ochatto_TableView: UITableView!
     @IBOutlet weak var List_TableView: UITableView!
     
     @IBOutlet weak var tab1_left: UIImageView!
@@ -95,6 +95,57 @@ class Prof2ViewController: UIViewController, UITableViewDataSource, UITableViewD
         List_TableWakuView.hidden = false
     }
     
+    @IBAction func newGroupe_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "GroupeMake", bundle: NSBundle.mainBundle())
+//        var groupeMake: GroupeMake = storyboard.instantiateInitialViewController() as! GroupeMake
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("GroupeMakeRoot") as! UINavigationController
+        
+//        self.navigationController?.pushViewController(navigation, animated: true)
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
+    @IBAction func profHelp_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Prof_Help", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("Prof_HelpRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
+    @IBAction func privateFashonNikki_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "PrivatFasshonNikki", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("PrivatFasshonNikkiRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
+    @IBAction func privateFashon_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Privat_Fashon", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("Privat_FashonRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
+    @IBAction func acountSet_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "AcountViewController", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("AcountSetRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
+    @IBAction func Status_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Status_View", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("Status_ViewRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
+    @IBAction func Intaresut_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Intaresut_ViewController", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("Intaresut_ViewControllerRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
     @IBAction func rebuew_delete(sender: AnyObject) {
         
         let alertController = UIAlertController(title: "確認", message: "", preferredStyle: .ActionSheet)
@@ -107,8 +158,10 @@ class Prof2ViewController: UIViewController, UITableViewDataSource, UITableViewD
         let setAction = UIAlertAction(title: "公開するグループ・個人を選択", style: .Default) {
             action in println("公開設定")
             
-            var nex : AnyObject! = self.storyboard!.instantiateViewControllerWithIdentifier("rebuew-koukaiset")
-            self.navigationController?.pushViewController(nex as! UIViewController, animated: true)
+            var storyboard: UIStoryboard = UIStoryboard(name: "RebuewKoukaiSet_View", bundle: NSBundle.mainBundle())
+            var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("RebuewKoukaiSet_ViewRoot") as! UINavigationController
+            
+            self.navigationController?.pushViewController(navigation, animated: true)
         }
         let cancelAction = UIAlertAction(title: "CANCEL", style: .Cancel) {
             action in println("CANCEL")
@@ -140,6 +193,9 @@ class Prof2ViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         Rebuew_TableView.delegate = self
         Rebuew_TableView.dataSource = self
+        
+        Ochatto_TableView.delegate = self
+        Ochatto_TableView.dataSource = self
         
         List_TableView.delegate = self
         List_TableView.dataSource = self
@@ -182,6 +238,8 @@ class Prof2ViewController: UIViewController, UITableViewDataSource, UITableViewD
             return 7
         }else if (tableView == Rebuew_TableView){
             return 2
+        }else if (tableView == Ochatto_TableView){
+            return 4
         }else if (tableView == List_TableView){
             return 4
         }else{
@@ -265,7 +323,7 @@ class Prof2ViewController: UIViewController, UITableViewDataSource, UITableViewD
                     }
                     
                 }else
-                    if (tableView == List_TableView){
+                    if (tableView == Ochatto_TableView){
                         if(indexPath.row == 0){
                             let cell = tableView.dequeueReusableCellWithIdentifier("cell1", forIndexPath: indexPath) as! UITableViewCell
                         }
@@ -281,13 +339,29 @@ class Prof2ViewController: UIViewController, UITableViewDataSource, UITableViewD
                         if(indexPath.row == 3){
                             let cell = tableView.dequeueReusableCellWithIdentifier("cell4", forIndexPath: indexPath) as! UITableViewCell
                         }
-                
-                }else{
-                    let cell = tableView.dequeueReusableCellWithIdentifier("", forIndexPath: indexPath) as! UITableViewCell
-                }
-        
+                    
+                    }else
+                        if (tableView == List_TableView){
+                            if(indexPath.row == 0){
+                                let cell = tableView.dequeueReusableCellWithIdentifier("cell1", forIndexPath: indexPath) as! UITableViewCell
+                            }
+                        
+                            if(indexPath.row == 1){
+                                let cell = tableView.dequeueReusableCellWithIdentifier("cell2", forIndexPath: indexPath) as! UITableViewCell
+                            }
+                        
+                            if(indexPath.row == 2){
+                                let cell = tableView.dequeueReusableCellWithIdentifier("cell3", forIndexPath: indexPath) as! UITableViewCell
+                            }
+                        
+                            if(indexPath.row == 3){
+                                let cell = tableView.dequeueReusableCellWithIdentifier("cell4", forIndexPath: indexPath) as! UITableViewCell
+                            }
+                        
+                        }else{
+                            let cell = tableView.dequeueReusableCellWithIdentifier("", forIndexPath: indexPath) as! UITableViewCell
+                        }
         
         return cell
     }
-    
 }

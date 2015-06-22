@@ -15,7 +15,7 @@ class Privat_Fashon: UIViewController, UITableViewDataSource, UITableViewDelegat
     @IBOutlet weak var Fashon_TableView: UITableView!
     
     @IBAction func naviclose(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     @IBAction func save_push(sender: AnyObject) {

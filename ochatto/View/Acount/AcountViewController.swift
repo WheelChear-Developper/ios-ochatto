@@ -14,7 +14,8 @@ class AcountViewController: UIViewController, UITableViewDataSource, UITableView
     @IBOutlet weak var TableView: UITableView!
     
     @IBAction func close_push(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        //self.navigationController?.popViewControllerAnimated(true)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {

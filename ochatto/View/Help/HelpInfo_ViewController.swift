@@ -16,6 +16,13 @@ class HelpInfo_ViewController: UIViewController, UITableViewDataSource, UITableV
         self.navigationController?.popViewControllerAnimated(true)
     }
     
+    @IBAction func HelpMake_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "HelpMake_ViewController", bundle: NSBundle.mainBundle())
+        var groupeMake: HelpMake_ViewController = storyboard.instantiateInitialViewController() as! HelpMake_ViewController
+        
+        self.navigationController?.pushViewController(groupeMake, animated: true)
+    }
+    
     // Tableで使用する配列を定義する.
     private let ListItems: NSArray = ["1", "2", "3", "4"]
     
@@ -23,9 +30,6 @@ class HelpInfo_ViewController: UIViewController, UITableViewDataSource, UITableV
         super.viewDidLoad()
         
         self.navigationItem.title = "Help Me!"
-        
-        HelpInfo_TableView.delegate = self
-        HelpInfo_TableView.dataSource = self
         
     }
     

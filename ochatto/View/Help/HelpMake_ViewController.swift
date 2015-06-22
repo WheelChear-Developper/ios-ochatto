@@ -10,6 +10,8 @@ import UIKit
 
 class HelpMake_ViewController: UIViewController  {
     
+    private var myLeftButton: UIBarButtonItem!
+    
     @IBAction func naviclose(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
     }
@@ -38,6 +40,13 @@ class HelpMake_ViewController: UIViewController  {
         super.viewDidLoad()
         
         self.navigationItem.title = "Help Me!編集"
+        
+        // 左ボタンを作成する..
+        myLeftButton = UIBarButtonItem(title: "", style: .Plain, target: nil, action: "")
+        // tagを設定する.
+        myLeftButton.tag = 1
+        // ナビゲーションバーの左に設置する.
+        self.navigationItem.leftBarButtonItem = myLeftButton
         
     }
     

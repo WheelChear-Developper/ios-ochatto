@@ -16,10 +16,8 @@ class HelpRebuewWrite: UIViewController  {
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
     
-    @IBOutlet weak var text_field: UITextView!
-    
     @IBAction func naviclose(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     @IBAction func face_1(sender: AnyObject) {
@@ -38,6 +36,13 @@ class HelpRebuewWrite: UIViewController  {
         button1.setBackgroundImage(UIImage(named: "button-off.png"), forState: .Normal)
         button2.setBackgroundImage(UIImage(named: "button-off.png"), forState: .Normal)
         button3.setBackgroundImage(UIImage(named: "button-on.png"), forState: .Normal)
+    }
+    
+    @IBAction func HelpMake_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "HelpRebuewWrite_write_View", bundle: NSBundle.mainBundle())
+        var groupeMake: HelpRebuewWrite_write_View = storyboard.instantiateInitialViewController() as! HelpRebuewWrite_write_View
+        
+        self.navigationController?.pushViewController(groupeMake, animated: true)
     }
     
     override func viewDidLoad() {

@@ -10,8 +10,14 @@ import UIKit
 
 class ProfViewController: UIViewController {
     
+    @IBAction func acountSet_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "AcountViewController", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("AcountSetRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
     @IBAction func mail(sender: AnyObject) {
-
         self.tabBarController?.selectedIndex = 2
     }
     
@@ -38,6 +44,12 @@ class ProfViewController: UIViewController {
         }
     }
     
+    @IBAction func Prof2_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Prof2ViewController", bundle: NSBundle.mainBundle())
+        var groupeMake: Prof2ViewController = storyboard.instantiateInitialViewController() as! Prof2ViewController
+        
+        self.navigationController?.pushViewController(groupeMake, animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

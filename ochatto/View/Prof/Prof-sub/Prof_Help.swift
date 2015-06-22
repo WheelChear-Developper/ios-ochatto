@@ -15,7 +15,7 @@ class Prof_Help: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var Help_TableView: UITableView!
     
     @IBAction func naviclose(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -52,11 +52,11 @@ class Prof_Help: UIViewController, UITableViewDataSource, UITableViewDelegate {
     (実装必須)
     */
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 8
+        return 3
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 130
+        return 170
     }
     
     /*

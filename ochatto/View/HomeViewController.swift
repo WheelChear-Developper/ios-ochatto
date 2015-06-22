@@ -24,7 +24,7 @@ class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         frame1.hidden = false
     }
     
-    @IBAction func hito1_close(sender: AnyObject) {
+    @IBAction func frame1_push(sender: AnyObject) {
         frame1.hidden = true
     }
     @IBAction func frsme1_close(sender: AnyObject) {
@@ -36,8 +36,13 @@ class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         frame2.hidden = false
     }
     
-    @IBAction func house1_close(sender: AnyObject) {
+    @IBAction func frame2_push(sender: AnyObject) {
         frame2.hidden = true
+        
+        var storyboard: UIStoryboard = UIStoryboard(name: "home1ViewController", bundle: NSBundle.mainBundle())
+        var SetViewController: home1ViewController = storyboard.instantiateInitialViewController() as! home1ViewController
+        
+        self.navigationController?.pushViewController(SetViewController, animated: true)
     }
     @IBAction func frsme2_close(sender: AnyObject) {
         frame2.hidden = true
@@ -47,6 +52,19 @@ class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         self.tabBarController?.selectedIndex = 4
     }
 
+    @IBAction func alert_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "AlertViewController", bundle: NSBundle.mainBundle())
+        var SetViewController: AlertViewController = storyboard.instantiateInitialViewController() as! AlertViewController
+        
+        self.navigationController?.pushViewController(SetViewController, animated: true)
+    }
+    
+    @IBAction func sos_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "SosViewController", bundle: NSBundle.mainBundle())
+        var SetViewController: SosViewController = storyboard.instantiateInitialViewController() as! SosViewController
+        
+        self.navigationController?.pushViewController(SetViewController, animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9ed-nD-1W7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MTLmr3m.ttf">
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Sos View Controller-->
+        <scene sceneID="Vas-E7-ugo">
+            <objects>
+                <viewController id="9ed-nD-1W7" customClass="SosViewController" customModule="ochatto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FJO-mx-UBR"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zle-Nh-7pX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J1c-Px-E3A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ng6-0o-T7d">
+                                <rect key="frame" x="20" y="40" width="560" height="500"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3JV-jA-bBi">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="500"/>
+                                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DGd-va-hsI">
+                                        <rect key="frame" x="1" y="1" width="558" height="498"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOSを受信しました" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63r-tt-YZj">
+                                        <rect key="frame" x="20" y="20" width="520" height="15"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="15"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4月30日　19:40" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPJ-eF-zP3">
+                                        <rect key="frame" x="20" y="43" width="520" height="15"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="15"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="qDM-DI-y5p">
+                                        <rect key="frame" x="20" y="66" width="55" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="OS2-fd-BEr"/>
+                                            <constraint firstAttribute="width" constant="55" id="oK2-B3-qlr"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="キノシタ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxE-Sc-FUj">
+                                        <rect key="frame" x="126" y="83" width="414" height="17"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="「助けて。心臓がおかしい。家にいます。救急車を呼んで。」" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dc6-pc-LfZ">
+                                        <rect key="frame" x="20" y="131" width="520" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="Yej-xL-sLg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カワムラさんの現在地" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-Ih-rCY">
+                                        <rect key="frame" x="20" y="199" width="520" height="17"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgh-BH-5YL">
+                                        <rect key="frame" x="20" y="224" width="520" height="256"/>
+                                    </mapView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="DGd-va-hsI" secondAttribute="trailing" constant="1" id="74a-rp-49N"/>
+                                    <constraint firstAttribute="bottom" secondItem="DGd-va-hsI" secondAttribute="bottom" constant="1" id="7pC-Uo-IqC"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mgh-BH-5YL" secondAttribute="trailing" constant="20" id="ABu-Xc-g1D"/>
+                                    <constraint firstItem="Mgh-BH-5YL" firstAttribute="top" secondItem="3w9-Ih-rCY" secondAttribute="bottom" constant="8" id="Bs8-qp-BwQ"/>
+                                    <constraint firstItem="3w9-Ih-rCY" firstAttribute="leading" secondItem="ng6-0o-T7d" secondAttribute="leading" constant="20" id="EJl-2d-lmA"/>
+                                    <constraint firstItem="dc6-pc-LfZ" firstAttribute="leading" secondItem="ng6-0o-T7d" secondAttribute="leading" constant="20" id="FL9-GC-fKR"/>
+                                    <constraint firstItem="DGd-va-hsI" firstAttribute="top" secondItem="ng6-0o-T7d" secondAttribute="top" constant="1" id="ITr-vU-zRX"/>
+                                    <constraint firstItem="LxE-Sc-FUj" firstAttribute="leading" secondItem="qDM-DI-y5p" secondAttribute="trailing" constant="51" id="Lhy-JO-Wy6"/>
+                                    <constraint firstAttribute="bottom" secondItem="3JV-jA-bBi" secondAttribute="bottom" id="Lsc-Zs-0qA"/>
+                                    <constraint firstAttribute="trailing" secondItem="dc6-pc-LfZ" secondAttribute="trailing" constant="20" id="OTY-N3-xTn"/>
+                                    <constraint firstItem="63r-tt-YZj" firstAttribute="top" secondItem="ng6-0o-T7d" secondAttribute="top" constant="20" id="RQI-N5-iBi"/>
+                                    <constraint firstItem="dc6-pc-LfZ" firstAttribute="top" secondItem="qDM-DI-y5p" secondAttribute="bottom" constant="10" id="ToM-G2-ASz"/>
+                                    <constraint firstItem="qDM-DI-y5p" firstAttribute="top" secondItem="XPJ-eF-zP3" secondAttribute="bottom" constant="8" id="UrY-bs-4rY"/>
+                                    <constraint firstAttribute="trailing" secondItem="3JV-jA-bBi" secondAttribute="trailing" id="Vkf-yh-kNq"/>
+                                    <constraint firstItem="XPJ-eF-zP3" firstAttribute="top" secondItem="63r-tt-YZj" secondAttribute="bottom" constant="8" id="WYr-jC-Sgh"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mgh-BH-5YL" secondAttribute="bottom" constant="20" id="YQO-ft-g8H"/>
+                                    <constraint firstItem="XPJ-eF-zP3" firstAttribute="leading" secondItem="ng6-0o-T7d" secondAttribute="leading" constant="20" id="Ye6-wP-GP8"/>
+                                    <constraint firstAttribute="trailing" secondItem="LxE-Sc-FUj" secondAttribute="trailing" constant="20" id="cb9-Op-DvG"/>
+                                    <constraint firstItem="qDM-DI-y5p" firstAttribute="leading" secondItem="ng6-0o-T7d" secondAttribute="leading" constant="20" id="d62-K8-8cH"/>
+                                    <constraint firstItem="3JV-jA-bBi" firstAttribute="top" secondItem="ng6-0o-T7d" secondAttribute="top" id="dld-Bc-yS3"/>
+                                    <constraint firstAttribute="trailing" secondItem="XPJ-eF-zP3" secondAttribute="trailing" constant="20" id="fhR-df-ytW"/>
+                                    <constraint firstAttribute="trailing" secondItem="3w9-Ih-rCY" secondAttribute="trailing" constant="20" id="gYp-BR-UeY"/>
+                                    <constraint firstItem="3JV-jA-bBi" firstAttribute="leading" secondItem="ng6-0o-T7d" secondAttribute="leading" id="guk-FW-mHX"/>
+                                    <constraint firstItem="63r-tt-YZj" firstAttribute="leading" secondItem="ng6-0o-T7d" secondAttribute="leading" constant="20" id="mT3-gZ-nhF"/>
+                                    <constraint firstItem="3w9-Ih-rCY" firstAttribute="top" secondItem="dc6-pc-LfZ" secondAttribute="bottom" constant="12" id="r7Q-mx-cHQ"/>
+                                    <constraint firstItem="Mgh-BH-5YL" firstAttribute="leading" secondItem="ng6-0o-T7d" secondAttribute="leading" constant="20" id="rNp-y6-Zxd"/>
+                                    <constraint firstItem="DGd-va-hsI" firstAttribute="leading" secondItem="ng6-0o-T7d" secondAttribute="leading" constant="1" id="tBy-uv-MZC"/>
+                                    <constraint firstAttribute="trailing" secondItem="63r-tt-YZj" secondAttribute="trailing" constant="20" id="w9e-Up-cY8"/>
+                                    <constraint firstItem="LxE-Sc-FUj" firstAttribute="top" secondItem="XPJ-eF-zP3" secondAttribute="bottom" constant="25" id="wYi-nJ-Cuj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9847222444" blue="0.94073278900000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ng6-0o-T7d" firstAttribute="leading" secondItem="J1c-Px-E3A" secondAttribute="leading" constant="20" id="b5p-at-laQ"/>
+                            <constraint firstAttribute="bottom" secondItem="ng6-0o-T7d" secondAttribute="bottom" constant="60" id="dlI-NK-5Yg"/>
+                            <constraint firstAttribute="trailing" secondItem="ng6-0o-T7d" secondAttribute="trailing" constant="20" id="m5l-Qe-9vX"/>
+                            <constraint firstItem="ng6-0o-T7d" firstAttribute="top" secondItem="FJO-mx-UBR" secondAttribute="bottom" constant="20" id="uYf-Wg-Qxv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="55N-Sc-fjS">
+                        <barButtonItem key="rightBarButtonItem" image="nabi-batsu.png" id="b4W-fn-S42">
+                            <connections>
+                                <action selector="naviclose:" destination="9ed-nD-1W7" id="MmR-eb-Tbd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myMapView" destination="Mgh-BH-5YL" id="lt9-Wu-QoC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uzi-rc-Tmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="-1266"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hito3.png" width="341" height="341"/>
+        <image name="nabi-batsu.png" width="22" height="22"/>
+    </resources>
+</document>

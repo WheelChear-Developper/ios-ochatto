@@ -14,6 +14,13 @@ class HelpRebuewTsuuchi_ViewController: UIViewController  {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    @IBAction func HelpMake_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "HelpRebuewTsuuchi_write_ViewController", bundle: NSBundle.mainBundle())
+        var groupeMake: HelpRebuewTsuuchi_write_ViewController = storyboard.instantiateInitialViewController() as! HelpRebuewTsuuchi_write_ViewController
+        
+        self.navigationController?.pushViewController(groupeMake, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

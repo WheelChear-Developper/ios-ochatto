@@ -35,6 +35,27 @@ class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDe
         Help_TableView.scrollToRowAtIndexPath( lastPath , atScrollPosition: .Top, animated: true)
     }
     
+    @IBAction func HelpInfo_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "HelpInfo_ViewController", bundle: NSBundle.mainBundle())
+        var groupeMake: HelpInfo_ViewController = storyboard.instantiateInitialViewController() as! HelpInfo_ViewController
+        
+        self.navigationController?.pushViewController(groupeMake, animated: true)
+    }
+    
+    @IBAction func rebuewTsuuchi_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "HelpRebuewTsuuchi_ViewController", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("HelpRebuewTsuuchi_ViewControllerRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
+    @IBAction func rebuewWrite_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "HelpRebuewWrite", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("HelpRebuewWriteRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
