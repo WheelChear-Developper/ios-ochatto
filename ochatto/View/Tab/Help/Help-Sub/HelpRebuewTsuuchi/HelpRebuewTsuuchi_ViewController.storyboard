@@ -26,7 +26,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nPr-0F-BDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1118" y="5315"/>
+            <point key="canvasLocation" x="511" y="5081"/>
         </scene>
         <!--Ochatto-->
         <scene sceneID="m5a-Zv-dOI">
@@ -176,7 +176,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GVD-BE-zKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1917" y="5315"/>
+            <point key="canvasLocation" x="1310" y="5081"/>
         </scene>
     </scenes>
     <resources>

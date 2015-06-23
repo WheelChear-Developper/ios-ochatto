@@ -31,6 +31,9 @@ class HelpInfo_ViewController: UIViewController, UITableViewDataSource, UITableV
         
         self.navigationItem.title = "Help Me!"
         
+        HelpInfo_TableView.delegate = self
+        HelpInfo_TableView.dataSource = self
+        
     }
     
     override func didReceiveMemoryWarning() {

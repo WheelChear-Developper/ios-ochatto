@@ -97,10 +97,8 @@ class Prof2ViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     @IBAction func newGroupe_push(sender: AnyObject) {
         var storyboard: UIStoryboard = UIStoryboard(name: "GroupeMake", bundle: NSBundle.mainBundle())
-//        var groupeMake: GroupeMake = storyboard.instantiateInitialViewController() as! GroupeMake
         var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("GroupeMakeRoot") as! UINavigationController
         
-//        self.navigationController?.pushViewController(navigation, animated: true)
         self.presentViewController(navigation, animated: true, completion: nil)
     }
     

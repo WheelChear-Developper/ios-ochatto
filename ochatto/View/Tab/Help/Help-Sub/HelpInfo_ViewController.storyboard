@@ -582,7 +582,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" tag="5" title="Help" id="Zn8-7Z-IhK"/>
                     <navigationItem key="navigationItem" id="JEg-MH-6Hf">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="39v-gh-OXg">
+                        <barButtonItem key="rightBarButtonItem" id="39v-gh-OXg">
                             <view key="customView" contentMode="scaleToFill" id="2i4-B4-B5H">
                                 <rect key="frame" x="0.0" y="0.0" width="133" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -630,7 +630,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MbQ-Hd-9cz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="804" y="2891"/>
+            <point key="canvasLocation" x="-128" y="2523"/>
         </scene>
     </scenes>
     <resources>

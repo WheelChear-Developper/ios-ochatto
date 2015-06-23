@@ -165,11 +165,11 @@
                                                                 </constraints>
                                                                 <variation key="default">
                                                                     <mask key="constraints">
-                                                                        <exclude reference="oSO-Bh-oHL"/>
-                                                                        <exclude reference="n8i-TZ-MKL"/>
                                                                         <exclude reference="5Y9-7w-eSf"/>
-                                                                        <exclude reference="f4p-WJ-yWA"/>
+                                                                        <exclude reference="n8i-TZ-MKL"/>
+                                                                        <exclude reference="oSO-Bh-oHL"/>
                                                                         <exclude reference="WEM-0h-jlJ"/>
+                                                                        <exclude reference="f4p-WJ-yWA"/>
                                                                     </mask>
                                                                 </variation>
                                                             </view>
@@ -221,8 +221,8 @@
                                                                         </constraints>
                                                                         <variation key="default">
                                                                             <mask key="constraints">
-                                                                                <exclude reference="dtP-xf-yxJ"/>
                                                                                 <exclude reference="3Qb-S7-QWp"/>
+                                                                                <exclude reference="dtP-xf-yxJ"/>
                                                                             </mask>
                                                                         </variation>
                                                                     </imageView>
@@ -302,8 +302,8 @@
                                                                         </constraints>
                                                                         <variation key="default">
                                                                             <mask key="constraints">
-                                                                                <exclude reference="tSJ-Tl-Xg2"/>
                                                                                 <exclude reference="ZeA-RM-WuQ"/>
+                                                                                <exclude reference="tSJ-Tl-Xg2"/>
                                                                             </mask>
                                                                         </variation>
                                                                     </imageView>

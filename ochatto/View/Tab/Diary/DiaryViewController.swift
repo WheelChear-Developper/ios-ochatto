@@ -10,8 +10,6 @@ import UIKit
 
 class DiaryViewController: UIViewController {
     
-    private var myLeftButton: UIBarButtonItem!
-    
     @IBAction func delete_push(sender: AnyObject) {
         
         let alertController = UIAlertController(title: "確認", message: "本当に削除しますか？", preferredStyle: .Alert)
@@ -32,13 +30,6 @@ class DiaryViewController: UIViewController {
         super.viewDidLoad()
         
         self.navigationItem.title = "日記の作成"
-        
-        // 左ボタンを作成する..
-        myLeftButton = UIBarButtonItem(title: "", style: .Plain, target: nil, action: "")
-        // tagを設定する.
-        myLeftButton.tag = 1
-        // ナビゲーションバーの左に設置する.
-        self.navigationItem.leftBarButtonItem = myLeftButton
     }
     
     override func didReceiveMemoryWarning() {

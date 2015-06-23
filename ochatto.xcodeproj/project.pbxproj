@@ -15,11 +15,6 @@
 		1B49105C1B255F380014F0DF /* ochattoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B49105B1B255F380014F0DF /* ochattoTests.swift */; };
 		1B4910721B257A6E0014F0DF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4910711B257A6E0014F0DF /* MapKit.framework */; };
 		1B4910741B25A26D0014F0DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4910731B25A26D0014F0DF /* CoreLocation.framework */; };
-		1B7295981B38CF28002D9BDE /* AcountViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295601B38CF28002D9BDE /* AcountViewController.storyboard */; };
-		1B7295991B38CF28002D9BDE /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295611B38CF28002D9BDE /* AcountViewController.swift */; };
-		1B72959A1B38CF28002D9BDE /* HonninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295621B38CF28002D9BDE /* HonninViewController.swift */; };
-		1B72959B1B38CF28002D9BDE /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295631B38CF28002D9BDE /* PasswordChangeViewController.swift */; };
-		1B72959C1B38CF28002D9BDE /* PasswordWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295641B38CF28002D9BDE /* PasswordWhoViewController.swift */; };
 		1B72959D1B38CF28002D9BDE /* home1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295661B38CF28002D9BDE /* home1ViewController.storyboard */; };
 		1B72959E1B38CF28002D9BDE /* home1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295671B38CF28002D9BDE /* home1ViewController.swift */; };
 		1B72959F1B38CF28002D9BDE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295681B38CF28002D9BDE /* HomeViewController.swift */; };
@@ -29,39 +24,50 @@
 		1B7295A31B38CF28002D9BDE /* SosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72956D1B38CF28002D9BDE /* SosViewController.swift */; };
 		1B7295A41B38CF28002D9BDE /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295701B38CF28002D9BDE /* DiaryViewController.swift */; };
 		1B7295A51B38CF28002D9BDE /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295721B38CF28002D9BDE /* FriendViewController.swift */; };
-		1B7295A61B38CF28002D9BDE /* HelpInfo_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295741B38CF28002D9BDE /* HelpInfo_ViewController.storyboard */; };
-		1B7295A71B38CF28002D9BDE /* HelpInfo_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295751B38CF28002D9BDE /* HelpInfo_ViewController.swift */; };
-		1B7295A81B38CF28002D9BDE /* HelpMake_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295761B38CF28002D9BDE /* HelpMake_ViewController.storyboard */; };
-		1B7295A91B38CF28002D9BDE /* HelpMake_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295771B38CF28002D9BDE /* HelpMake_ViewController.swift */; };
-		1B7295AA1B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295781B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard */; };
-		1B7295AB1B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295791B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.swift */; };
-		1B7295AC1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72957A1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard */; };
-		1B7295AD1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72957B1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift */; };
-		1B7295AE1B38CF28002D9BDE /* HelpRebuewWrite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72957C1B38CF28002D9BDE /* HelpRebuewWrite.storyboard */; };
-		1B7295AF1B38CF28002D9BDE /* HelpRebuewWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72957D1B38CF28002D9BDE /* HelpRebuewWrite.swift */; };
-		1B7295B01B38CF28002D9BDE /* HelpRebuewWrite_write_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72957E1B38CF28002D9BDE /* HelpRebuewWrite_write_View.storyboard */; };
-		1B7295B11B38CF28002D9BDE /* HelpRebuewWrite_write_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72957F1B38CF28002D9BDE /* HelpRebuewWrite_write_View.swift */; };
 		1B7295B21B38CF28002D9BDE /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295801B38CF28002D9BDE /* HelpViewController.swift */; };
 		1B7295B31B38CF28002D9BDE /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295821B38CF28002D9BDE /* MailViewController.swift */; };
-		1B7295B41B38CF28002D9BDE /* GroupeMake.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295851B38CF28002D9BDE /* GroupeMake.storyboard */; };
-		1B7295B51B38CF28002D9BDE /* GroupeMake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295861B38CF28002D9BDE /* GroupeMake.swift */; };
-		1B7295B61B38CF28002D9BDE /* Intaresut_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295871B38CF28002D9BDE /* Intaresut_ViewController.storyboard */; };
-		1B7295B71B38CF28002D9BDE /* Intaresut_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295881B38CF28002D9BDE /* Intaresut_ViewController.swift */; };
-		1B7295B81B38CF28002D9BDE /* Privat_Fashon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295891B38CF28002D9BDE /* Privat_Fashon.storyboard */; };
-		1B7295B91B38CF28002D9BDE /* Privat_Fashon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72958A1B38CF28002D9BDE /* Privat_Fashon.swift */; };
-		1B7295BA1B38CF28002D9BDE /* PrivatFasshonNikki.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72958B1B38CF28002D9BDE /* PrivatFasshonNikki.storyboard */; };
-		1B7295BB1B38CF28002D9BDE /* PrivatFasshonNikki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72958C1B38CF28002D9BDE /* PrivatFasshonNikki.swift */; };
-		1B7295BC1B38CF28002D9BDE /* Prof_Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72958D1B38CF28002D9BDE /* Prof_Help.storyboard */; };
-		1B7295BD1B38CF28002D9BDE /* Prof_Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72958E1B38CF28002D9BDE /* Prof_Help.swift */; };
-		1B7295BE1B38CF28002D9BDE /* RebuewKoukaiSet_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72958F1B38CF28002D9BDE /* RebuewKoukaiSet_View.storyboard */; };
-		1B7295BF1B38CF28002D9BDE /* RebuewKoukaiSet_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295901B38CF28002D9BDE /* RebuewKoukaiSet_View.swift */; };
-		1B7295C01B38CF28002D9BDE /* Status_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295911B38CF28002D9BDE /* Status_View.storyboard */; };
-		1B7295C11B38CF28002D9BDE /* Status_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295921B38CF28002D9BDE /* Status_View.swift */; };
 		1B7295C21B38CF28002D9BDE /* Prof2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295931B38CF28002D9BDE /* Prof2ViewController.storyboard */; };
 		1B7295C31B38CF28002D9BDE /* Prof2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295941B38CF28002D9BDE /* Prof2ViewController.swift */; };
 		1B7295C41B38CF28002D9BDE /* ProfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295951B38CF28002D9BDE /* ProfViewController.swift */; };
 		1B7295C51B38CF28002D9BDE /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295971B38CF28002D9BDE /* TimeLineViewController.swift */; };
 		1B7295C81B38CF36002D9BDE /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295C71B38CF36002D9BDE /* Configuration.swift */; };
+		1B7295D61B38D623002D9BDE /* HelpInfo_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295CA1B38D623002D9BDE /* HelpInfo_ViewController.storyboard */; };
+		1B7295D71B38D623002D9BDE /* HelpInfo_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295CB1B38D623002D9BDE /* HelpInfo_ViewController.swift */; };
+		1B7295D81B38D623002D9BDE /* HelpMake_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295CC1B38D623002D9BDE /* HelpMake_ViewController.storyboard */; };
+		1B7295D91B38D623002D9BDE /* HelpMake_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295CD1B38D623002D9BDE /* HelpMake_ViewController.swift */; };
+		1B7296091B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296001B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard */; };
+		1B72960A1B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296011B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.swift */; };
+		1B72960B1B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296021B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard */; };
+		1B72960C1B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296031B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift */; };
+		1B72960D1B38D758002D9BDE /* HelpRebuewWrite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296051B38D758002D9BDE /* HelpRebuewWrite.storyboard */; };
+		1B72960E1B38D758002D9BDE /* HelpRebuewWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296061B38D758002D9BDE /* HelpRebuewWrite.swift */; };
+		1B72960F1B38D758002D9BDE /* HelpRebuewWrite_write_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296071B38D758002D9BDE /* HelpRebuewWrite_write_View.storyboard */; };
+		1B7296101B38D758002D9BDE /* HelpRebuewWrite_write_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296081B38D758002D9BDE /* HelpRebuewWrite_write_View.swift */; };
+		1B7296321B38D883002D9BDE /* AcountViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72961E1B38D883002D9BDE /* AcountViewController.storyboard */; };
+		1B7296331B38D883002D9BDE /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72961F1B38D883002D9BDE /* AcountViewController.swift */; };
+		1B7296341B38D883002D9BDE /* HonninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296201B38D883002D9BDE /* HonninViewController.swift */; };
+		1B7296351B38D883002D9BDE /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296211B38D883002D9BDE /* PasswordChangeViewController.swift */; };
+		1B7296361B38D883002D9BDE /* PasswordWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296221B38D883002D9BDE /* PasswordWhoViewController.swift */; };
+		1B72963B1B38D883002D9BDE /* Privat_Fashon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296271B38D883002D9BDE /* Privat_Fashon.storyboard */; };
+		1B72963C1B38D883002D9BDE /* Privat_Fashon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296281B38D883002D9BDE /* Privat_Fashon.swift */; };
+		1B72963D1B38D883002D9BDE /* PrivatFasshonNikki.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72962A1B38D883002D9BDE /* PrivatFasshonNikki.storyboard */; };
+		1B72963E1B38D883002D9BDE /* PrivatFasshonNikki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72962B1B38D883002D9BDE /* PrivatFasshonNikki.swift */; };
+		1B7296411B38D883002D9BDE /* RebuewKoukaiSet_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72962E1B38D883002D9BDE /* RebuewKoukaiSet_View.storyboard */; };
+		1B7296421B38D883002D9BDE /* RebuewKoukaiSet_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72962F1B38D883002D9BDE /* RebuewKoukaiSet_View.swift */; };
+		1B7296491B38D90A002D9BDE /* Intaresut_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296451B38D90A002D9BDE /* Intaresut_ViewController.storyboard */; };
+		1B72964A1B38D90A002D9BDE /* Intaresut_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296461B38D90A002D9BDE /* Intaresut_ViewController.swift */; };
+		1B72964B1B38D90A002D9BDE /* Prof_Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296471B38D90A002D9BDE /* Prof_Help.storyboard */; };
+		1B72964C1B38D90A002D9BDE /* Prof_Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296481B38D90A002D9BDE /* Prof_Help.swift */; };
+		1B72965D1B38D9A4002D9BDE /* Status_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296591B38D9A4002D9BDE /* Status_View.storyboard */; };
+		1B72965E1B38D9A4002D9BDE /* Status_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72965A1B38D9A4002D9BDE /* Status_View.swift */; };
+		1B7296621B38E110002D9BDE /* button-uzumaki.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296611B38E110002D9BDE /* button-uzumaki.png */; };
+		1B7296641B38E180002D9BDE /* button-sankaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296631B38E180002D9BDE /* button-sankaku.png */; };
+		1B7296661B38E358002D9BDE /* button-hyuman.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296651B38E358002D9BDE /* button-hyuman.png */; };
+		1B72966A1B38F3BF002D9BDE /* GroupeMake.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296681B38F3BF002D9BDE /* GroupeMake.storyboard */; };
+		1B72966B1B38F3BF002D9BDE /* GroupeMake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296691B38F3BF002D9BDE /* GroupeMake.swift */; };
+		1B7296711B392F72002D9BDE /* GroupeMake_Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7296701B392F72002D9BDE /* GroupeMake_Setting.swift */; };
+		1B7296731B392F89002D9BDE /* GroupeMake_Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7296721B392F89002D9BDE /* GroupeMake_Setting.storyboard */; };
+		1B72967B1B395EF4002D9BDE /* icon-shock.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B72967A1B395EF4002D9BDE /* icon-shock.png */; };
 		1B98E6661B37C4A100DA3750 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = 1B98E5EC1B37C4A000DA3750 /* Android.mk */; };
 		1B98E6671B37C4A100DA3750 /* AndroidClock.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B98E5ED1B37C4A000DA3750 /* AndroidClock.ttf */; };
 		1B98E6681B37C4A100DA3750 /* AndroidClock_Highlight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B98E5EE1B37C4A000DA3750 /* AndroidClock_Highlight.ttf */; };
@@ -208,11 +214,6 @@
 		1B49105B1B255F380014F0DF /* ochattoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ochattoTests.swift; sourceTree = "<group>"; };
 		1B4910711B257A6E0014F0DF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1B4910731B25A26D0014F0DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		1B7295601B38CF28002D9BDE /* AcountViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AcountViewController.storyboard; sourceTree = "<group>"; };
-		1B7295611B38CF28002D9BDE /* AcountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcountViewController.swift; sourceTree = "<group>"; };
-		1B7295621B38CF28002D9BDE /* HonninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HonninViewController.swift; sourceTree = "<group>"; };
-		1B7295631B38CF28002D9BDE /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
-		1B7295641B38CF28002D9BDE /* PasswordWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordWhoViewController.swift; sourceTree = "<group>"; };
 		1B7295661B38CF28002D9BDE /* home1ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = home1ViewController.storyboard; sourceTree = "<group>"; };
 		1B7295671B38CF28002D9BDE /* home1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = home1ViewController.swift; sourceTree = "<group>"; };
 		1B7295681B38CF28002D9BDE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -222,39 +223,50 @@
 		1B72956D1B38CF28002D9BDE /* SosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SosViewController.swift; sourceTree = "<group>"; };
 		1B7295701B38CF28002D9BDE /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		1B7295721B38CF28002D9BDE /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
-		1B7295741B38CF28002D9BDE /* HelpInfo_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpInfo_ViewController.storyboard; sourceTree = "<group>"; };
-		1B7295751B38CF28002D9BDE /* HelpInfo_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpInfo_ViewController.swift; sourceTree = "<group>"; };
-		1B7295761B38CF28002D9BDE /* HelpMake_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpMake_ViewController.storyboard; sourceTree = "<group>"; };
-		1B7295771B38CF28002D9BDE /* HelpMake_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMake_ViewController.swift; sourceTree = "<group>"; };
-		1B7295781B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewTsuuchi_ViewController.storyboard; sourceTree = "<group>"; };
-		1B7295791B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewTsuuchi_ViewController.swift; sourceTree = "<group>"; };
-		1B72957A1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewTsuuchi_write_ViewController.storyboard; sourceTree = "<group>"; };
-		1B72957B1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewTsuuchi_write_ViewController.swift; sourceTree = "<group>"; };
-		1B72957C1B38CF28002D9BDE /* HelpRebuewWrite.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewWrite.storyboard; sourceTree = "<group>"; };
-		1B72957D1B38CF28002D9BDE /* HelpRebuewWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite.swift; sourceTree = "<group>"; };
-		1B72957E1B38CF28002D9BDE /* HelpRebuewWrite_write_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewWrite_write_View.storyboard; sourceTree = "<group>"; };
-		1B72957F1B38CF28002D9BDE /* HelpRebuewWrite_write_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite_write_View.swift; sourceTree = "<group>"; };
 		1B7295801B38CF28002D9BDE /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		1B7295821B38CF28002D9BDE /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
-		1B7295851B38CF28002D9BDE /* GroupeMake.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupeMake.storyboard; sourceTree = "<group>"; };
-		1B7295861B38CF28002D9BDE /* GroupeMake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupeMake.swift; sourceTree = "<group>"; };
-		1B7295871B38CF28002D9BDE /* Intaresut_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Intaresut_ViewController.storyboard; sourceTree = "<group>"; };
-		1B7295881B38CF28002D9BDE /* Intaresut_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intaresut_ViewController.swift; sourceTree = "<group>"; };
-		1B7295891B38CF28002D9BDE /* Privat_Fashon.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Privat_Fashon.storyboard; sourceTree = "<group>"; };
-		1B72958A1B38CF28002D9BDE /* Privat_Fashon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privat_Fashon.swift; sourceTree = "<group>"; };
-		1B72958B1B38CF28002D9BDE /* PrivatFasshonNikki.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrivatFasshonNikki.storyboard; sourceTree = "<group>"; };
-		1B72958C1B38CF28002D9BDE /* PrivatFasshonNikki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivatFasshonNikki.swift; sourceTree = "<group>"; };
-		1B72958D1B38CF28002D9BDE /* Prof_Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Prof_Help.storyboard; sourceTree = "<group>"; };
-		1B72958E1B38CF28002D9BDE /* Prof_Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prof_Help.swift; sourceTree = "<group>"; };
-		1B72958F1B38CF28002D9BDE /* RebuewKoukaiSet_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RebuewKoukaiSet_View.storyboard; sourceTree = "<group>"; };
-		1B7295901B38CF28002D9BDE /* RebuewKoukaiSet_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebuewKoukaiSet_View.swift; sourceTree = "<group>"; };
-		1B7295911B38CF28002D9BDE /* Status_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Status_View.storyboard; sourceTree = "<group>"; };
-		1B7295921B38CF28002D9BDE /* Status_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status_View.swift; sourceTree = "<group>"; };
 		1B7295931B38CF28002D9BDE /* Prof2ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Prof2ViewController.storyboard; sourceTree = "<group>"; };
 		1B7295941B38CF28002D9BDE /* Prof2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prof2ViewController.swift; sourceTree = "<group>"; };
 		1B7295951B38CF28002D9BDE /* ProfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfViewController.swift; sourceTree = "<group>"; };
 		1B7295971B38CF28002D9BDE /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		1B7295C71B38CF36002D9BDE /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		1B7295CA1B38D623002D9BDE /* HelpInfo_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpInfo_ViewController.storyboard; sourceTree = "<group>"; };
+		1B7295CB1B38D623002D9BDE /* HelpInfo_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpInfo_ViewController.swift; sourceTree = "<group>"; };
+		1B7295CC1B38D623002D9BDE /* HelpMake_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpMake_ViewController.storyboard; sourceTree = "<group>"; };
+		1B7295CD1B38D623002D9BDE /* HelpMake_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMake_ViewController.swift; sourceTree = "<group>"; };
+		1B7296001B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewTsuuchi_ViewController.storyboard; sourceTree = "<group>"; };
+		1B7296011B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewTsuuchi_ViewController.swift; sourceTree = "<group>"; };
+		1B7296021B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewTsuuchi_write_ViewController.storyboard; sourceTree = "<group>"; };
+		1B7296031B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewTsuuchi_write_ViewController.swift; sourceTree = "<group>"; };
+		1B7296051B38D758002D9BDE /* HelpRebuewWrite.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewWrite.storyboard; sourceTree = "<group>"; };
+		1B7296061B38D758002D9BDE /* HelpRebuewWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite.swift; sourceTree = "<group>"; };
+		1B7296071B38D758002D9BDE /* HelpRebuewWrite_write_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewWrite_write_View.storyboard; sourceTree = "<group>"; };
+		1B7296081B38D758002D9BDE /* HelpRebuewWrite_write_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite_write_View.swift; sourceTree = "<group>"; };
+		1B72961E1B38D883002D9BDE /* AcountViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AcountViewController.storyboard; sourceTree = "<group>"; };
+		1B72961F1B38D883002D9BDE /* AcountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcountViewController.swift; sourceTree = "<group>"; };
+		1B7296201B38D883002D9BDE /* HonninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HonninViewController.swift; sourceTree = "<group>"; };
+		1B7296211B38D883002D9BDE /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
+		1B7296221B38D883002D9BDE /* PasswordWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordWhoViewController.swift; sourceTree = "<group>"; };
+		1B7296271B38D883002D9BDE /* Privat_Fashon.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Privat_Fashon.storyboard; sourceTree = "<group>"; };
+		1B7296281B38D883002D9BDE /* Privat_Fashon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privat_Fashon.swift; sourceTree = "<group>"; };
+		1B72962A1B38D883002D9BDE /* PrivatFasshonNikki.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrivatFasshonNikki.storyboard; sourceTree = "<group>"; };
+		1B72962B1B38D883002D9BDE /* PrivatFasshonNikki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivatFasshonNikki.swift; sourceTree = "<group>"; };
+		1B72962E1B38D883002D9BDE /* RebuewKoukaiSet_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RebuewKoukaiSet_View.storyboard; sourceTree = "<group>"; };
+		1B72962F1B38D883002D9BDE /* RebuewKoukaiSet_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebuewKoukaiSet_View.swift; sourceTree = "<group>"; };
+		1B7296451B38D90A002D9BDE /* Intaresut_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Intaresut_ViewController.storyboard; sourceTree = "<group>"; };
+		1B7296461B38D90A002D9BDE /* Intaresut_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intaresut_ViewController.swift; sourceTree = "<group>"; };
+		1B7296471B38D90A002D9BDE /* Prof_Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Prof_Help.storyboard; sourceTree = "<group>"; };
+		1B7296481B38D90A002D9BDE /* Prof_Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prof_Help.swift; sourceTree = "<group>"; };
+		1B7296591B38D9A4002D9BDE /* Status_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Status_View.storyboard; sourceTree = "<group>"; };
+		1B72965A1B38D9A4002D9BDE /* Status_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status_View.swift; sourceTree = "<group>"; };
+		1B7296611B38E110002D9BDE /* button-uzumaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-uzumaki.png"; sourceTree = "<group>"; };
+		1B7296631B38E180002D9BDE /* button-sankaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-sankaku.png"; sourceTree = "<group>"; };
+		1B7296651B38E358002D9BDE /* button-hyuman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-hyuman.png"; sourceTree = "<group>"; };
+		1B7296681B38F3BF002D9BDE /* GroupeMake.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupeMake.storyboard; sourceTree = "<group>"; };
+		1B7296691B38F3BF002D9BDE /* GroupeMake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupeMake.swift; sourceTree = "<group>"; };
+		1B7296701B392F72002D9BDE /* GroupeMake_Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupeMake_Setting.swift; sourceTree = "<group>"; };
+		1B7296721B392F89002D9BDE /* GroupeMake_Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupeMake_Setting.storyboard; sourceTree = "<group>"; };
+		1B72967A1B395EF4002D9BDE /* icon-shock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-shock.png"; sourceTree = "<group>"; };
 		1B8918BE1B2AACCF005047D9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		1B8918BF1B2AACCF005047D9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		1B98E5EC1B37C4A000DA3750 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
@@ -464,25 +476,12 @@
 		1B72955E1B38CF28002D9BDE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1B72955F1B38CF28002D9BDE /* Acount */,
 				1B7295651B38CF28002D9BDE /* Home */,
 				1B7295681B38CF28002D9BDE /* HomeViewController.swift */,
 				1B7295691B38CF28002D9BDE /* NaviPush */,
 				1B72956E1B38CF28002D9BDE /* Tab */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		1B72955F1B38CF28002D9BDE /* Acount */ = {
-			isa = PBXGroup;
-			children = (
-				1B7295601B38CF28002D9BDE /* AcountViewController.storyboard */,
-				1B7295611B38CF28002D9BDE /* AcountViewController.swift */,
-				1B7295621B38CF28002D9BDE /* HonninViewController.swift */,
-				1B7295631B38CF28002D9BDE /* PasswordChangeViewController.swift */,
-				1B7295641B38CF28002D9BDE /* PasswordWhoViewController.swift */,
-			);
-			path = Acount;
 			sourceTree = "<group>";
 		};
 		1B7295651B38CF28002D9BDE /* Home */ = {
@@ -537,18 +536,7 @@
 		1B7295731B38CF28002D9BDE /* Help */ = {
 			isa = PBXGroup;
 			children = (
-				1B7295741B38CF28002D9BDE /* HelpInfo_ViewController.storyboard */,
-				1B7295751B38CF28002D9BDE /* HelpInfo_ViewController.swift */,
-				1B7295761B38CF28002D9BDE /* HelpMake_ViewController.storyboard */,
-				1B7295771B38CF28002D9BDE /* HelpMake_ViewController.swift */,
-				1B7295781B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard */,
-				1B7295791B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.swift */,
-				1B72957A1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard */,
-				1B72957B1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift */,
-				1B72957C1B38CF28002D9BDE /* HelpRebuewWrite.storyboard */,
-				1B72957D1B38CF28002D9BDE /* HelpRebuewWrite.swift */,
-				1B72957E1B38CF28002D9BDE /* HelpRebuewWrite_write_View.storyboard */,
-				1B72957F1B38CF28002D9BDE /* HelpRebuewWrite_write_View.swift */,
+				1B7295C91B38D623002D9BDE /* Help-Sub */,
 				1B7295801B38CF28002D9BDE /* HelpViewController.swift */,
 			);
 			path = Help;
@@ -565,33 +553,12 @@
 		1B7295831B38CF28002D9BDE /* Prof */ = {
 			isa = PBXGroup;
 			children = (
-				1B7295841B38CF28002D9BDE /* Prof-sub */,
+				1B72961C1B38D883002D9BDE /* Prof2-Sub */,
 				1B7295931B38CF28002D9BDE /* Prof2ViewController.storyboard */,
 				1B7295941B38CF28002D9BDE /* Prof2ViewController.swift */,
 				1B7295951B38CF28002D9BDE /* ProfViewController.swift */,
 			);
 			path = Prof;
-			sourceTree = "<group>";
-		};
-		1B7295841B38CF28002D9BDE /* Prof-sub */ = {
-			isa = PBXGroup;
-			children = (
-				1B7295851B38CF28002D9BDE /* GroupeMake.storyboard */,
-				1B7295861B38CF28002D9BDE /* GroupeMake.swift */,
-				1B7295871B38CF28002D9BDE /* Intaresut_ViewController.storyboard */,
-				1B7295881B38CF28002D9BDE /* Intaresut_ViewController.swift */,
-				1B7295891B38CF28002D9BDE /* Privat_Fashon.storyboard */,
-				1B72958A1B38CF28002D9BDE /* Privat_Fashon.swift */,
-				1B72958B1B38CF28002D9BDE /* PrivatFasshonNikki.storyboard */,
-				1B72958C1B38CF28002D9BDE /* PrivatFasshonNikki.swift */,
-				1B72958D1B38CF28002D9BDE /* Prof_Help.storyboard */,
-				1B72958E1B38CF28002D9BDE /* Prof_Help.swift */,
-				1B72958F1B38CF28002D9BDE /* RebuewKoukaiSet_View.storyboard */,
-				1B7295901B38CF28002D9BDE /* RebuewKoukaiSet_View.swift */,
-				1B7295911B38CF28002D9BDE /* Status_View.storyboard */,
-				1B7295921B38CF28002D9BDE /* Status_View.swift */,
-			);
-			path = "Prof-sub";
 			sourceTree = "<group>";
 		};
 		1B7295961B38CF28002D9BDE /* Timeline */ = {
@@ -608,6 +575,101 @@
 				1B7295C71B38CF36002D9BDE /* Configuration.swift */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		1B7295C91B38D623002D9BDE /* Help-Sub */ = {
+			isa = PBXGroup;
+			children = (
+				1B7295FF1B38D758002D9BDE /* HelpRebuewTsuuchi */,
+				1B7296041B38D758002D9BDE /* HelpRebuewWrite */,
+				1B7295CA1B38D623002D9BDE /* HelpInfo_ViewController.storyboard */,
+				1B7295CB1B38D623002D9BDE /* HelpInfo_ViewController.swift */,
+				1B7295CC1B38D623002D9BDE /* HelpMake_ViewController.storyboard */,
+				1B7295CD1B38D623002D9BDE /* HelpMake_ViewController.swift */,
+			);
+			path = "Help-Sub";
+			sourceTree = "<group>";
+		};
+		1B7295FF1B38D758002D9BDE /* HelpRebuewTsuuchi */ = {
+			isa = PBXGroup;
+			children = (
+				1B7296001B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard */,
+				1B7296011B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.swift */,
+				1B7296021B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard */,
+				1B7296031B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift */,
+			);
+			path = HelpRebuewTsuuchi;
+			sourceTree = "<group>";
+		};
+		1B7296041B38D758002D9BDE /* HelpRebuewWrite */ = {
+			isa = PBXGroup;
+			children = (
+				1B7296051B38D758002D9BDE /* HelpRebuewWrite.storyboard */,
+				1B7296061B38D758002D9BDE /* HelpRebuewWrite.swift */,
+				1B7296071B38D758002D9BDE /* HelpRebuewWrite_write_View.storyboard */,
+				1B7296081B38D758002D9BDE /* HelpRebuewWrite_write_View.swift */,
+			);
+			path = HelpRebuewWrite;
+			sourceTree = "<group>";
+		};
+		1B72961C1B38D883002D9BDE /* Prof2-Sub */ = {
+			isa = PBXGroup;
+			children = (
+				1B7296561B38D9A4002D9BDE /* List */,
+				1B72961D1B38D883002D9BDE /* Acount */,
+				1B7296271B38D883002D9BDE /* Privat_Fashon.storyboard */,
+				1B7296281B38D883002D9BDE /* Privat_Fashon.swift */,
+				1B7296291B38D883002D9BDE /* Private */,
+				1B72962A1B38D883002D9BDE /* PrivatFasshonNikki.storyboard */,
+				1B72962B1B38D883002D9BDE /* PrivatFasshonNikki.swift */,
+				1B72962E1B38D883002D9BDE /* RebuewKoukaiSet_View.storyboard */,
+				1B72962F1B38D883002D9BDE /* RebuewKoukaiSet_View.swift */,
+			);
+			path = "Prof2-Sub";
+			sourceTree = "<group>";
+		};
+		1B72961D1B38D883002D9BDE /* Acount */ = {
+			isa = PBXGroup;
+			children = (
+				1B72961E1B38D883002D9BDE /* AcountViewController.storyboard */,
+				1B72961F1B38D883002D9BDE /* AcountViewController.swift */,
+				1B7296201B38D883002D9BDE /* HonninViewController.swift */,
+				1B7296211B38D883002D9BDE /* PasswordChangeViewController.swift */,
+				1B7296221B38D883002D9BDE /* PasswordWhoViewController.swift */,
+			);
+			path = Acount;
+			sourceTree = "<group>";
+		};
+		1B7296291B38D883002D9BDE /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				1B7296451B38D90A002D9BDE /* Intaresut_ViewController.storyboard */,
+				1B7296461B38D90A002D9BDE /* Intaresut_ViewController.swift */,
+				1B7296471B38D90A002D9BDE /* Prof_Help.storyboard */,
+				1B7296481B38D90A002D9BDE /* Prof_Help.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		1B7296561B38D9A4002D9BDE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				1B7296671B38F3BF002D9BDE /* GroupeMake */,
+				1B7296591B38D9A4002D9BDE /* Status_View.storyboard */,
+				1B72965A1B38D9A4002D9BDE /* Status_View.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		1B7296671B38F3BF002D9BDE /* GroupeMake */ = {
+			isa = PBXGroup;
+			children = (
+				1B7296681B38F3BF002D9BDE /* GroupeMake.storyboard */,
+				1B7296691B38F3BF002D9BDE /* GroupeMake.swift */,
+				1B7296721B392F89002D9BDE /* GroupeMake_Setting.storyboard */,
+				1B7296701B392F72002D9BDE /* GroupeMake_Setting.swift */,
+			);
+			path = GroupeMake;
 			sourceTree = "<group>";
 		};
 		1B98E5EA1B37C4A000DA3750 /* Rec */ = {
@@ -679,6 +741,9 @@
 		1B98E61E1B37C4A100DA3750 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1B7296651B38E358002D9BDE /* button-hyuman.png */,
+				1B7296631B38E180002D9BDE /* button-sankaku.png */,
+				1B7296611B38E110002D9BDE /* button-uzumaki.png */,
 				1B98E61F1B37C4A100DA3750 /* acount-button.png */,
 				1B98E6201B37C4A100DA3750 /* button-batsu.png */,
 				1B98E6211B37C4A100DA3750 /* button-maisasu.png */,
@@ -701,6 +766,7 @@
 				1B98E6321B37C4A100DA3750 /* icon-feelso.png */,
 				1B98E6331B37C4A100DA3750 /* icon-help.png */,
 				1B98E6341B37C4A100DA3750 /* icon-hitorinisasete.png */,
+				1B72967A1B395EF4002D9BDE /* icon-shock.png */,
 				1B98E6351B37C4A100DA3750 /* icon-imbusy.png */,
 				1B98E6361B37C4A100DA3750 /* icon-okigen.png */,
 				1B98E6371B37C4A100DA3750 /* jisyaku.png */,
@@ -841,18 +907,20 @@
 				1B98E69A1B37C4A100DA3750 /* button-maisasu.png in Resources */,
 				1B98E6961B37C4A100DA3750 /* system_fonts.xml in Resources */,
 				1B98E6721B37C4A100DA3750 /* DroidSans.ttf in Resources */,
-				1B7295A61B38CF28002D9BDE /* HelpInfo_ViewController.storyboard in Resources */,
 				1B98E6711B37C4A100DA3750 /* DroidSans-Bold.ttf in Resources */,
 				1B7295A21B38CF28002D9BDE /* SosViewController.storyboard in Resources */,
+				1B72960F1B38D758002D9BDE /* HelpRebuewWrite_write_View.storyboard in Resources */,
 				1B98E66B1B37C4A100DA3750 /* Clockopia.ttf in Resources */,
-				1B7295981B38CF28002D9BDE /* AcountViewController.storyboard in Resources */,
-				1B7295BC1B38CF28002D9BDE /* Prof_Help.storyboard in Resources */,
+				1B7296661B38E358002D9BDE /* button-hyuman.png in Resources */,
 				1B98E6841B37C4A100DA3750 /* fonts.mk in Resources */,
+				1B7295D81B38D623002D9BDE /* HelpMake_ViewController.storyboard in Resources */,
 				1B98E6A21B37C4A100DA3750 /* frame.png in Resources */,
 				1B98E6C31B37C4A100DA3750 /* syousai-button.png in Resources */,
 				1B98E66F1B37C4A100DA3750 /* DroidNaskh-Regular.ttf in Resources */,
+				1B72960D1B38D758002D9BDE /* HelpRebuewWrite.storyboard in Resources */,
 				1B98E66C1B37C4A100DA3750 /* DroidKufi-Bold.ttf in Resources */,
 				1B98E6A81B37C4A100DA3750 /* hito4.png in Resources */,
+				1B7296321B38D883002D9BDE /* AcountViewController.storyboard in Resources */,
 				1B98E6A01B37C4A100DA3750 /* face-niko.png in Resources */,
 				1B98E69E1B37C4A100DA3750 /* check-yes-mark.png in Resources */,
 				1B49104B1B255F380014F0DF /* Main.storyboard in Resources */,
@@ -864,29 +932,32 @@
 				1B98E6CF1B37C4A100DA3750 /* tabconer-murasaki-left.png in Resources */,
 				1B98E6A11B37C4A100DA3750 /* face-normal.png in Resources */,
 				1B98E66A1B37C4A100DA3750 /* AndroidEmoji.ttf in Resources */,
-				1B7295BA1B38CF28002D9BDE /* PrivatFasshonNikki.storyboard in Resources */,
 				1B98E6AD1B37C4A100DA3750 /* icon-hitorinisasete.png in Resources */,
 				1B98E6D81B37C4A100DA3750 /* tabconer-orenge-left.png in Resources */,
 				1B98E6781B37C4A100DA3750 /* DroidSansFallbackFull.ttf in Resources */,
-				1B7295B41B38CF28002D9BDE /* GroupeMake.storyboard in Resources */,
-				1B7295BE1B38CF28002D9BDE /* RebuewKoukaiSet_View.storyboard in Resources */,
+				1B72960B1B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard in Resources */,
 				1B98E6DA1B37C4A100DA3750 /* tabconer-yellow-center.png in Resources */,
+				1B72965D1B38D9A4002D9BDE /* Status_View.storyboard in Resources */,
 				1B98E69C1B37C4A100DA3750 /* button-on.png in Resources */,
 				1B98E6B01B37C4A100DA3750 /* jisyaku.png in Resources */,
 				1B98E6BF1B37C4A100DA3750 /* pin_yellow.png in Resources */,
 				1B98E6CC1B37C4A100DA3750 /* tabconer-green-left.png in Resources */,
 				1B98E6CA1B37C4A100DA3750 /* tab-time.png in Resources */,
+				1B72964B1B38D90A002D9BDE /* Prof_Help.storyboard in Resources */,
 				1B98E6861B37C4A100DA3750 /* MTLc3m.ttf in Resources */,
 				1B98E6D61B37C4A100DA3750 /* tabconer-on-right.png in Resources */,
 				1B98E6741B37C4A100DA3750 /* DroidSansArmenian.ttf in Resources */,
 				1B98E6C91B37C4A100DA3750 /* tab-prof.png in Resources */,
+				1B72963D1B38D883002D9BDE /* PrivatFasshonNikki.storyboard in Resources */,
 				1B98E6B11B37C4A100DA3750 /* level-maru.png in Resources */,
 				1B98E6C21B37C4A100DA3750 /* red-maru.png in Resources */,
 				1B98E6BD1B37C4A100DA3750 /* pin_wheel.png in Resources */,
 				1B98E67D1B37C4A100DA3750 /* DroidSansJapanese.ttf in Resources */,
+				1B7296491B38D90A002D9BDE /* Intaresut_ViewController.storyboard in Resources */,
 				1B98E6951B37C4A100DA3750 /* RobotoCondensed-Regular.ttf in Resources */,
 				1B98E6931B37C4A100DA3750 /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				1B98E6AB1B37C4A100DA3750 /* icon-feelso.png in Resources */,
+				1B72966A1B38F3BF002D9BDE /* GroupeMake.storyboard in Resources */,
 				1B98E6A51B37C4A100DA3750 /* hito1.png in Resources */,
 				1B98E6731B37C4A100DA3750 /* DroidSansArabic.ttf in Resources */,
 				1B98E66E1B37C4A100DA3750 /* DroidNaskh-Bold.ttf in Resources */,
@@ -898,6 +969,7 @@
 				1B98E6701B37C4A100DA3750 /* DroidNaskhUI-Regular.ttf in Resources */,
 				1B98E67F1B37C4A100DA3750 /* DroidSerif-Bold.ttf in Resources */,
 				1B7295A01B38CF28002D9BDE /* AlertViewController.storyboard in Resources */,
+				1B7296621B38E110002D9BDE /* button-uzumaki.png in Resources */,
 				1B98E6661B37C4A100DA3750 /* Android.mk in Resources */,
 				1B98E6DE1B37C4A100DA3750 /* yellow-maru.png in Resources */,
 				1B98E6C01B37C4A100DA3750 /* plus.png in Resources */,
@@ -911,7 +983,6 @@
 				1B98E6771B37C4A100DA3750 /* DroidSansFallback.ttf in Resources */,
 				1B98E6CE1B37C4A100DA3750 /* tabconer-murasaki-center.png in Resources */,
 				1B98E6751B37C4A100DA3750 /* DroidSansEthiopic-Bold.ttf in Resources */,
-				1B7295A81B38CF28002D9BDE /* HelpMake_ViewController.storyboard in Resources */,
 				1B98E6991B37C4A100DA3750 /* button-batsu.png in Resources */,
 				1B98E6B81B37C4A100DA3750 /* pin_gray.png in Resources */,
 				1B98E6B21B37C4A100DA3750 /* level-star.png in Resources */,
@@ -922,12 +993,10 @@
 				1B4910501B255F380014F0DF /* LaunchScreen.xib in Resources */,
 				1B98E6911B37C4A100DA3750 /* Roboto-ThinItalic.ttf in Resources */,
 				1B72959D1B38CF28002D9BDE /* home1ViewController.storyboard in Resources */,
-				1B7295AE1B38CF28002D9BDE /* HelpRebuewWrite.storyboard in Resources */,
 				1B98E6B31B37C4A100DA3750 /* mainus.png in Resources */,
 				1B98E6D21B37C4A100DA3750 /* tabconer-off-left.png in Resources */,
 				1B98E6A31B37C4A100DA3750 /* green-maru.png in Resources */,
 				1B98E6881B37C4A100DA3750 /* NOTICE in Resources */,
-				1B7295C01B38CF28002D9BDE /* Status_View.storyboard in Resources */,
 				1B98E6D11B37C4A100DA3750 /* tabconer-off-center.png in Resources */,
 				1B98E6BB1B37C4A100DA3750 /* pin_purple.png in Resources */,
 				1B98E6AC1B37C4A100DA3750 /* icon-help.png in Resources */,
@@ -935,18 +1004,19 @@
 				1B7295C21B38CF28002D9BDE /* Prof2ViewController.storyboard in Resources */,
 				1B98E6C61B37C4A100DA3750 /* tab-home.png in Resources */,
 				1B98E6D31B37C4A100DA3750 /* tabconer-off-right.png in Resources */,
+				1B7296731B392F89002D9BDE /* GroupeMake_Setting.storyboard in Resources */,
 				1B98E67E1B37C4A100DA3750 /* DroidSansMono.ttf in Resources */,
 				1B98E6A41B37C4A100DA3750 /* hito.png in Resources */,
 				1B98E6C41B37C4A100DA3750 /* tab-friend.png in Resources */,
 				1B98E6D91B37C4A100DA3750 /* tabconer-orenge-right.png in Resources */,
 				1B98E6C11B37C4A100DA3750 /* purasu.png in Resources */,
+				1B7296411B38D883002D9BDE /* RebuewKoukaiSet_View.storyboard in Resources */,
 				1B98E69B1B37C4A100DA3750 /* button-off.png in Resources */,
 				1B98E6901B37C4A100DA3750 /* Roboto-Thin.ttf in Resources */,
 				1B98E66D1B37C4A100DA3750 /* DroidKufi-Regular.ttf in Resources */,
 				1B98E6981B37C4A100DA3750 /* acount-button.png in Resources */,
 				1B98E6C81B37C4A100DA3750 /* tab-pen.png in Resources */,
 				1B49104D1B255F380014F0DF /* Images.xcassets in Resources */,
-				1B7295AC1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.storyboard in Resources */,
 				1B98E6B41B37C4A100DA3750 /* nabi-batsu.png in Resources */,
 				1B98E68E1B37C4A100DA3750 /* Roboto-LightItalic.ttf in Resources */,
 				1B98E6831B37C4A100DA3750 /* fallback_fonts.xml in Resources */,
@@ -956,23 +1026,24 @@
 				1B98E6851B37C4A100DA3750 /* MODULE_LICENSE_APACHE2 in Resources */,
 				1B98E6971B37C4A100DA3750 /* vendor_fonts.xml in Resources */,
 				1B98E6BA1B37C4A100DA3750 /* pin_orange.png in Resources */,
-				1B7295AA1B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard in Resources */,
 				1B98E6B91B37C4A100DA3750 /* pin_green.png in Resources */,
 				1B98E6B71B37C4A100DA3750 /* pin_blue.png in Resources */,
-				1B7295B61B38CF28002D9BDE /* Intaresut_ViewController.storyboard in Resources */,
+				1B7296641B38E180002D9BDE /* button-sankaku.png in Resources */,
 				1B98E6A71B37C4A100DA3750 /* hito3.png in Resources */,
 				1B98E6AA1B37C4A100DA3750 /* house.png in Resources */,
-				1B7295B81B38CF28002D9BDE /* Privat_Fashon.storyboard in Resources */,
 				1B98E6821B37C4A100DA3750 /* DroidSerif-Regular.ttf in Resources */,
 				1B98E6C71B37C4A100DA3750 /* tab-mail.png in Resources */,
 				1B98E6BE1B37C4A100DA3750 /* pin_white.png in Resources */,
+				1B72967B1B395EF4002D9BDE /* icon-shock.png in Resources */,
 				1B98E6921B37C4A100DA3750 /* RobotoCondensed-Bold.ttf in Resources */,
 				1B98E6BC1B37C4A100DA3750 /* pin_red.png in Resources */,
 				1B98E6D51B37C4A100DA3750 /* tabconer-on-left.png in Resources */,
+				1B7295D61B38D623002D9BDE /* HelpInfo_ViewController.storyboard in Resources */,
 				1B98E6681B37C4A100DA3750 /* AndroidClock_Highlight.ttf in Resources */,
 				1B98E6801B37C4A100DA3750 /* DroidSerif-BoldItalic.ttf in Resources */,
-				1B7295B01B38CF28002D9BDE /* HelpRebuewWrite_write_View.storyboard in Resources */,
 				1B98E6AF1B37C4A100DA3750 /* icon-okigen.png in Resources */,
+				1B7296091B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.storyboard in Resources */,
+				1B72963B1B38D883002D9BDE /* Privat_Fashon.storyboard in Resources */,
 				1B98E68F1B37C4A100DA3750 /* Roboto-Regular.ttf in Resources */,
 				1B98E6671B37C4A100DA3750 /* AndroidClock.ttf in Resources */,
 				1B98E68D1B37C4A100DA3750 /* Roboto-Light.ttf in Resources */,
@@ -994,37 +1065,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B72964A1B38D90A002D9BDE /* Intaresut_ViewController.swift in Sources */,
 				1B7295C41B38CF28002D9BDE /* ProfViewController.swift in Sources */,
-				1B7295B71B38CF28002D9BDE /* Intaresut_ViewController.swift in Sources */,
-				1B7295A71B38CF28002D9BDE /* HelpInfo_ViewController.swift in Sources */,
 				1B7295A51B38CF28002D9BDE /* FriendViewController.swift in Sources */,
-				1B7295BF1B38CF28002D9BDE /* RebuewKoukaiSet_View.swift in Sources */,
-				1B7295B91B38CF28002D9BDE /* Privat_Fashon.swift in Sources */,
+				1B7296361B38D883002D9BDE /* PasswordWhoViewController.swift in Sources */,
+				1B7295D91B38D623002D9BDE /* HelpMake_ViewController.swift in Sources */,
+				1B7296421B38D883002D9BDE /* RebuewKoukaiSet_View.swift in Sources */,
 				1B7295C81B38CF36002D9BDE /* Configuration.swift in Sources */,
-				1B7295BD1B38CF28002D9BDE /* Prof_Help.swift in Sources */,
 				1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */,
-				1B7295991B38CF28002D9BDE /* AcountViewController.swift in Sources */,
-				1B72959C1B38CF28002D9BDE /* PasswordWhoViewController.swift in Sources */,
+				1B7296101B38D758002D9BDE /* HelpRebuewWrite_write_View.swift in Sources */,
 				1B7295A41B38CF28002D9BDE /* DiaryViewController.swift in Sources */,
+				1B72963E1B38D883002D9BDE /* PrivatFasshonNikki.swift in Sources */,
+				1B7296351B38D883002D9BDE /* PasswordChangeViewController.swift in Sources */,
 				1B72959F1B38CF28002D9BDE /* HomeViewController.swift in Sources */,
-				1B7295BB1B38CF28002D9BDE /* PrivatFasshonNikki.swift in Sources */,
+				1B7295D71B38D623002D9BDE /* HelpInfo_ViewController.swift in Sources */,
 				1B7295C31B38CF28002D9BDE /* Prof2ViewController.swift in Sources */,
-				1B7295AF1B38CF28002D9BDE /* HelpRebuewWrite.swift in Sources */,
-				1B7295B11B38CF28002D9BDE /* HelpRebuewWrite_write_View.swift in Sources */,
+				1B7296341B38D883002D9BDE /* HonninViewController.swift in Sources */,
+				1B7296331B38D883002D9BDE /* AcountViewController.swift in Sources */,
+				1B72960A1B38D758002D9BDE /* HelpRebuewTsuuchi_ViewController.swift in Sources */,
 				1B7295B31B38CF28002D9BDE /* MailViewController.swift in Sources */,
-				1B7295C11B38CF28002D9BDE /* Status_View.swift in Sources */,
-				1B7295AD1B38CF28002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift in Sources */,
 				1B7295A11B38CF28002D9BDE /* AlertViewController.swift in Sources */,
-				1B72959B1B38CF28002D9BDE /* PasswordChangeViewController.swift in Sources */,
+				1B72960C1B38D758002D9BDE /* HelpRebuewTsuuchi_write_ViewController.swift in Sources */,
+				1B72960E1B38D758002D9BDE /* HelpRebuewWrite.swift in Sources */,
+				1B7296711B392F72002D9BDE /* GroupeMake_Setting.swift in Sources */,
 				1B7295B21B38CF28002D9BDE /* HelpViewController.swift in Sources */,
+				1B72966B1B38F3BF002D9BDE /* GroupeMake.swift in Sources */,
+				1B72963C1B38D883002D9BDE /* Privat_Fashon.swift in Sources */,
+				1B72964C1B38D90A002D9BDE /* Prof_Help.swift in Sources */,
+				1B72965E1B38D9A4002D9BDE /* Status_View.swift in Sources */,
 				1B7295A31B38CF28002D9BDE /* SosViewController.swift in Sources */,
 				1B7295C51B38CF28002D9BDE /* TimeLineViewController.swift in Sources */,
-				1B7295B51B38CF28002D9BDE /* GroupeMake.swift in Sources */,
-				1B72959A1B38CF28002D9BDE /* HonninViewController.swift in Sources */,
 				1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */,
 				1B72959E1B38CF28002D9BDE /* home1ViewController.swift in Sources */,
-				1B7295AB1B38CF28002D9BDE /* HelpRebuewTsuuchi_ViewController.swift in Sources */,
-				1B7295A91B38CF28002D9BDE /* HelpMake_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

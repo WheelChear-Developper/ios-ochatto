@@ -37,30 +37,30 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOSを受信しました" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63r-tt-YZj">
-                                        <rect key="frame" x="20" y="20" width="520" height="15"/>
-                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="15"/>
+                                        <rect key="frame" x="20" y="20" width="520" height="18"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="18"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4月30日　19:40" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPJ-eF-zP3">
-                                        <rect key="frame" x="20" y="43" width="520" height="15"/>
-                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="15"/>
+                                        <rect key="frame" x="20" y="46" width="520" height="16"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="qDM-DI-y5p">
-                                        <rect key="frame" x="20" y="66" width="55" height="55"/>
+                                        <rect key="frame" x="20" y="70" width="55" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="OS2-fd-BEr"/>
                                             <constraint firstAttribute="width" constant="55" id="oK2-B3-qlr"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="キノシタ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxE-Sc-FUj">
-                                        <rect key="frame" x="126" y="83" width="414" height="17"/>
-                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="17"/>
+                                        <rect key="frame" x="126" y="87" width="414" height="16"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="「助けて。心臓がおかしい。家にいます。救急車を呼んで。」" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dc6-pc-LfZ">
-                                        <rect key="frame" x="20" y="131" width="520" height="56"/>
+                                        <rect key="frame" x="20" y="135" width="520" height="56"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="Yej-xL-sLg"/>
                                         </constraints>
@@ -68,13 +68,13 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カワムラさんの現在地" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-Ih-rCY">
-                                        <rect key="frame" x="20" y="199" width="520" height="17"/>
+                                        <rect key="frame" x="20" y="203" width="520" height="17"/>
                                         <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgh-BH-5YL">
-                                        <rect key="frame" x="20" y="224" width="520" height="256"/>
+                                        <rect key="frame" x="20" y="228" width="520" height="252"/>
                                     </mapView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
