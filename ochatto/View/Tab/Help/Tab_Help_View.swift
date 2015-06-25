@@ -56,6 +56,13 @@ class Tab_Help_View: UIViewController, UITableViewDataSource, UITableViewDelegat
         self.presentViewController(navigation, animated: true, completion: nil)
     }
     
+    @IBAction func profHelp_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Prof_Help", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("Prof_HelpRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
