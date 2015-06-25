@@ -37,9 +37,9 @@ class Tab_Help_View: UIViewController, UITableViewDataSource, UITableViewDelegat
     
     @IBAction func HelpInfo_push(sender: AnyObject) {
         var storyboard: UIStoryboard = UIStoryboard(name: "HelpInfo_ViewController", bundle: NSBundle.mainBundle())
-        var groupeMake: HelpInfo_ViewController = storyboard.instantiateInitialViewController() as! HelpInfo_ViewController
+//        var groupeMake: HelpInfo_ViewController = storyboard.instantiateInitialViewController() as! HelpInfo_ViewController
         
-        self.navigationController?.pushViewController(groupeMake, animated: true)
+//        self.navigationController?.pushViewController(groupeMake, animated: true)
     }
     
     @IBAction func rebuewTsuuchi_push(sender: AnyObject) {

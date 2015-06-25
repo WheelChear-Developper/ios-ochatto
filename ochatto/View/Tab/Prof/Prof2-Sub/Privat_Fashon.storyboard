@@ -48,9 +48,9 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="y8R-gl-Nss">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="550"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.9847222444" blue="0.94073278900000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell-head" rowHeight="75" id="5RH-4y-cz6">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell-head" rowHeight="0.0" id="5RH-4y-cz6">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5RH-4y-cz6" id="jJe-A7-enf">
@@ -67,14 +67,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="g3u-RG-61k">
-                                                            <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                                                            <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="70" id="6ps-mq-KiE"/>
-                                                                <constraint firstAttribute="height" constant="70" id="l8W-YO-9js"/>
+                                                                <constraint firstAttribute="width" constant="60" id="6ps-mq-KiE"/>
+                                                                <constraint firstAttribute="height" constant="60" id="l8W-YO-9js"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="キョウコ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ii-Lr-2oG">
-                                                            <rect key="frame" x="83" y="0.0" width="427" height="75"/>
+                                                            <rect key="frame" x="73" y="0.0" width="437" height="75"/>
                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -95,6 +95,7 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="centerY" secondItem="g3u-RG-61k" secondAttribute="centerY" id="67R-UM-uAX"/>
                                                         <constraint firstItem="gXP-wF-Yj0" firstAttribute="leading" secondItem="onS-3f-ztp" secondAttribute="trailing" constant="10" id="7oe-fR-y41"/>
                                                         <constraint firstAttribute="bottom" secondItem="8ii-Lr-2oG" secondAttribute="bottom" id="EWP-wu-OxF"/>
                                                         <constraint firstItem="g3u-RG-61k" firstAttribute="top" secondItem="45A-EM-xYG" secondAttribute="top" id="Il4-vJ-6av"/>
@@ -106,6 +107,11 @@
                                                         <constraint firstItem="8ii-Lr-2oG" firstAttribute="top" secondItem="45A-EM-xYG" secondAttribute="top" id="ocs-sP-BCu"/>
                                                         <constraint firstItem="onS-3f-ztp" firstAttribute="leading" secondItem="8ii-Lr-2oG" secondAttribute="trailing" constant="10" id="rqA-hJ-LWV"/>
                                                     </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="Il4-vJ-6av"/>
+                                                        </mask>
+                                                    </variation>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -115,6 +121,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="45A-EM-xYG" secondAttribute="bottom" id="vgK-RM-9bY"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell2" rowHeight="75" id="VIe-dU-Ary">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -126,14 +133,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito2.png" translatesAutoresizingMaskIntoConstraints="NO" id="H8w-6r-THx">
-                                                            <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                                                            <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="70" id="9if-JQ-tb8"/>
-                                                                <constraint firstAttribute="width" constant="70" id="E5y-Ir-l5d"/>
+                                                                <constraint firstAttribute="height" constant="60" id="9if-JQ-tb8"/>
+                                                                <constraint firstAttribute="width" constant="60" id="E5y-Ir-l5d"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="イトウ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dj6-RF-aoE">
-                                                            <rect key="frame" x="83" y="0.0" width="427" height="75"/>
+                                                            <rect key="frame" x="73" y="0.0" width="437" height="75"/>
                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -161,10 +168,16 @@
                                                         <constraint firstItem="Ihk-tO-zq9" firstAttribute="leading" secondItem="rrE-DK-bIx" secondAttribute="trailing" constant="10" id="YtL-m4-PZW"/>
                                                         <constraint firstItem="rrE-DK-bIx" firstAttribute="leading" secondItem="dj6-RF-aoE" secondAttribute="trailing" constant="10" id="al6-4m-sU1"/>
                                                         <constraint firstAttribute="bottom" secondItem="dj6-RF-aoE" secondAttribute="bottom" id="b8J-Ru-CnO"/>
+                                                        <constraint firstAttribute="centerY" secondItem="H8w-6r-THx" secondAttribute="centerY" id="nX2-7d-SWf"/>
                                                         <constraint firstAttribute="centerY" secondItem="Ihk-tO-zq9" secondAttribute="centerY" id="qdc-Nt-J8u"/>
                                                         <constraint firstItem="dj6-RF-aoE" firstAttribute="leading" secondItem="H8w-6r-THx" secondAttribute="trailing" constant="8" id="xQ1-Gt-qlv"/>
                                                         <constraint firstItem="H8w-6r-THx" firstAttribute="top" secondItem="eJK-39-3Hu" secondAttribute="top" id="yEb-7S-YNp"/>
                                                     </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="yEb-7S-YNp"/>
+                                                        </mask>
+                                                    </variation>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -174,6 +187,7 @@
                                                 <constraint firstItem="eJK-39-3Hu" firstAttribute="top" secondItem="f65-zG-YRi" secondAttribute="top" id="rdi-cp-kSh"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell3" rowHeight="75" id="sF2-F2-HDm">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -185,14 +199,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="6yz-iy-RpL">
-                                                            <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                                                            <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="70" id="B1L-dI-BJY"/>
-                                                                <constraint firstAttribute="width" constant="70" id="j2z-2R-VQc"/>
+                                                                <constraint firstAttribute="height" constant="60" id="B1L-dI-BJY"/>
+                                                                <constraint firstAttribute="width" constant="60" id="j2z-2R-VQc"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ナカムラ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIo-sa-7gE">
-                                                            <rect key="frame" x="83" y="0.0" width="427" height="75"/>
+                                                            <rect key="frame" x="73" y="0.0" width="437" height="75"/>
                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -221,9 +235,15 @@
                                                         <constraint firstItem="CIo-sa-7gE" firstAttribute="leading" secondItem="6yz-iy-RpL" secondAttribute="trailing" constant="8" id="Mlh-Do-CjB"/>
                                                         <constraint firstItem="6yz-iy-RpL" firstAttribute="top" secondItem="0Sb-eP-sHw" secondAttribute="top" id="Xci-cg-iuK"/>
                                                         <constraint firstItem="6yz-iy-RpL" firstAttribute="leading" secondItem="0Sb-eP-sHw" secondAttribute="leading" constant="5" id="awm-fv-aAp"/>
+                                                        <constraint firstAttribute="centerY" secondItem="6yz-iy-RpL" secondAttribute="centerY" id="dLe-VM-Sdv"/>
                                                         <constraint firstAttribute="bottom" secondItem="CIo-sa-7gE" secondAttribute="bottom" id="rnK-gd-bxI"/>
                                                         <constraint firstAttribute="centerY" secondItem="aES-9z-1zW" secondAttribute="centerY" id="yGm-vZ-sS8"/>
                                                     </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="Xci-cg-iuK"/>
+                                                        </mask>
+                                                    </variation>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -233,6 +253,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="0Sb-eP-sHw" secondAttribute="bottom" id="ute-8J-egX"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell4" rowHeight="75" id="zEE-HJ-Lwc">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -244,14 +265,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito4.png" translatesAutoresizingMaskIntoConstraints="NO" id="18D-8f-VEm">
-                                                            <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                                                            <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="70" id="CMi-nj-dMx"/>
-                                                                <constraint firstAttribute="width" constant="70" id="ONf-J6-Lps"/>
+                                                                <constraint firstAttribute="height" constant="60" id="CMi-nj-dMx"/>
+                                                                <constraint firstAttribute="width" constant="60" id="ONf-J6-Lps"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ゴトウ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVP-03-UMR">
-                                                            <rect key="frame" x="83" y="0.0" width="427" height="75"/>
+                                                            <rect key="frame" x="73" y="0.0" width="437" height="75"/>
                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -280,9 +301,15 @@
                                                         <constraint firstItem="LVP-03-UMR" firstAttribute="leading" secondItem="18D-8f-VEm" secondAttribute="trailing" constant="8" id="PJf-sS-DDu"/>
                                                         <constraint firstItem="18D-8f-VEm" firstAttribute="leading" secondItem="sy8-gl-wX2" secondAttribute="leading" constant="5" id="V5y-KU-Ub3"/>
                                                         <constraint firstItem="Ltc-aA-aDi" firstAttribute="leading" secondItem="XDn-UW-kSq" secondAttribute="trailing" constant="10" id="afI-Bq-A7w"/>
+                                                        <constraint firstAttribute="centerY" secondItem="18D-8f-VEm" secondAttribute="centerY" id="fmu-k2-Z1Q"/>
                                                         <constraint firstAttribute="trailing" secondItem="Ltc-aA-aDi" secondAttribute="trailing" constant="10" id="own-lP-5d4"/>
                                                         <constraint firstItem="LVP-03-UMR" firstAttribute="top" secondItem="sy8-gl-wX2" secondAttribute="top" id="s5w-jj-jQC"/>
                                                     </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="F0b-d8-55J"/>
+                                                        </mask>
+                                                    </variation>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -292,6 +319,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="sy8-gl-wX2" secondAttribute="trailing" id="sS9-pQ-dmN"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell5" rowHeight="75" id="L6q-p9-R12">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -303,10 +331,10 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="hYS-M8-WdK">
-                                                            <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                                                            <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="70" id="6Rj-fm-fuQ"/>
-                                                                <constraint firstAttribute="height" constant="70" id="Iuc-Nl-guc"/>
+                                                                <constraint firstAttribute="width" constant="60" id="6Rj-fm-fuQ"/>
+                                                                <constraint firstAttribute="height" constant="60" id="Iuc-Nl-guc"/>
                                                             </constraints>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button-maisasu.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qwf-gK-D5S">
@@ -324,7 +352,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カトウ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6i-UD-gDX">
-                                                            <rect key="frame" x="83" y="0.0" width="427" height="75"/>
+                                                            <rect key="frame" x="73" y="0.0" width="437" height="75"/>
                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -333,6 +361,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="centerY" secondItem="FEp-py-VBe" secondAttribute="centerY" id="76O-fi-ZTa"/>
                                                         <constraint firstItem="T6i-UD-gDX" firstAttribute="top" secondItem="8J6-Nc-cjO" secondAttribute="top" id="BNe-4J-59w"/>
+                                                        <constraint firstAttribute="centerY" secondItem="hYS-M8-WdK" secondAttribute="centerY" id="UV6-SI-rVT"/>
                                                         <constraint firstAttribute="trailing" secondItem="FEp-py-VBe" secondAttribute="trailing" constant="10" id="VJx-jj-zhN"/>
                                                         <constraint firstItem="hYS-M8-WdK" firstAttribute="top" secondItem="8J6-Nc-cjO" secondAttribute="top" id="XPL-gw-avp"/>
                                                         <constraint firstItem="T6i-UD-gDX" firstAttribute="leading" secondItem="hYS-M8-WdK" secondAttribute="trailing" constant="8" id="gTb-Xe-dZ6"/>
@@ -342,6 +371,11 @@
                                                         <constraint firstItem="Qwf-gK-D5S" firstAttribute="leading" secondItem="T6i-UD-gDX" secondAttribute="trailing" constant="10" id="x2c-e3-9ZQ"/>
                                                         <constraint firstItem="FEp-py-VBe" firstAttribute="leading" secondItem="Qwf-gK-D5S" secondAttribute="trailing" constant="10" id="znf-dZ-aAX"/>
                                                     </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="XPL-gw-avp"/>
+                                                        </mask>
+                                                    </variation>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -351,6 +385,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="8J6-Nc-cjO" secondAttribute="bottom" id="nMs-8k-ZmB"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell6" rowHeight="75" id="0Mv-RU-9sm">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -362,14 +397,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="iax-1v-o9K">
-                                                            <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                                                            <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="70" id="35J-Fu-cws"/>
-                                                                <constraint firstAttribute="width" constant="70" id="VK4-4W-ItO"/>
+                                                                <constraint firstAttribute="height" constant="60" id="35J-Fu-cws"/>
+                                                                <constraint firstAttribute="width" constant="60" id="VK4-4W-ItO"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アカネ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVG-SV-Y4w">
-                                                            <rect key="frame" x="83" y="0.0" width="427" height="75"/>
+                                                            <rect key="frame" x="73" y="0.0" width="437" height="75"/>
                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -391,6 +426,7 @@
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="pfT-Fd-c7k" secondAttribute="trailing" constant="10" id="5np-IA-sHG"/>
+                                                        <constraint firstAttribute="centerY" secondItem="iax-1v-o9K" secondAttribute="centerY" id="Dzf-XJ-0da"/>
                                                         <constraint firstItem="vVG-SV-Y4w" firstAttribute="leading" secondItem="iax-1v-o9K" secondAttribute="trailing" constant="8" id="EAU-I4-wgG"/>
                                                         <constraint firstAttribute="centerY" secondItem="pfT-Fd-c7k" secondAttribute="centerY" id="NZ8-Uu-HGo"/>
                                                         <constraint firstAttribute="centerY" secondItem="0Ub-RU-78s" secondAttribute="centerY" id="Svl-93-0dh"/>
@@ -401,6 +437,11 @@
                                                         <constraint firstItem="vVG-SV-Y4w" firstAttribute="top" secondItem="unP-W2-GYT" secondAttribute="top" id="o56-ZP-le6"/>
                                                         <constraint firstItem="0Ub-RU-78s" firstAttribute="leading" secondItem="vVG-SV-Y4w" secondAttribute="trailing" constant="10" id="u4m-cU-mK8"/>
                                                     </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="eig-P8-h57"/>
+                                                        </mask>
+                                                    </variation>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -410,6 +451,7 @@
                                                 <constraint firstItem="unP-W2-GYT" firstAttribute="top" secondItem="pLM-fp-LJ0" secondAttribute="top" id="lSk-ch-jbM"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell7" rowHeight="75" id="q9r-Qd-Gvh">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -421,14 +463,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mSb-IM-v5e">
-                                                            <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                                                            <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="70" id="HRm-DT-JUE"/>
-                                                                <constraint firstAttribute="height" constant="70" id="puH-Cm-7DR"/>
+                                                                <constraint firstAttribute="width" constant="60" id="HRm-DT-JUE"/>
+                                                                <constraint firstAttribute="height" constant="60" id="puH-Cm-7DR"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="フエコ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezU-YP-2g6">
-                                                            <rect key="frame" x="83" y="0.0" width="427" height="75"/>
+                                                            <rect key="frame" x="73" y="0.0" width="437" height="75"/>
                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -458,8 +500,14 @@
                                                         <constraint firstItem="ezU-YP-2g6" firstAttribute="top" secondItem="X5N-75-h3c" secondAttribute="top" id="kSX-Qs-mHl"/>
                                                         <constraint firstAttribute="trailing" secondItem="SXA-YB-gKA" secondAttribute="trailing" constant="10" id="m9y-AA-Cg4"/>
                                                         <constraint firstItem="mSb-IM-v5e" firstAttribute="top" secondItem="X5N-75-h3c" secondAttribute="top" id="nhU-NE-zgb"/>
+                                                        <constraint firstAttribute="centerY" secondItem="mSb-IM-v5e" secondAttribute="centerY" id="wMZ-eT-51B"/>
                                                         <constraint firstItem="SXA-YB-gKA" firstAttribute="leading" secondItem="xpJ-Kr-mQW" secondAttribute="trailing" constant="10" id="xBX-Fm-3hi"/>
                                                     </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="nhU-NE-zgb"/>
+                                                        </mask>
+                                                    </variation>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -469,6 +517,7 @@
                                                 <constraint firstItem="X5N-75-h3c" firstAttribute="leading" secondItem="yF4-PY-Pna" secondAttribute="leading" id="tJX-6B-VZD"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell8" rowHeight="75" id="MAd-S2-zLC">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -480,14 +529,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="B0P-IM-CXJ">
-                                                            <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                                                            <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="70" id="EZz-3R-dnG"/>
-                                                                <constraint firstAttribute="height" constant="70" id="mqh-ai-dKg"/>
+                                                                <constraint firstAttribute="width" constant="60" id="EZz-3R-dnG"/>
+                                                                <constraint firstAttribute="height" constant="60" id="mqh-ai-dKg"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="レイコ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HzI-XB-Yxw">
-                                                            <rect key="frame" x="83" y="0.0" width="427" height="75"/>
+                                                            <rect key="frame" x="73" y="0.0" width="437" height="75"/>
                                                             <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -516,9 +565,15 @@
                                                         <constraint firstItem="MQK-7i-cNg" firstAttribute="leading" secondItem="HzI-XB-Yxw" secondAttribute="trailing" constant="10" id="Sdw-TA-caJ"/>
                                                         <constraint firstItem="B0P-IM-CXJ" firstAttribute="top" secondItem="x3i-BB-jtd" secondAttribute="top" id="jc8-xC-hZx"/>
                                                         <constraint firstItem="HzI-XB-Yxw" firstAttribute="leading" secondItem="B0P-IM-CXJ" secondAttribute="trailing" constant="8" id="jf4-tz-sKi"/>
+                                                        <constraint firstAttribute="centerY" secondItem="B0P-IM-CXJ" secondAttribute="centerY" id="lzS-aT-m9k"/>
                                                         <constraint firstAttribute="centerY" secondItem="gys-y0-sLW" secondAttribute="centerY" id="oZb-O7-3zm"/>
                                                         <constraint firstItem="HzI-XB-Yxw" firstAttribute="top" secondItem="x3i-BB-jtd" secondAttribute="top" id="xhe-5W-LH2"/>
                                                     </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="jc8-xC-hZx"/>
+                                                        </mask>
+                                                    </variation>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -528,6 +583,7 @@
                                                 <constraint firstItem="x3i-BB-jtd" firstAttribute="top" secondItem="6LV-SO-deA" secondAttribute="top" id="m9H-hA-gV0"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
