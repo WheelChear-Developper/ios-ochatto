@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MTLmr3m.ttf">
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="l7w-o3-1kk">
+            <objects>
+                <navigationController storyboardIdentifier="ProfileRoot" id="VuQ-Gu-tID" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3w9-Vm-tkl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hz9-oA-h2Q" kind="relationship" relationship="rootViewController" id="Kjx-eq-Ozt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DUa-3f-ZgI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-375" y="436"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="Ph5-iS-vc8">
+            <objects>
+                <viewController id="hz9-oA-h2Q" customClass="Profile" customModule="ochatto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vEn-0v-85d"/>
+                        <viewControllerLayoutGuide type="bottom" id="4fA-Pp-zJQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SpO-ez-tQu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photoplus.png" translatesAutoresizingMaskIntoConstraints="NO" id="78y-bJ-gBz">
+                                <rect key="frame" x="8" y="72" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="8ZF-mX-iZp"/>
+                                    <constraint firstAttribute="height" constant="70" id="eVH-Un-bSP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJt-N9-2tF">
+                                <rect key="frame" x="8" y="150" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Rvf-KF-Kqs"/>
+                                    <constraint firstAttribute="width" constant="70" id="Vfh-uF-Loe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="なつこ" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xs1-uh-Qq1">
+                                <rect key="frame" x="86" y="146" width="498" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KXp-fC-7KT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4E-hg-IwD">
+                                <rect key="frame" x="86" y="179" width="498" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="432-O3-5kw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="東京都世田谷区豪徳寺" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1kD-Sc-muo">
+                                <rect key="frame" x="115" y="213" width="469" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Mqz-xe-VkQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="東京都渋谷区渋谷" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8K9-g3-rwY">
+                                <rect key="frame" x="115" y="246" width="469" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oSS-QF-6iI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ochatto ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2Z-FP-6MN">
+                                <rect key="frame" x="8" y="183" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="JH7-LB-lMJ"/>
+                                    <constraint firstAttribute="height" constant="21" id="g8E-at-AQX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="拠点" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wC1-o6-NCQ">
+                                <rect key="frame" x="8" y="217" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Io0-u8-5xQ"/>
+                                    <constraint firstAttribute="height" constant="21" id="TdB-gr-LCU"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Vjh-Yh-gol"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="ccp-3x-Myq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Vjh-Yh-gol"/>
+                                        <exclude reference="ccp-3x-Myq"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUk-aN-S7Q">
+                                <rect key="frame" x="86" y="217" width="21" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="J59-YY-kNm"/>
+                                    <constraint firstAttribute="width" constant="21" id="ZQT-bS-Sak"/>
+                                </constraints>
+                                <string key="text" base64-UTF8="YES">
+CO+8kQ
+</string>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="２" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJB-wg-u4a">
+                                <rect key="frame" x="86" y="250" width="21" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="21" id="PLf-BI-FeB"/>
+                                    <constraint firstAttribute="height" constant="21" id="po7-86-Yru"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="性別" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nk8-XI-VYf">
+                                <rect key="frame" x="8" y="289" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="4jL-gr-3JB"/>
+                                    <constraint firstAttribute="width" constant="70" id="Ywb-1p-cHX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="cSk-Yv-Bdp"/>
+                                    <constraint firstAttribute="height" constant="21" id="y9a-iO-0FH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4jL-gr-3JB"/>
+                                        <exclude reference="cSk-Yv-Bdp"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年齢層" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ZW-dp-hBg">
+                                <rect key="frame" x="8" y="318" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2Bb-Iq-NIU"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="Ze6-6u-VhZ"/>
+                                    <constraint firstAttribute="width" constant="70" id="pdW-4W-ZEC"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="zWw-kN-82B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="zWw-kN-82B"/>
+                                        <exclude reference="Ze6-6u-VhZ"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="男性" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hU8-II-JXA">
+                                <rect key="frame" x="86" y="289" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="5uM-IK-dYF"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8Rq-Zt-jO3"/>
+                                    <constraint firstAttribute="height" constant="21" id="F8d-gq-qx5"/>
+                                    <constraint firstAttribute="width" constant="70" id="hrY-G4-aon"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8Rq-Zt-jO3"/>
+                                        <exclude reference="5uM-IK-dYF"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="女性" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79A-Ww-iq1">
+                                <rect key="frame" x="221" y="289" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="0hO-Q7-uIf"/>
+                                    <constraint firstAttribute="height" constant="21" id="846-UW-cPe"/>
+                                    <constraint firstAttribute="width" constant="70" id="Syw-0V-MGB"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="Z5B-bc-O9L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="0hO-Q7-uIf"/>
+                                        <exclude reference="Z5B-bc-O9L"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FuK-B9-Ln6">
+                                <rect key="frame" x="164" y="284" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="o12-D8-eWP"/>
+                                    <constraint firstAttribute="height" constant="31" id="x6T-sr-dsv"/>
+                                </constraints>
+                            </switch>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xk8-1E-Uhn">
+                                <rect key="frame" x="86" y="314" width="63" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="63" id="Zkc-eE-z8M"/>
+                                    <constraint firstAttribute="height" constant="30" id="aF1-2j-V73"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADN-zk-reU">
+                                <rect key="frame" x="157" y="318" width="33" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="FK4-Pe-S5I"/>
+                                    <constraint firstAttribute="height" constant="21" id="Jek-hC-5vI"/>
+                                    <constraint firstAttribute="width" constant="33" id="Pxm-c0-wAx"/>
+                                    <constraint firstAttribute="width" constant="70" id="ngh-gk-mHU"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="xSI-oU-5wI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FK4-Pe-S5I"/>
+                                        <exclude reference="ngh-gk-mHU"/>
+                                        <exclude reference="xSI-oU-5wI"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QIe-dp-TdY">
+                                <rect key="frame" x="86" y="349" width="123" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="CoR-FE-Hz2"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="ON"/>
+                                    <segment title="OFF"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="位置情報" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBX-SD-SXe">
+                                <rect key="frame" x="8" y="352" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="FU8-qg-iPc"/>
+                                    <constraint firstAttribute="width" constant="70" id="IRG-xp-wmJ"/>
+                                    <constraint firstAttribute="height" constant="21" id="jec-7o-wzK"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="yWw-Qs-qit"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="yWw-Qs-qit"/>
+                                        <exclude reference="FU8-qg-iPc"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9847222444" blue="0.94073278900000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MJt-N9-2tF" firstAttribute="top" secondItem="78y-bJ-gBz" secondAttribute="bottom" constant="8" id="1du-mU-v7Y"/>
+                            <constraint firstItem="MJB-wg-u4a" firstAttribute="leading" secondItem="SpO-ez-tQu" secondAttribute="leading" constant="86" id="2Fv-rf-6bA"/>
+                            <constraint firstItem="78y-bJ-gBz" firstAttribute="leading" secondItem="SpO-ez-tQu" secondAttribute="leading" constant="8" id="2ak-xo-Zev"/>
+                            <constraint firstItem="XUk-aN-S7Q" firstAttribute="top" secondItem="I4E-hg-IwD" secondAttribute="bottom" constant="8" id="2eK-7p-vah"/>
+                            <constraint firstItem="79A-Ww-iq1" firstAttribute="leading" secondItem="FuK-B9-Ln6" secondAttribute="trailing" constant="8" id="38o-Zc-Su6"/>
+                            <constraint firstItem="ADN-zk-reU" firstAttribute="top" secondItem="FuK-B9-Ln6" secondAttribute="bottom" constant="3" id="52O-bw-rLB"/>
+                            <constraint firstItem="I4E-hg-IwD" firstAttribute="top" secondItem="xs1-uh-Qq1" secondAttribute="bottom" constant="3" id="5C1-Lo-xe4"/>
+                            <constraint firstItem="MJt-N9-2tF" firstAttribute="leading" secondItem="SpO-ez-tQu" secondAttribute="leading" constant="8" id="7TS-13-9ea"/>
+                            <constraint firstItem="nk8-XI-VYf" firstAttribute="leading" secondItem="SpO-ez-tQu" secondAttribute="leading" constant="8" id="8WN-xa-nrr"/>
+                            <constraint firstItem="XUk-aN-S7Q" firstAttribute="leading" secondItem="wC1-o6-NCQ" secondAttribute="trailing" constant="8" id="B5Y-9B-May"/>
+                            <constraint firstItem="8K9-g3-rwY" firstAttribute="leading" secondItem="MJB-wg-u4a" secondAttribute="trailing" constant="8" id="GZ8-I3-eVK"/>
+                            <constraint firstItem="QIe-dp-TdY" firstAttribute="leading" secondItem="MBX-SD-SXe" secondAttribute="trailing" constant="8" id="Gvp-XQ-NUK"/>
+                            <constraint firstItem="Xk8-1E-Uhn" firstAttribute="leading" secondItem="9ZW-dp-hBg" secondAttribute="trailing" constant="8" id="LII-dP-vCZ"/>
+                            <constraint firstItem="QIe-dp-TdY" firstAttribute="top" secondItem="Xk8-1E-Uhn" secondAttribute="bottom" constant="5" id="NC6-rm-dSO"/>
+                            <constraint firstItem="8K9-g3-rwY" firstAttribute="trailing" secondItem="SpO-ez-tQu" secondAttribute="trailingMargin" id="OA9-g0-gGN"/>
+                            <constraint firstItem="FuK-B9-Ln6" firstAttribute="leading" secondItem="hU8-II-JXA" secondAttribute="trailing" constant="8" id="Plc-iV-ZR0"/>
+                            <constraint firstItem="1kD-Sc-muo" firstAttribute="leading" secondItem="XUk-aN-S7Q" secondAttribute="trailing" constant="8" id="RGt-an-TOi"/>
+                            <constraint firstItem="I4E-hg-IwD" firstAttribute="trailing" secondItem="SpO-ez-tQu" secondAttribute="trailingMargin" id="Wan-zn-ctp"/>
+                            <constraint firstItem="79A-Ww-iq1" firstAttribute="top" secondItem="8K9-g3-rwY" secondAttribute="bottom" constant="13" id="Z5c-95-EUL"/>
+                            <constraint firstItem="wC1-o6-NCQ" firstAttribute="leading" secondItem="SpO-ez-tQu" secondAttribute="leading" constant="8" id="dGA-1K-EPN"/>
+                            <constraint firstItem="w2Z-FP-6MN" firstAttribute="top" secondItem="MJt-N9-2tF" secondAttribute="bottom" constant="12" id="egb-a6-hRp"/>
+                            <constraint firstItem="wC1-o6-NCQ" firstAttribute="top" secondItem="w2Z-FP-6MN" secondAttribute="bottom" constant="13" id="eqc-cQ-14I"/>
+                            <constraint firstItem="1kD-Sc-muo" firstAttribute="trailing" secondItem="SpO-ez-tQu" secondAttribute="trailingMargin" id="fkb-mR-dye"/>
+                            <constraint firstItem="ADN-zk-reU" firstAttribute="leading" secondItem="Xk8-1E-Uhn" secondAttribute="trailing" constant="8" id="fpG-Oy-tM8"/>
+                            <constraint firstItem="FuK-B9-Ln6" firstAttribute="top" secondItem="8K9-g3-rwY" secondAttribute="bottom" constant="8" id="gbn-XM-R5i"/>
+                            <constraint firstItem="8K9-g3-rwY" firstAttribute="top" secondItem="1kD-Sc-muo" secondAttribute="bottom" constant="3" id="iug-L5-PVd"/>
+                            <constraint firstItem="I4E-hg-IwD" firstAttribute="leading" secondItem="w2Z-FP-6MN" secondAttribute="trailing" constant="8" id="jTd-94-M8w"/>
+                            <constraint firstItem="w2Z-FP-6MN" firstAttribute="leading" secondItem="SpO-ez-tQu" secondAttribute="leading" constant="8" id="m3n-7M-oyr"/>
+                            <constraint firstItem="Xk8-1E-Uhn" firstAttribute="top" secondItem="hU8-II-JXA" secondAttribute="bottom" constant="4" id="mP4-MI-n37"/>
+                            <constraint firstItem="78y-bJ-gBz" firstAttribute="top" secondItem="vEn-0v-85d" secondAttribute="bottom" constant="8" id="pXA-kx-hfQ"/>
+                            <constraint firstItem="1kD-Sc-muo" firstAttribute="top" secondItem="I4E-hg-IwD" secondAttribute="bottom" constant="4" id="slO-Mk-FPr"/>
+                            <constraint firstItem="MBX-SD-SXe" firstAttribute="leading" secondItem="SpO-ez-tQu" secondAttribute="leading" constant="8" id="ukV-GJ-fcx"/>
+                            <constraint firstItem="nk8-XI-VYf" firstAttribute="top" secondItem="wC1-o6-NCQ" secondAttribute="bottom" constant="51" id="v7f-nX-uZ9"/>
+                            <constraint firstItem="xs1-uh-Qq1" firstAttribute="trailing" secondItem="SpO-ez-tQu" secondAttribute="trailingMargin" id="vHR-4s-qrl"/>
+                            <constraint firstItem="hU8-II-JXA" firstAttribute="top" secondItem="8K9-g3-rwY" secondAttribute="bottom" constant="13" id="vgD-wN-TS2"/>
+                            <constraint firstItem="hU8-II-JXA" firstAttribute="leading" secondItem="nk8-XI-VYf" secondAttribute="trailing" constant="8" id="w4w-Tq-jx0"/>
+                            <constraint firstItem="MJB-wg-u4a" firstAttribute="top" secondItem="XUk-aN-S7Q" secondAttribute="bottom" constant="12" id="wX8-JR-d8r"/>
+                            <constraint firstItem="9ZW-dp-hBg" firstAttribute="top" secondItem="nk8-XI-VYf" secondAttribute="bottom" constant="8" id="wfP-ns-XVZ"/>
+                            <constraint firstItem="I4E-hg-IwD" firstAttribute="top" secondItem="xs1-uh-Qq1" secondAttribute="bottom" constant="3" id="xGl-9q-Jm0"/>
+                            <constraint firstItem="xs1-uh-Qq1" firstAttribute="top" secondItem="vEn-0v-85d" secondAttribute="bottom" constant="82" id="xfU-EG-TYM"/>
+                            <constraint firstItem="MBX-SD-SXe" firstAttribute="top" secondItem="9ZW-dp-hBg" secondAttribute="bottom" constant="13" id="y5P-gO-0CB"/>
+                            <constraint firstItem="9ZW-dp-hBg" firstAttribute="leading" secondItem="SpO-ez-tQu" secondAttribute="leading" constant="8" id="y6V-2s-eXh"/>
+                            <constraint firstItem="xs1-uh-Qq1" firstAttribute="leading" secondItem="MJt-N9-2tF" secondAttribute="trailing" constant="8" id="yp2-5B-Bul"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="24P-Pw-Z1Z">
+                        <barButtonItem key="rightBarButtonItem" image="nabi-batsu.png" id="NpX-BA-wAQ">
+                            <connections>
+                                <action selector="close_push:" destination="hz9-oA-h2Q" id="Yiy-de-R15"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hyY-Zw-tmS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379" y="436"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nabi-batsu.png" width="22" height="22"/>
+        <image name="photoplus.png" width="70" height="70"/>
+    </resources>
+</document>

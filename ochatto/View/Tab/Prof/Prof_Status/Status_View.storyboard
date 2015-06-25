@@ -49,7 +49,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3V-Zb-m72" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1938" y="3454"/>
+            <point key="canvasLocation" x="702" y="2206"/>
         </scene>
         <!--Status View-->
         <scene sceneID="Gws-we-b8R">
@@ -511,8 +511,8 @@
                                                                                             <nil key="highlightedColor"/>
                                                                                             <variation key="default">
                                                                                                 <mask key="constraints">
-                                                                                                    <exclude reference="Yf0-1B-G90"/>
                                                                                                     <exclude reference="9JP-Zn-Yox"/>
+                                                                                                    <exclude reference="Yf0-1B-G90"/>
                                                                                                 </mask>
                                                                                             </variation>
                                                                                         </label>
@@ -621,8 +621,8 @@
                                                                                             <nil key="highlightedColor"/>
                                                                                             <variation key="default">
                                                                                                 <mask key="constraints">
-                                                                                                    <exclude reference="RtM-ca-dfP"/>
                                                                                                     <exclude reference="6nH-pn-c1Z"/>
+                                                                                                    <exclude reference="RtM-ca-dfP"/>
                                                                                                 </mask>
                                                                                             </variation>
                                                                                         </label>
@@ -731,8 +731,8 @@
                                                                                             <nil key="highlightedColor"/>
                                                                                             <variation key="default">
                                                                                                 <mask key="constraints">
-                                                                                                    <exclude reference="qBE-HL-o8u"/>
                                                                                                     <exclude reference="2q4-6j-o3m"/>
+                                                                                                    <exclude reference="qBE-HL-o8u"/>
                                                                                                 </mask>
                                                                                             </variation>
                                                                                         </label>
@@ -841,8 +841,8 @@
                                                                                             <nil key="highlightedColor"/>
                                                                                             <variation key="default">
                                                                                                 <mask key="constraints">
-                                                                                                    <exclude reference="ghU-Pa-9F6"/>
                                                                                                     <exclude reference="Yjj-AV-k0b"/>
+                                                                                                    <exclude reference="ghU-Pa-9F6"/>
                                                                                                 </mask>
                                                                                             </variation>
                                                                                         </label>
@@ -1442,7 +1442,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNX-fp-Et3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2739" y="3454"/>
+            <point key="canvasLocation" x="1434" y="2206"/>
         </scene>
     </scenes>
     <resources>

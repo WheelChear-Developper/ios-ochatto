@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2x6-2N-wpi">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MTLmr3m.ttf">
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ixg-MS-pI8">
+            <objects>
+                <navigationController storyboardIdentifier="kyouyuSettingRoot" id="2x6-2N-wpi" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fyr-Qk-u4J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ysk-qx-LBk" kind="relationship" relationship="rootViewController" id="WrQ-BJ-WQw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JNI-cO-jtA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-375" y="436"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="0IB-5o-Tiy">
+            <objects>
+                <viewController id="Ysk-qx-LBk" customClass="kyouyuSetting" customModule="ochatto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z5t-T6-88T"/>
+                        <viewControllerLayoutGuide type="bottom" id="g95-sa-mgS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CCP-bR-czT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LR-EI-AGp">
+                                <rect key="frame" x="16" y="72" width="568" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="TDK-oW-rxa"/>
+                                </constraints>
+                                <string key="text">あなたのアカウントの管理者を３人まで指名することができます。
+もしもの時の備えとしてご利用ください。</string>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKX-u1-Yby">
+                                <rect key="frame" x="150" y="160" width="300" height="102"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jLz-UB-d19">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="名前を入力" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XfN-DH-dV7">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="XfN-DH-dV7" secondAttribute="trailing" id="Izi-DX-ckz"/>
+                                            <constraint firstAttribute="bottom" secondItem="XfN-DH-dV7" secondAttribute="bottom" id="WCh-aT-Sx9"/>
+                                            <constraint firstItem="XfN-DH-dV7" firstAttribute="leading" secondItem="jLz-UB-d19" secondAttribute="leading" id="ai6-3Z-1t4"/>
+                                            <constraint firstItem="XfN-DH-dV7" firstAttribute="top" secondItem="jLz-UB-d19" secondAttribute="top" id="apa-hP-Afv"/>
+                                            <constraint firstAttribute="height" constant="30" id="gCT-vD-DQn"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ママ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Jh-c5-Jsj">
+                                        <rect key="frame" x="5" y="38" width="28" height="14"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="パパ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2L-IU-bHl">
+                                        <rect key="frame" x="5" y="60" width="28" height="14"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お姉ちゃん" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyQ-4B-UH9">
+                                        <rect key="frame" x="5" y="82" width="70" height="14"/>
+                                        <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="m2L-IU-bHl" firstAttribute="top" secondItem="8Jh-c5-Jsj" secondAttribute="bottom" constant="8" id="2pu-I3-seU"/>
+                                    <constraint firstAttribute="trailing" secondItem="jLz-UB-d19" secondAttribute="trailing" id="7xQ-Nq-RjQ"/>
+                                    <constraint firstItem="zyQ-4B-UH9" firstAttribute="top" secondItem="m2L-IU-bHl" secondAttribute="bottom" constant="8" id="DiA-G2-mX5"/>
+                                    <constraint firstItem="zyQ-4B-UH9" firstAttribute="leading" secondItem="KKX-u1-Yby" secondAttribute="leading" constant="5" id="EEe-7y-dRT"/>
+                                    <constraint firstItem="8Jh-c5-Jsj" firstAttribute="top" secondItem="jLz-UB-d19" secondAttribute="bottom" constant="8" id="QCl-ua-l8e"/>
+                                    <constraint firstAttribute="height" constant="102" id="VBB-Sp-AZ8"/>
+                                    <constraint firstAttribute="width" constant="300" id="hfx-IE-eQA"/>
+                                    <constraint firstItem="jLz-UB-d19" firstAttribute="top" secondItem="KKX-u1-Yby" secondAttribute="top" id="slR-1O-vLn"/>
+                                    <constraint firstItem="m2L-IU-bHl" firstAttribute="leading" secondItem="KKX-u1-Yby" secondAttribute="leading" constant="5" id="va3-UD-2uN"/>
+                                    <constraint firstItem="jLz-UB-d19" firstAttribute="leading" secondItem="KKX-u1-Yby" secondAttribute="leading" id="xhk-fF-Ozh"/>
+                                    <constraint firstItem="8Jh-c5-Jsj" firstAttribute="leading" secondItem="KKX-u1-Yby" secondAttribute="leading" constant="5" id="zIO-jS-sJP"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkR-Wd-e2P">
+                                <rect key="frame" x="150" y="270" width="300" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="eTV-Kd-wFQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="gmt-Fp-NuE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
+                                <state key="normal" title="アカウント共有用IDを送信">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9847222444" blue="0.94073278900000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6LR-EI-AGp" firstAttribute="leading" secondItem="CCP-bR-czT" secondAttribute="leadingMargin" id="MFj-1s-hIQ"/>
+                            <constraint firstAttribute="centerX" secondItem="dkR-Wd-e2P" secondAttribute="centerX" id="RKv-CO-LEX"/>
+                            <constraint firstItem="KKX-u1-Yby" firstAttribute="top" secondItem="6LR-EI-AGp" secondAttribute="bottom" constant="8" id="aGy-qR-bWD"/>
+                            <constraint firstItem="6LR-EI-AGp" firstAttribute="trailing" secondItem="CCP-bR-czT" secondAttribute="trailingMargin" id="eAM-nc-noz"/>
+                            <constraint firstItem="dkR-Wd-e2P" firstAttribute="top" secondItem="KKX-u1-Yby" secondAttribute="bottom" constant="8" id="pkq-zq-6ay"/>
+                            <constraint firstAttribute="centerX" secondItem="KKX-u1-Yby" secondAttribute="centerX" id="tTi-GR-QOu"/>
+                            <constraint firstItem="6LR-EI-AGp" firstAttribute="top" secondItem="z5t-T6-88T" secondAttribute="bottom" constant="8" id="zGF-uo-R8H"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="W7M-I1-hhw">
+                        <barButtonItem key="rightBarButtonItem" image="nabi-batsu.png" id="GOc-vl-k7G">
+                            <connections>
+                                <action selector="close_push:" destination="Ysk-qx-LBk" id="5bR-1f-QcM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bm8-zQ-PWM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379" y="436"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nabi-batsu.png" width="22" height="22"/>
+    </resources>
+</document>

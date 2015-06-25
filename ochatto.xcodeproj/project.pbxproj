@@ -45,6 +45,17 @@
 		1B5745181B3C2F8300894571 /* level-bikkuri.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5745171B3C2F8300894571 /* level-bikkuri.png */; };
 		1B57451C1B3C345C00894571 /* Prof_Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B57451A1B3C345C00894571 /* Prof_Help.storyboard */; };
 		1B57451D1B3C345C00894571 /* Prof_Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57451B1B3C345C00894571 /* Prof_Help.swift */; };
+		1B5745251B3C37D800894571 /* AcountViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5745201B3C37D800894571 /* AcountViewController.storyboard */; };
+		1B5745261B3C37D800894571 /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5745211B3C37D800894571 /* AcountViewController.swift */; };
+		1B5745271B3C37D800894571 /* HonninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5745221B3C37D800894571 /* HonninViewController.swift */; };
+		1B5745281B3C37D800894571 /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5745231B3C37D800894571 /* PasswordChangeViewController.swift */; };
+		1B5745291B3C37D800894571 /* PasswordWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5745241B3C37D800894571 /* PasswordWhoViewController.swift */; };
+		1B57452D1B3C391200894571 /* Setting_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57452C1B3C391200894571 /* Setting_View.swift */; };
+		1B57452F1B3C392A00894571 /* Setting_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B57452E1B3C392A00894571 /* Setting_View.storyboard */; };
+		1B5745311B3C43A900894571 /* kyouyuSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5745301B3C43A900894571 /* kyouyuSetting.storyboard */; };
+		1B5745331B3C43B500894571 /* kyouyuSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5745321B3C43B500894571 /* kyouyuSetting.swift */; };
+		1B5745351B3C4C2400894571 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5745341B3C4C2400894571 /* Profile.swift */; };
+		1B5745371B3C4C3700894571 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5745361B3C4C3700894571 /* Profile.storyboard */; };
 		1B72959D1B38CF28002D9BDE /* home1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295661B38CF28002D9BDE /* home1ViewController.storyboard */; };
 		1B72959E1B38CF28002D9BDE /* home1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295671B38CF28002D9BDE /* home1ViewController.swift */; };
 		1B72959F1B38CF28002D9BDE /* Tab_Map_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295681B38CF28002D9BDE /* Tab_Map_View.swift */; };
@@ -183,13 +194,6 @@
 		1B98E6DC1B37C4A100DA3750 /* tabconer-yellow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B98E6631B37C4A100DA3750 /* tabconer-yellow-right.png */; };
 		1B98E6DD1B37C4A100DA3750 /* Toukou-push.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B98E6641B37C4A100DA3750 /* Toukou-push.png */; };
 		1B98E6DE1B37C4A100DA3750 /* yellow-maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B98E6651B37C4A100DA3750 /* yellow-maru.png */; };
-		1BA7401D1B3BDF3A0073FF6C /* AcountViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA740051B3BDF3A0073FF6C /* AcountViewController.storyboard */; };
-		1BA7401E1B3BDF3A0073FF6C /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA740061B3BDF3A0073FF6C /* AcountViewController.swift */; };
-		1BA7401F1B3BDF3A0073FF6C /* HonninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA740071B3BDF3A0073FF6C /* HonninViewController.swift */; };
-		1BA740241B3BDF3A0073FF6C /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7400D1B3BDF3A0073FF6C /* PasswordChangeViewController.swift */; };
-		1BA740251B3BDF3A0073FF6C /* PasswordWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7400E1B3BDF3A0073FF6C /* PasswordWhoViewController.swift */; };
-		1BA7402A1B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA740151B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard */; };
-		1BA7402B1B3BDF3A0073FF6C /* Intaresut_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA740161B3BDF3A0073FF6C /* Intaresut_ViewController.swift */; };
 		1BA7402E1B3BDF3A0073FF6C /* PrivatFasshonNikki.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA740191B3BDF3A0073FF6C /* PrivatFasshonNikki.storyboard */; };
 		1BA7402F1B3BDF3A0073FF6C /* PrivatFasshonNikki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7401A1B3BDF3A0073FF6C /* PrivatFasshonNikki.swift */; };
 		1BA740301B3BDF3A0073FF6C /* RebuewKoukaiSet_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7401B1B3BDF3A0073FF6C /* RebuewKoukaiSet_View.storyboard */; };
@@ -250,6 +254,17 @@
 		1B5745171B3C2F8300894571 /* level-bikkuri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-bikkuri.png"; sourceTree = "<group>"; };
 		1B57451A1B3C345C00894571 /* Prof_Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Prof_Help.storyboard; sourceTree = "<group>"; };
 		1B57451B1B3C345C00894571 /* Prof_Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prof_Help.swift; sourceTree = "<group>"; };
+		1B5745201B3C37D800894571 /* AcountViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AcountViewController.storyboard; sourceTree = "<group>"; };
+		1B5745211B3C37D800894571 /* AcountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcountViewController.swift; sourceTree = "<group>"; };
+		1B5745221B3C37D800894571 /* HonninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HonninViewController.swift; sourceTree = "<group>"; };
+		1B5745231B3C37D800894571 /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
+		1B5745241B3C37D800894571 /* PasswordWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordWhoViewController.swift; sourceTree = "<group>"; };
+		1B57452C1B3C391200894571 /* Setting_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting_View.swift; sourceTree = "<group>"; };
+		1B57452E1B3C392A00894571 /* Setting_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Setting_View.storyboard; path = kyouyuSetting/Setting_View.storyboard; sourceTree = "<group>"; };
+		1B5745301B3C43A900894571 /* kyouyuSetting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = kyouyuSetting.storyboard; sourceTree = "<group>"; };
+		1B5745321B3C43B500894571 /* kyouyuSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kyouyuSetting.swift; sourceTree = "<group>"; };
+		1B5745341B3C4C2400894571 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		1B5745361B3C4C3700894571 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		1B7295661B38CF28002D9BDE /* home1ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = home1ViewController.storyboard; sourceTree = "<group>"; };
 		1B7295671B38CF28002D9BDE /* home1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = home1ViewController.swift; sourceTree = "<group>"; };
 		1B7295681B38CF28002D9BDE /* Tab_Map_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab_Map_View.swift; path = ochatto/View/Tab_Map_View.swift; sourceTree = SOURCE_ROOT; };
@@ -390,13 +405,6 @@
 		1B98E6631B37C4A100DA3750 /* tabconer-yellow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabconer-yellow-right.png"; sourceTree = "<group>"; };
 		1B98E6641B37C4A100DA3750 /* Toukou-push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toukou-push.png"; sourceTree = "<group>"; };
 		1B98E6651B37C4A100DA3750 /* yellow-maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-maru.png"; sourceTree = "<group>"; };
-		1BA740051B3BDF3A0073FF6C /* AcountViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AcountViewController.storyboard; sourceTree = "<group>"; };
-		1BA740061B3BDF3A0073FF6C /* AcountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcountViewController.swift; sourceTree = "<group>"; };
-		1BA740071B3BDF3A0073FF6C /* HonninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HonninViewController.swift; sourceTree = "<group>"; };
-		1BA7400D1B3BDF3A0073FF6C /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
-		1BA7400E1B3BDF3A0073FF6C /* PasswordWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordWhoViewController.swift; sourceTree = "<group>"; };
-		1BA740151B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Intaresut_ViewController.storyboard; sourceTree = "<group>"; };
-		1BA740161B3BDF3A0073FF6C /* Intaresut_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intaresut_ViewController.swift; sourceTree = "<group>"; };
 		1BA740191B3BDF3A0073FF6C /* PrivatFasshonNikki.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrivatFasshonNikki.storyboard; sourceTree = "<group>"; };
 		1BA7401A1B3BDF3A0073FF6C /* PrivatFasshonNikki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivatFasshonNikki.swift; sourceTree = "<group>"; };
 		1BA7401B1B3BDF3A0073FF6C /* RebuewKoukaiSet_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RebuewKoukaiSet_View.storyboard; sourceTree = "<group>"; };
@@ -583,6 +591,48 @@
 			path = Prof_Help;
 			sourceTree = "<group>";
 		};
+		1B57451E1B3C37D800894571 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1B57452E1B3C392A00894571 /* Setting_View.storyboard */,
+				1B57452C1B3C391200894571 /* Setting_View.swift */,
+				1B57452B1B3C38A300894571 /* Profile */,
+				1B57451F1B3C37D800894571 /* Acount */,
+				1B57452A1B3C38A300894571 /* kyouyuSetting */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		1B57451F1B3C37D800894571 /* Acount */ = {
+			isa = PBXGroup;
+			children = (
+				1B5745201B3C37D800894571 /* AcountViewController.storyboard */,
+				1B5745211B3C37D800894571 /* AcountViewController.swift */,
+				1B5745221B3C37D800894571 /* HonninViewController.swift */,
+				1B5745231B3C37D800894571 /* PasswordChangeViewController.swift */,
+				1B5745241B3C37D800894571 /* PasswordWhoViewController.swift */,
+			);
+			path = Acount;
+			sourceTree = "<group>";
+		};
+		1B57452A1B3C38A300894571 /* kyouyuSetting */ = {
+			isa = PBXGroup;
+			children = (
+				1B5745301B3C43A900894571 /* kyouyuSetting.storyboard */,
+				1B5745321B3C43B500894571 /* kyouyuSetting.swift */,
+			);
+			path = kyouyuSetting;
+			sourceTree = "<group>";
+		};
+		1B57452B1B3C38A300894571 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1B5745361B3C4C3700894571 /* Profile.storyboard */,
+				1B5745341B3C4C2400894571 /* Profile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		1B72955E1B38CF28002D9BDE /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -671,6 +721,7 @@
 				1B7295951B38CF28002D9BDE /* Tab_Prof_View.swift */,
 				1B57450B1B3BFD1D00894571 /* Private_Fashon */,
 				1B5745101B3BFDB500894571 /* Prof_Status */,
+				1B57451E1B3C37D800894571 /* Setting */,
 				1BA740031B3BDF3A0073FF6C /* Prof2-Sub */,
 				1B7295931B38CF28002D9BDE /* Prof2ViewController.storyboard */,
 				1B7295941B38CF28002D9BDE /* Prof2ViewController.swift */,
@@ -847,35 +898,12 @@
 		1BA740031B3BDF3A0073FF6C /* Prof2-Sub */ = {
 			isa = PBXGroup;
 			children = (
-				1BA740041B3BDF3A0073FF6C /* Acount */,
-				1BA740141B3BDF3A0073FF6C /* Private */,
 				1BA740191B3BDF3A0073FF6C /* PrivatFasshonNikki.storyboard */,
 				1BA7401A1B3BDF3A0073FF6C /* PrivatFasshonNikki.swift */,
 				1BA7401B1B3BDF3A0073FF6C /* RebuewKoukaiSet_View.storyboard */,
 				1BA7401C1B3BDF3A0073FF6C /* RebuewKoukaiSet_View.swift */,
 			);
 			path = "Prof2-Sub";
-			sourceTree = "<group>";
-		};
-		1BA740041B3BDF3A0073FF6C /* Acount */ = {
-			isa = PBXGroup;
-			children = (
-				1BA740051B3BDF3A0073FF6C /* AcountViewController.storyboard */,
-				1BA740061B3BDF3A0073FF6C /* AcountViewController.swift */,
-				1BA740071B3BDF3A0073FF6C /* HonninViewController.swift */,
-				1BA7400D1B3BDF3A0073FF6C /* PasswordChangeViewController.swift */,
-				1BA7400E1B3BDF3A0073FF6C /* PasswordWhoViewController.swift */,
-			);
-			path = Acount;
-			sourceTree = "<group>";
-		};
-		1BA740141B3BDF3A0073FF6C /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				1BA740151B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard */,
-				1BA740161B3BDF3A0073FF6C /* Intaresut_ViewController.swift */,
-			);
-			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -962,7 +990,6 @@
 				1B98E6DB1B37C4A100DA3750 /* tabconer-yellow-left.png in Resources */,
 				1B5745161B3BFF9000894571 /* Status_View.storyboard in Resources */,
 				1B98E6811B37C4A100DA3750 /* DroidSerif-Italic.ttf in Resources */,
-				1BA7402A1B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard in Resources */,
 				1B98E6DC1B37C4A100DA3750 /* tabconer-yellow-right.png in Resources */,
 				1B98E69A1B37C4A100DA3750 /* button-maisasu.png in Resources */,
 				1B98E6961B37C4A100DA3750 /* system_fonts.xml in Resources */,
@@ -993,6 +1020,7 @@
 				1B98E6CF1B37C4A100DA3750 /* tabconer-murasaki-left.png in Resources */,
 				1B98E6A11B37C4A100DA3750 /* face-normal.png in Resources */,
 				1B98E66A1B37C4A100DA3750 /* AndroidEmoji.ttf in Resources */,
+				1B5745251B3C37D800894571 /* AcountViewController.storyboard in Resources */,
 				1B5745091B3BF7E000894571 /* HelpRebuewWrite_write_View.storyboard in Resources */,
 				1B98E6AD1B37C4A100DA3750 /* icon-hitorinisasete.png in Resources */,
 				1B98E6781B37C4A100DA3750 /* DroidSansFallbackFull.ttf in Resources */,
@@ -1049,6 +1077,7 @@
 				1B98E6A61B37C4A100DA3750 /* hito2.png in Resources */,
 				1B98E67C1B37C4A100DA3750 /* DroidSansHebrew-Regular.ttf in Resources */,
 				1B98E6DD1B37C4A100DA3750 /* Toukou-push.png in Resources */,
+				1B57452F1B3C392A00894571 /* Setting_View.storyboard in Resources */,
 				1B5745071B3BF7E000894571 /* HelpRebuewWrite.storyboard in Resources */,
 				1B4910501B255F380014F0DF /* LaunchScreen.xib in Resources */,
 				1B98E6911B37C4A100DA3750 /* Roboto-ThinItalic.ttf in Resources */,
@@ -1065,6 +1094,7 @@
 				1B98E6AC1B37C4A100DA3750 /* icon-help.png in Resources */,
 				1B98E6AE1B37C4A100DA3750 /* icon-imbusy.png in Resources */,
 				1BA7402E1B3BDF3A0073FF6C /* PrivatFasshonNikki.storyboard in Resources */,
+				1B5745311B3C43A900894571 /* kyouyuSetting.storyboard in Resources */,
 				1B5745031B3BF7E000894571 /* HelpRebuewTsuuchi_ViewController.storyboard in Resources */,
 				1B7295C21B38CF28002D9BDE /* Prof2ViewController.storyboard in Resources */,
 				1B98E6C61B37C4A100DA3750 /* tab-home.png in Resources */,
@@ -1076,7 +1106,6 @@
 				1B98E6C11B37C4A100DA3750 /* purasu.png in Resources */,
 				1B98E69B1B37C4A100DA3750 /* button-off.png in Resources */,
 				1B98E6901B37C4A100DA3750 /* Roboto-Thin.ttf in Resources */,
-				1BA7401D1B3BDF3A0073FF6C /* AcountViewController.storyboard in Resources */,
 				1B98E66D1B37C4A100DA3750 /* DroidKufi-Regular.ttf in Resources */,
 				1B98E6981B37C4A100DA3750 /* acount-button.png in Resources */,
 				1B98E6C81B37C4A100DA3750 /* tab-pen.png in Resources */,
@@ -1090,6 +1119,7 @@
 				1B98E67B1B37C4A100DA3750 /* DroidSansHebrew-Bold.ttf in Resources */,
 				1B98E6851B37C4A100DA3750 /* MODULE_LICENSE_APACHE2 in Resources */,
 				1B98E6971B37C4A100DA3750 /* vendor_fonts.xml in Resources */,
+				1B5745371B3C4C3700894571 /* Profile.storyboard in Resources */,
 				1B98E6BA1B37C4A100DA3750 /* pin_orange.png in Resources */,
 				1B98E6B91B37C4A100DA3750 /* pin_green.png in Resources */,
 				1B98E6B71B37C4A100DA3750 /* pin_blue.png in Resources */,
@@ -1130,19 +1160,19 @@
 				1B5744FE1B3BF7E000894571 /* HelpInfo_ViewController.swift in Sources */,
 				1B7295C41B38CF28002D9BDE /* Tab_Prof_View.swift in Sources */,
 				1B55F09E1B3BD82E00A0FCC2 /* GroupeMake_Setting.swift in Sources */,
-				1BA740251B3BDF3A0073FF6C /* PasswordWhoViewController.swift in Sources */,
-				1BA7401F1B3BDF3A0073FF6C /* HonninViewController.swift in Sources */,
 				1B7295A51B38CF28002D9BDE /* Tab_Friend_View.swift in Sources */,
 				1BA740311B3BDF3A0073FF6C /* RebuewKoukaiSet_View.swift in Sources */,
+				1B5745291B3C37D800894571 /* PasswordWhoViewController.swift in Sources */,
 				1B5744C21B3BF56600894571 /* Friend_Set.swift in Sources */,
 				1B7295C81B38CF36002D9BDE /* Configuration.swift in Sources */,
 				1B57451D1B3C345C00894571 /* Prof_Help.swift in Sources */,
-				1BA740241B3BDF3A0073FF6C /* PasswordChangeViewController.swift in Sources */,
 				1B5745041B3BF7E000894571 /* HelpRebuewTsuuchi_ViewController.swift in Sources */,
+				1B5745331B3C43B500894571 /* kyouyuSetting.swift in Sources */,
+				1B5745281B3C37D800894571 /* PasswordChangeViewController.swift in Sources */,
+				1B57452D1B3C391200894571 /* Setting_View.swift in Sources */,
 				1B5744BD1B3BF51100894571 /* Mail_Send_View.swift in Sources */,
 				1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */,
 				1B7295A41B38CF28002D9BDE /* Tab_Diary_View.swift in Sources */,
-				1BA7401E1B3BDF3A0073FF6C /* AcountViewController.swift in Sources */,
 				1B55F09C1B3BD82E00A0FCC2 /* GroupeMake.swift in Sources */,
 				1B72959F1B38CF28002D9BDE /* Tab_Map_View.swift in Sources */,
 				1B5745141B3BFDB500894571 /* Status_View.swift in Sources */,
@@ -1152,14 +1182,16 @@
 				1B57450A1B3BF7E000894571 /* HelpRebuewWrite_write_View.swift in Sources */,
 				1B7295A11B38CF28002D9BDE /* AlertViewController.swift in Sources */,
 				1B5745061B3BF7E000894571 /* HelpRebuewTsuuchi_write_ViewController.swift in Sources */,
+				1B5745351B3C4C2400894571 /* Profile.swift in Sources */,
 				1B5745081B3BF7E000894571 /* HelpRebuewWrite.swift in Sources */,
 				1BA7402F1B3BDF3A0073FF6C /* PrivatFasshonNikki.swift in Sources */,
 				1B7295B21B38CF28002D9BDE /* Tab_Help_View.swift in Sources */,
 				1B57450F1B3BFD1D00894571 /* Privat_Fashon.swift in Sources */,
 				1B7295A31B38CF28002D9BDE /* SosViewController.swift in Sources */,
 				1B7295C51B38CF28002D9BDE /* Tab_TimeLine.swift in Sources */,
+				1B5745271B3C37D800894571 /* HonninViewController.swift in Sources */,
 				1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */,
-				1BA7402B1B3BDF3A0073FF6C /* Intaresut_ViewController.swift in Sources */,
+				1B5745261B3C37D800894571 /* AcountViewController.swift in Sources */,
 				1B72959E1B38CF28002D9BDE /* home1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

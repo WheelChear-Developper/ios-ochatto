@@ -38,47 +38,65 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="iMq-X1-Jk9">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="sectionIndexBackgroundColor" red="1" green="0.9847222444" blue="0.94073278900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.9847222444" blue="0.94073278900000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell1" id="JYY-Po-E2V">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell-damy" rowHeight="0.0" id="JYY-Po-E2V">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JYY-Po-E2V" id="Q1c-94-XdC">
                                             <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell1" id="txC-ux-x0M">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="txC-ux-x0M" id="Xhb-JX-Vhz">
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="メールアドレス" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIg-Hf-H9B">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="メールアドレス" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVf-lY-49n">
                                                     <rect key="frame" x="8" y="0.0" width="178" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="7NC-Fe-bve"/>
-                                                        <constraint firstAttribute="width" constant="178" id="Nfe-VW-Eil"/>
+                                                        <constraint firstAttribute="height" constant="21" id="YvH-6E-2j3"/>
+                                                        <constraint firstAttribute="width" constant="178" id="x4b-XZ-TfZ"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="○○○☓☓☓@mail.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zn2-Zh-CKM">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="○○○☓☓☓@mail.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlB-Qn-VGd">
                                                     <rect key="frame" x="24" y="19" width="543" height="18"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="18" id="7mY-Bx-OkD"/>
+                                                        <constraint firstAttribute="height" constant="18" id="Pkd-9r-q3Z"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzh-NC-10O">
+                                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                                    <state key="normal">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="o5R-su-kkE" kind="show" id="G4s-lY-UD4"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="zn2-Zh-CKM" firstAttribute="top" secondItem="Q1c-94-XdC" secondAttribute="top" constant="19" id="LNP-NW-l1s"/>
-                                                <constraint firstItem="tIg-Hf-H9B" firstAttribute="top" secondItem="Q1c-94-XdC" secondAttribute="top" id="WS4-fv-FLa"/>
-                                                <constraint firstItem="zn2-Zh-CKM" firstAttribute="leading" secondItem="Q1c-94-XdC" secondAttribute="leading" constant="24" id="dqw-Kn-tAq"/>
-                                                <constraint firstAttribute="trailing" secondItem="zn2-Zh-CKM" secondAttribute="trailing" id="g1m-Qw-h1D"/>
-                                                <constraint firstItem="tIg-Hf-H9B" firstAttribute="leading" secondItem="Q1c-94-XdC" secondAttribute="leading" constant="8" id="pbo-lK-F32"/>
+                                                <constraint firstAttribute="trailing" secondItem="fzh-NC-10O" secondAttribute="trailing" id="FCy-o1-imf"/>
+                                                <constraint firstItem="mlB-Qn-VGd" firstAttribute="top" secondItem="Xhb-JX-Vhz" secondAttribute="top" constant="19" id="HQz-Rv-pWU"/>
+                                                <constraint firstAttribute="bottom" secondItem="fzh-NC-10O" secondAttribute="bottom" id="ISc-2S-Npm"/>
+                                                <constraint firstItem="mlB-Qn-VGd" firstAttribute="leading" secondItem="Xhb-JX-Vhz" secondAttribute="leading" constant="24" id="RLM-Ku-hwV"/>
+                                                <constraint firstItem="FVf-lY-49n" firstAttribute="top" secondItem="Xhb-JX-Vhz" secondAttribute="top" id="TeI-Zb-fH4"/>
+                                                <constraint firstItem="FVf-lY-49n" firstAttribute="leading" secondItem="Xhb-JX-Vhz" secondAttribute="leading" constant="8" id="aaV-Po-bvk"/>
+                                                <constraint firstItem="fzh-NC-10O" firstAttribute="leading" secondItem="Xhb-JX-Vhz" secondAttribute="leading" id="gLY-2f-kB8"/>
+                                                <constraint firstItem="fzh-NC-10O" firstAttribute="top" secondItem="Xhb-JX-Vhz" secondAttribute="top" id="hdB-yI-Knh"/>
+                                                <constraint firstAttribute="trailing" secondItem="mlB-Qn-VGd" secondAttribute="trailing" id="p78-bM-FaR"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="o5R-su-kkE" kind="show" id="ckZ-Yn-gDR"/>
-                                        </connections>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell2" id="PmA-69-3m7">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -100,6 +118,7 @@
                                                 <constraint firstItem="JvA-qZ-8b8" firstAttribute="leading" secondItem="ueG-UE-Yv5" secondAttribute="leadingMargin" id="TNw-ik-y11"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell3" id="pxO-vv-FPl">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -124,6 +143,7 @@
                                                 <constraint firstItem="tOn-ZN-45Y" firstAttribute="leading" secondItem="xZf-If-xEy" secondAttribute="leadingMargin" id="f9s-c5-Zhf"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

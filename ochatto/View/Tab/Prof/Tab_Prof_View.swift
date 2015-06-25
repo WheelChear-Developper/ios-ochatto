@@ -21,8 +21,8 @@ class Tab_Prof_View: UIViewController, UITableViewDataSource, UITableViewDelegat
     @IBOutlet weak var Ochatto_TableWakuView: UIView!
     
     @IBAction func acountSet_push(sender: AnyObject) {
-        var storyboard: UIStoryboard = UIStoryboard(name: "AcountViewController", bundle: NSBundle.mainBundle())
-        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("AcountSetRoot") as! UINavigationController
+        var storyboard: UIStoryboard = UIStoryboard(name: "Setting_View", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("SettingViewRoot") as! UINavigationController
         
         self.presentViewController(navigation, animated: true, completion: nil)
     }

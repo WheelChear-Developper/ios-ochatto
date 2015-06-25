@@ -1,25 +1,24 @@
 //
-//  GroupeMake.swift
+//  Profile.swift
 //  ochatto
 //
-//  Created by MacServer on 2015/06/22.
+//  Created by MacServer on 2015/06/25.
 //  Copyright (c) 2015年 Mobile Innovation, LLC. All rights reserved.
 //
 
 import UIKit
 
-class GroupeMake: UIViewController {
+class Profile: UIViewController  {
     
     private var myLeftButton: UIBarButtonItem!
     
-    @IBAction func naviclose(sender: AnyObject) {
+    @IBAction func close_push(sender: AnyObject) {
+        //self.navigationController?.popViewControllerAnimated(true)
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.navigationItem.title = "グループ作成 - リストの作成"
         
         // 左ボタンを作成する..
         myLeftButton = UIBarButtonItem(title: "", style: .Plain, target: nil, action: "")
@@ -28,6 +27,7 @@ class GroupeMake: UIViewController {
         // ナビゲーションバーの左に設置する.
         self.navigationItem.leftBarButtonItem = myLeftButton
         
+        self.navigationItem.title = "プロフィール編集"
     }
     
     override func didReceiveMemoryWarning() {
