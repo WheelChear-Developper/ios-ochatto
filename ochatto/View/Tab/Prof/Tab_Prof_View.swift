@@ -61,6 +61,26 @@ class Tab_Prof_View: UIViewController, UITableViewDataSource, UITableViewDelegat
         self.presentViewController(navigation, animated: true, completion: nil)
     }
     
+    @IBAction func icon_push(sender: AnyObject) {
+        let alertController = UIAlertController(title: "変更しますか？", message: "", preferredStyle: .Alert)
+        
+        let cancelAction = UIAlertAction(title: "CANCEL", style: .Cancel) {
+            action in println("Pushed CANCEL!")
+        }
+        let otherAction = UIAlertAction(title: "OK", style: .Default) {
+            action in println("pushed OK!")
+            
+            var storyboard: UIStoryboard = UIStoryboard(name: "Status_View", bundle: NSBundle.mainBundle())
+            var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("Status_ViewRoot") as! UINavigationController
+            
+            self.presentViewController(navigation, animated: true, completion: nil)
+        }
+        
+        alertController.addAction(cancelAction)
+        alertController.addAction(otherAction)
+        presentViewController(alertController, animated: true, completion: nil)
+    }
+    
     @IBAction func tab1_push(sender: AnyObject) {
         
         Kyoumi_TableWakuView.hidden = false

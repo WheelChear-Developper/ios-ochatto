@@ -38,6 +38,10 @@
 		1B5745081B3BF7E000894571 /* HelpRebuewWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5744EE1B3BF7E000894571 /* HelpRebuewWrite.swift */; };
 		1B5745091B3BF7E000894571 /* HelpRebuewWrite_write_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5744EF1B3BF7E000894571 /* HelpRebuewWrite_write_View.storyboard */; };
 		1B57450A1B3BF7E000894571 /* HelpRebuewWrite_write_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5744F01B3BF7E000894571 /* HelpRebuewWrite_write_View.swift */; };
+		1B57450E1B3BFD1D00894571 /* Privat_Fashon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B57450C1B3BFD1D00894571 /* Privat_Fashon.storyboard */; };
+		1B57450F1B3BFD1D00894571 /* Privat_Fashon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57450D1B3BFD1D00894571 /* Privat_Fashon.swift */; };
+		1B5745141B3BFDB500894571 /* Status_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5745121B3BFDB500894571 /* Status_View.swift */; };
+		1B5745161B3BFF9000894571 /* Status_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5745151B3BFF9000894571 /* Status_View.storyboard */; };
 		1B72959D1B38CF28002D9BDE /* home1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295661B38CF28002D9BDE /* home1ViewController.storyboard */; };
 		1B72959E1B38CF28002D9BDE /* home1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295671B38CF28002D9BDE /* home1ViewController.swift */; };
 		1B72959F1B38CF28002D9BDE /* Tab_Map_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295681B38CF28002D9BDE /* Tab_Map_View.swift */; };
@@ -181,10 +185,6 @@
 		1BA7401F1B3BDF3A0073FF6C /* HonninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA740071B3BDF3A0073FF6C /* HonninViewController.swift */; };
 		1BA740241B3BDF3A0073FF6C /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7400D1B3BDF3A0073FF6C /* PasswordChangeViewController.swift */; };
 		1BA740251B3BDF3A0073FF6C /* PasswordWhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7400E1B3BDF3A0073FF6C /* PasswordWhoViewController.swift */; };
-		1BA740261B3BDF3A0073FF6C /* Status_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA740101B3BDF3A0073FF6C /* Status_View.storyboard */; };
-		1BA740271B3BDF3A0073FF6C /* Status_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA740111B3BDF3A0073FF6C /* Status_View.swift */; };
-		1BA740281B3BDF3A0073FF6C /* Privat_Fashon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA740121B3BDF3A0073FF6C /* Privat_Fashon.storyboard */; };
-		1BA740291B3BDF3A0073FF6C /* Privat_Fashon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA740131B3BDF3A0073FF6C /* Privat_Fashon.swift */; };
 		1BA7402A1B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA740151B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard */; };
 		1BA7402B1B3BDF3A0073FF6C /* Intaresut_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA740161B3BDF3A0073FF6C /* Intaresut_ViewController.swift */; };
 		1BA7402C1B3BDF3A0073FF6C /* Prof_Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA740171B3BDF3A0073FF6C /* Prof_Help.storyboard */; };
@@ -242,6 +242,10 @@
 		1B5744EE1B3BF7E000894571 /* HelpRebuewWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite.swift; sourceTree = "<group>"; };
 		1B5744EF1B3BF7E000894571 /* HelpRebuewWrite_write_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HelpRebuewWrite_write_View.storyboard; sourceTree = "<group>"; };
 		1B5744F01B3BF7E000894571 /* HelpRebuewWrite_write_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpRebuewWrite_write_View.swift; sourceTree = "<group>"; };
+		1B57450C1B3BFD1D00894571 /* Privat_Fashon.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Privat_Fashon.storyboard; sourceTree = "<group>"; };
+		1B57450D1B3BFD1D00894571 /* Privat_Fashon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privat_Fashon.swift; sourceTree = "<group>"; };
+		1B5745121B3BFDB500894571 /* Status_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status_View.swift; sourceTree = "<group>"; };
+		1B5745151B3BFF9000894571 /* Status_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Status_View.storyboard; sourceTree = "<group>"; };
 		1B7295661B38CF28002D9BDE /* home1ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = home1ViewController.storyboard; sourceTree = "<group>"; };
 		1B7295671B38CF28002D9BDE /* home1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = home1ViewController.swift; sourceTree = "<group>"; };
 		1B7295681B38CF28002D9BDE /* Tab_Map_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab_Map_View.swift; path = ochatto/View/Tab_Map_View.swift; sourceTree = SOURCE_ROOT; };
@@ -387,10 +391,6 @@
 		1BA740071B3BDF3A0073FF6C /* HonninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HonninViewController.swift; sourceTree = "<group>"; };
 		1BA7400D1B3BDF3A0073FF6C /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
 		1BA7400E1B3BDF3A0073FF6C /* PasswordWhoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordWhoViewController.swift; sourceTree = "<group>"; };
-		1BA740101B3BDF3A0073FF6C /* Status_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Status_View.storyboard; sourceTree = "<group>"; };
-		1BA740111B3BDF3A0073FF6C /* Status_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status_View.swift; sourceTree = "<group>"; };
-		1BA740121B3BDF3A0073FF6C /* Privat_Fashon.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Privat_Fashon.storyboard; sourceTree = "<group>"; };
-		1BA740131B3BDF3A0073FF6C /* Privat_Fashon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privat_Fashon.swift; sourceTree = "<group>"; };
 		1BA740151B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Intaresut_ViewController.storyboard; sourceTree = "<group>"; };
 		1BA740161B3BDF3A0073FF6C /* Intaresut_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intaresut_ViewController.swift; sourceTree = "<group>"; };
 		1BA740171B3BDF3A0073FF6C /* Prof_Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Prof_Help.storyboard; sourceTree = "<group>"; };
@@ -554,6 +554,24 @@
 			path = HelpRebuewWrite;
 			sourceTree = "<group>";
 		};
+		1B57450B1B3BFD1D00894571 /* Private_Fashon */ = {
+			isa = PBXGroup;
+			children = (
+				1B57450C1B3BFD1D00894571 /* Privat_Fashon.storyboard */,
+				1B57450D1B3BFD1D00894571 /* Privat_Fashon.swift */,
+			);
+			path = Private_Fashon;
+			sourceTree = "<group>";
+		};
+		1B5745101B3BFDB500894571 /* Prof_Status */ = {
+			isa = PBXGroup;
+			children = (
+				1B5745151B3BFF9000894571 /* Status_View.storyboard */,
+				1B5745121B3BFDB500894571 /* Status_View.swift */,
+			);
+			path = Prof_Status;
+			sourceTree = "<group>";
+		};
 		1B72955E1B38CF28002D9BDE /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +657,8 @@
 			isa = PBXGroup;
 			children = (
 				1B7295951B38CF28002D9BDE /* Tab_Prof_View.swift */,
+				1B57450B1B3BFD1D00894571 /* Private_Fashon */,
+				1B5745101B3BFDB500894571 /* Prof_Status */,
 				1BA740031B3BDF3A0073FF6C /* Prof2-Sub */,
 				1B7295931B38CF28002D9BDE /* Prof2ViewController.storyboard */,
 				1B7295941B38CF28002D9BDE /* Prof2ViewController.swift */,
@@ -815,9 +835,6 @@
 			isa = PBXGroup;
 			children = (
 				1BA740041B3BDF3A0073FF6C /* Acount */,
-				1BA7400F1B3BDF3A0073FF6C /* List */,
-				1BA740121B3BDF3A0073FF6C /* Privat_Fashon.storyboard */,
-				1BA740131B3BDF3A0073FF6C /* Privat_Fashon.swift */,
 				1BA740141B3BDF3A0073FF6C /* Private */,
 				1BA740191B3BDF3A0073FF6C /* PrivatFasshonNikki.storyboard */,
 				1BA7401A1B3BDF3A0073FF6C /* PrivatFasshonNikki.swift */,
@@ -837,15 +854,6 @@
 				1BA7400E1B3BDF3A0073FF6C /* PasswordWhoViewController.swift */,
 			);
 			path = Acount;
-			sourceTree = "<group>";
-		};
-		1BA7400F1B3BDF3A0073FF6C /* List */ = {
-			isa = PBXGroup;
-			children = (
-				1BA740101B3BDF3A0073FF6C /* Status_View.storyboard */,
-				1BA740111B3BDF3A0073FF6C /* Status_View.swift */,
-			);
-			path = List;
 			sourceTree = "<group>";
 		};
 		1BA740141B3BDF3A0073FF6C /* Private */ = {
@@ -941,6 +949,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B98E6DB1B37C4A100DA3750 /* tabconer-yellow-left.png in Resources */,
+				1B5745161B3BFF9000894571 /* Status_View.storyboard in Resources */,
 				1B98E6811B37C4A100DA3750 /* DroidSerif-Italic.ttf in Resources */,
 				1BA7402A1B3BDF3A0073FF6C /* Intaresut_ViewController.storyboard in Resources */,
 				1B98E6DC1B37C4A100DA3750 /* tabconer-yellow-right.png in Resources */,
@@ -995,6 +1004,7 @@
 				1B98E6951B37C4A100DA3750 /* RobotoCondensed-Regular.ttf in Resources */,
 				1B98E6931B37C4A100DA3750 /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				1B98E6AB1B37C4A100DA3750 /* icon-feelso.png in Resources */,
+				1B57450E1B3BFD1D00894571 /* Privat_Fashon.storyboard in Resources */,
 				1B98E6A51B37C4A100DA3750 /* hito1.png in Resources */,
 				1B98E6731B37C4A100DA3750 /* DroidSansArabic.ttf in Resources */,
 				1B98E66E1B37C4A100DA3750 /* DroidNaskh-Bold.ttf in Resources */,
@@ -1021,7 +1031,6 @@
 				1B98E6CE1B37C4A100DA3750 /* tabconer-murasaki-center.png in Resources */,
 				1B98E6751B37C4A100DA3750 /* DroidSansEthiopic-Bold.ttf in Resources */,
 				1B98E6991B37C4A100DA3750 /* button-batsu.png in Resources */,
-				1BA740281B3BDF3A0073FF6C /* Privat_Fashon.storyboard in Resources */,
 				1B98E6B81B37C4A100DA3750 /* pin_gray.png in Resources */,
 				1B98E6B21B37C4A100DA3750 /* level-star.png in Resources */,
 				1B98E6C51B37C4A100DA3750 /* tab-help.png in Resources */,
@@ -1037,7 +1046,6 @@
 				1B98E6D21B37C4A100DA3750 /* tabconer-off-left.png in Resources */,
 				1B98E6A31B37C4A100DA3750 /* green-maru.png in Resources */,
 				1B55F09B1B3BD82E00A0FCC2 /* GroupeMake.storyboard in Resources */,
-				1BA740261B3BDF3A0073FF6C /* Status_View.storyboard in Resources */,
 				1B98E6881B37C4A100DA3750 /* NOTICE in Resources */,
 				1B5744C11B3BF56600894571 /* Friend_Set.storyboard in Resources */,
 				1B98E6D11B37C4A100DA3750 /* tabconer-off-center.png in Resources */,
@@ -1125,7 +1133,7 @@
 				1BA7401E1B3BDF3A0073FF6C /* AcountViewController.swift in Sources */,
 				1B55F09C1B3BD82E00A0FCC2 /* GroupeMake.swift in Sources */,
 				1B72959F1B38CF28002D9BDE /* Tab_Map_View.swift in Sources */,
-				1BA740271B3BDF3A0073FF6C /* Status_View.swift in Sources */,
+				1B5745141B3BFDB500894571 /* Status_View.swift in Sources */,
 				1B5745021B3BF7E000894571 /* HelpMake_ViewController.swift in Sources */,
 				1B7295C31B38CF28002D9BDE /* Prof2ViewController.swift in Sources */,
 				1B7295B31B38CF28002D9BDE /* Tab_Mail_View.swift in Sources */,
@@ -1135,7 +1143,7 @@
 				1B5745081B3BF7E000894571 /* HelpRebuewWrite.swift in Sources */,
 				1BA7402F1B3BDF3A0073FF6C /* PrivatFasshonNikki.swift in Sources */,
 				1B7295B21B38CF28002D9BDE /* Tab_Help_View.swift in Sources */,
-				1BA740291B3BDF3A0073FF6C /* Privat_Fashon.swift in Sources */,
+				1B57450F1B3BFD1D00894571 /* Privat_Fashon.swift in Sources */,
 				1B7295A31B38CF28002D9BDE /* SosViewController.swift in Sources */,
 				1B7295C51B38CF28002D9BDE /* Tab_TimeLine.swift in Sources */,
 				1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */,
