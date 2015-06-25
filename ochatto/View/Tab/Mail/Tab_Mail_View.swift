@@ -1,5 +1,5 @@
 //
-//  MailViewController.swift
+//  Tab_Mail_View.swift
 //  ochatto
 //
 //  Created by MacServer on 2015/06/08.
@@ -8,7 +8,10 @@
 
 import UIKit
 
-class MailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+class Tab_Mail_View: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+    
+    //Configクラス定義
+    var config_cls:NSObject.Type = NSClassFromString("Configuration") as! NSObject.Type
     
     @IBOutlet weak var tab1_left: UIImageView!
     @IBOutlet weak var tab1_center: UIImageView!
@@ -25,6 +28,13 @@ class MailViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet weak var Oshirase_TableView: UITableView!
     @IBOutlet weak var Mail_TableView: UITableView!
+    
+    @IBAction func mailSend_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Mail_Send_View", bundle: NSBundle.mainBundle())
+        var SetViewController: Mail_Send_View = storyboard.instantiateInitialViewController() as! Mail_Send_View
+        
+        self.navigationController?.pushViewController(SetViewController, animated: true)
+    }
     
     @IBAction func tab1_push(sender: AnyObject) {
         tab1_left.image = UIImage(named: "tabconer-on-left.png")
@@ -58,6 +68,48 @@ class MailViewController: UIViewController, UITableViewDataSource, UITableViewDe
         Mail_TableWakuView.hidden = false
     }
     
+    override func viewWillAppear(animated: Bool) {
+//        super.viewDidDisappear(animated)
+        println("HomeViewControllerのviewWillAppearが呼ばれた")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        //Config用のクラス設定
+        var config:Configuration = (config_cls() as! Configuration)
+        if config.getMailType() == 1 {
+            tab1_left.image = UIImage(named: "tabconer-off-left.png")
+            tab1_center.image = UIImage(named: "tabconer-off-center.png")
+            tab1_right.image = UIImage(named: "tabconer-off-right.png")
+            
+            tab2_left.image = UIImage(named: "tabconer-on-left.png")
+            tab2_center.image = UIImage(named: "tabconer-on-center.png")
+            tab2_right.image = UIImage(named: "tabconer-on-right.png")
+            
+            tab1_button.setTitleColor(UIColor.blackColor(), forState: .Normal)
+            tab2_button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+            
+            Oshirase_TableWakuView.hidden = true
+            Mail_TableWakuView.hidden = false
+            config.setMailType(0)
+        }else{
+            tab1_left.image = UIImage(named: "tabconer-on-left.png")
+            tab1_center.image = UIImage(named: "tabconer-on-center.png")
+            tab1_right.image = UIImage(named: "tabconer-on-right.png")
+            
+            tab2_left.image = UIImage(named: "tabconer-off-left.png")
+            tab2_center.image = UIImage(named: "tabconer-off-center.png")
+            tab2_right.image = UIImage(named: "tabconer-off-right.png")
+            
+            tab1_button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+            tab2_button.setTitleColor(UIColor.blackColor(), forState: .Normal)
+            
+            Oshirase_TableWakuView.hidden = false
+            Mail_TableWakuView.hidden = true
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -67,9 +119,6 @@ class MailViewController: UIViewController, UITableViewDataSource, UITableViewDe
         Oshirase_TableView.dataSource = self
         Mail_TableView.delegate = self
         Mail_TableView.dataSource = self
-        
-        Oshirase_TableWakuView.hidden = false
-        Mail_TableWakuView.hidden = true
         
 //        self.Mail_TableView.estimatedRowHeight = 70
 //        self.Mail_TableView.rowHeight = UITableViewAutomaticDimension

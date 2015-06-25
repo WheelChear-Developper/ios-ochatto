@@ -1,5 +1,5 @@
 //
-//  HelpViewController.swift
+//  Tab_Help_View.swift
 //  ochatto
 //
 //  Created by MacServer on 2015/06/08.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+class Tab_Help_View: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     
     @IBOutlet weak var Help_TableView: UITableView!
     

@@ -55,7 +55,7 @@
                                     <constraint firstAttribute="height" constant="21" id="49l-JU-52D"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ステイタス変更を知りたい友人を選んで、条件を設定してください。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sa9-bR-ADE">
@@ -64,7 +64,7 @@
                                     <constraint firstAttribute="height" constant="60" id="DTE-DP-dNf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="26" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="MR4-x3-jgM">
@@ -320,8 +320,8 @@
                                                     <variation key="default">
                                                         <mask key="constraints">
                                                             <exclude reference="26T-Jp-8CS"/>
-                                                            <exclude reference="tWa-qx-gLQ"/>
                                                             <exclude reference="AuE-eN-QLS"/>
+                                                            <exclude reference="tWa-qx-gLQ"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -647,9 +647,9 @@
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="c4V-Au-hYD"/>
                                                             <exclude reference="Aqx-ew-Aaf"/>
                                                             <exclude reference="Wzl-Xu-6UO"/>
+                                                            <exclude reference="c4V-Au-hYD"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -1058,7 +1058,7 @@
                                     <constraint firstAttribute="height" constant="16" id="y33-80-3Yh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="○全てのメンバーのレベルもしくはアイコンの設定を通知する。" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Keh-iw-Q5M">
@@ -1067,7 +1067,7 @@
                                     <constraint firstAttribute="height" constant="27" id="M9F-n4-M3K"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LPC-kN-kSx">

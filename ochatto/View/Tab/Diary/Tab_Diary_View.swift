@@ -1,5 +1,5 @@
 //
-//  DiaryViewController.swift
+//  Tab_Diary_View.swift
 //  ochatto
 //
 //  Created by MacServer on 2015/06/11.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DiaryViewController: UIViewController {
+class Tab_Diary_View: UIViewController {
     
     @IBAction func delete_push(sender: AnyObject) {
         

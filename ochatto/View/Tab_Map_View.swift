@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  Tab_Map_View.swift
 //  ochatto
 //
 //  Created by MacServer on 2015/06/08.
@@ -10,7 +10,10 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class Tab_Map_View: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+    
+    //Configクラス定義
+    var config_cls:NSObject.Type = NSClassFromString("Configuration") as! NSObject.Type
     
     //地図ビュー
     @IBOutlet weak var myMapView: MKMapView!
@@ -26,6 +29,12 @@ class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManager
     
     @IBAction func frame1_push(sender: AnyObject) {
         frame1.hidden = true
+        
+        //Config用のクラス設定
+        var config:Configuration = (config_cls() as! Configuration)
+        config.setMailType(1)
+        
+        self.tabBarController?.selectedIndex = 2
     }
     @IBAction func frsme1_close(sender: AnyObject) {
         frame1.hidden = true
@@ -68,6 +77,9 @@ class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManager
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Config用のクラス設定
+        var config:Configuration = (config_cls() as! Configuration)
         
         frame1.hidden = true
         frame2.hidden = true

@@ -1,5 +1,5 @@
 //
-//  TimeLineViewController.swift
+//  Tab_TimeLine.swift
 //  ochatto
 //
 //  Created by MacServer on 2015/06/08.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TimeLineViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+class Tab_TimeLine: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     
     @IBOutlet weak var Private_TableWakuView: UIView!
     @IBOutlet weak var Social_TableWakuView: UIView!
@@ -36,6 +36,11 @@ class TimeLineViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     @IBAction func NewDiary_social_push(sender: AnyObject) {
+        
+        self.tabBarController?.selectedIndex = 6
+    }
+    
+    @IBAction func NewDiary_Cell_push(sender: AnyObject) {
         
         self.tabBarController?.selectedIndex = 6
     }

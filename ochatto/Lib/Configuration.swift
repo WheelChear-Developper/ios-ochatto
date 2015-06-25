@@ -75,66 +75,19 @@ class Configuration: NSObject {
     
     
     
-    //初期起動フラグ
-    let CONFIGURATION_FIRST_START = "Configuration.FirstStart"
-    func setFirstStart(value: Bool) {
+    let CONFIGURATION_MAILTYPE = "Configuration.MailType"
+    func setMailType(value: Int) {
         
         let userDefaults = NSUserDefaults.standardUserDefaults()
-        userDefaults.setBool(value, forKey: CONFIGURATION_FIRST_START)
+        userDefaults.setInteger(value, forKey: CONFIGURATION_SAMPLEINT)
         userDefaults.synchronize()
     }
-    func getFirstStart() ->(Bool) {
+    func getMailType() ->(Int) {
         
         let userDefaults = NSUserDefaults.standardUserDefaults()
-        var dic = [CONFIGURATION_FIRST_START: true]
+        var dic = [CONFIGURATION_SAMPLEINT: 0]
         userDefaults.registerDefaults(dic)
-        return userDefaults.boolForKey(CONFIGURATION_FIRST_START)
-    }
-    
-    let CONFIGURATION_MAP_DIRECTION = "Configuration.Map_Direction"
-    func setMapDirection(value: Int) {
-        
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        userDefaults.setInteger(value, forKey: CONFIGURATION_MAP_DIRECTION)
-        userDefaults.synchronize()
-    }
-    func getMapDirection() ->(Int) {
-        
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        var dic = [CONFIGURATION_MAP_DIRECTION: 0]
-        userDefaults.registerDefaults(dic)
-        return userDefaults.integerForKey(CONFIGURATION_MAP_DIRECTION)
-    }
-    
-    //緯度の保存
-    let CONFIGURATION_MAP_LATITUDE = "Configuration.Map_latitude"
-    func setMapLatitude(value: Double) {
-        
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        userDefaults.setDouble(value, forKey: CONFIGURATION_MAP_LATITUDE)
-        userDefaults.synchronize()
-    }
-    func getMapLatitude() ->(Double) {
-        
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        var dic = [CONFIGURATION_MAP_LATITUDE: 0]
-        userDefaults.registerDefaults(dic)
-        return userDefaults.doubleForKey(CONFIGURATION_MAP_LATITUDE)
-    }
-    //経度の保存
-    let CONFIGURATION_MAP_LONGITUDE = "Configuration.Map_longitude"
-    func setMapLongitude(value: Double) {
-        
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        userDefaults.setDouble(value, forKey: CONFIGURATION_MAP_LONGITUDE)
-        userDefaults.synchronize()
-    }
-    func getMapLongitude() ->(Double) {
-        
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        var dic = [CONFIGURATION_MAP_LONGITUDE: 0]
-        userDefaults.registerDefaults(dic)
-        return userDefaults.doubleForKey(CONFIGURATION_MAP_LONGITUDE)
+        return userDefaults.integerForKey(CONFIGURATION_SAMPLEINT)
     }
     
 }

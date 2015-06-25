@@ -1,5 +1,5 @@
 //
-//  ProfViewController.swift
+//  Tab_Prof_View.swift
 //  ochatto
 //
 //  Created by MacServer on 2015/06/08.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class Tab_Prof_View: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
 
     @IBOutlet weak var Kyoumi1_TableView: UITableView!
@@ -52,6 +52,13 @@ class ProfViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }else{
             follow.setTitle("フォローする", forState: .Normal)
         }
+    }
+    
+    @IBAction func privateFashon_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Privat_Fashon", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("Privat_FashonRoot") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
     }
     
     @IBAction func tab1_push(sender: AnyObject) {
