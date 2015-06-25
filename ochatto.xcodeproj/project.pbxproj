@@ -42,6 +42,7 @@
 		1B57450F1B3BFD1D00894571 /* Privat_Fashon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57450D1B3BFD1D00894571 /* Privat_Fashon.swift */; };
 		1B5745141B3BFDB500894571 /* Status_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5745121B3BFDB500894571 /* Status_View.swift */; };
 		1B5745161B3BFF9000894571 /* Status_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5745151B3BFF9000894571 /* Status_View.storyboard */; };
+		1B5745181B3C2F8300894571 /* level-bikkuri.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5745171B3C2F8300894571 /* level-bikkuri.png */; };
 		1B72959D1B38CF28002D9BDE /* home1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7295661B38CF28002D9BDE /* home1ViewController.storyboard */; };
 		1B72959E1B38CF28002D9BDE /* home1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295671B38CF28002D9BDE /* home1ViewController.swift */; };
 		1B72959F1B38CF28002D9BDE /* Tab_Map_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7295681B38CF28002D9BDE /* Tab_Map_View.swift */; };
@@ -246,6 +247,7 @@
 		1B57450D1B3BFD1D00894571 /* Privat_Fashon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privat_Fashon.swift; sourceTree = "<group>"; };
 		1B5745121B3BFDB500894571 /* Status_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status_View.swift; sourceTree = "<group>"; };
 		1B5745151B3BFF9000894571 /* Status_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Status_View.storyboard; sourceTree = "<group>"; };
+		1B5745171B3C2F8300894571 /* level-bikkuri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-bikkuri.png"; sourceTree = "<group>"; };
 		1B7295661B38CF28002D9BDE /* home1ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = home1ViewController.storyboard; sourceTree = "<group>"; };
 		1B7295671B38CF28002D9BDE /* home1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = home1ViewController.swift; sourceTree = "<group>"; };
 		1B7295681B38CF28002D9BDE /* Tab_Map_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab_Map_View.swift; path = ochatto/View/Tab_Map_View.swift; sourceTree = SOURCE_ROOT; };
@@ -751,6 +753,7 @@
 		1B98E61E1B37C4A100DA3750 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1B5745171B3C2F8300894571 /* level-bikkuri.png */,
 				1BAD07461B3A948800B84037 /* check-markdown.png */,
 				1B7296651B38E358002D9BDE /* button-hyuman.png */,
 				1B7296631B38E180002D9BDE /* button-sankaku.png */,
@@ -1040,6 +1043,7 @@
 				1B5745071B3BF7E000894571 /* HelpRebuewWrite.storyboard in Resources */,
 				1B4910501B255F380014F0DF /* LaunchScreen.xib in Resources */,
 				1B98E6911B37C4A100DA3750 /* Roboto-ThinItalic.ttf in Resources */,
+				1B5745181B3C2F8300894571 /* level-bikkuri.png in Resources */,
 				1B72959D1B38CF28002D9BDE /* home1ViewController.storyboard in Resources */,
 				1BA7402C1B3BDF3A0073FF6C /* Prof_Help.storyboard in Resources */,
 				1B98E6B31B37C4A100DA3750 /* mainus.png in Resources */,

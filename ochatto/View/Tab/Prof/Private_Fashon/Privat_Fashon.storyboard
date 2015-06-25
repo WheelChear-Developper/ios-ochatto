@@ -32,7 +32,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fth-tL-HoV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2726" y="891"/>
+            <point key="canvasLocation" x="2105" y="183"/>
         </scene>
         <!--Ochatto-->
         <scene sceneID="7FO-UQ-AD4">
@@ -641,7 +641,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VqV-pf-LFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3537" y="891"/>
+            <point key="canvasLocation" x="2859" y="183"/>
         </scene>
     </scenes>
     <resources>
