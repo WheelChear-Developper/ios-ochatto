@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B07E8A31B53F1D4001F20A1 /* Profile_map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07E8A21B53F1D4001F20A1 /* Profile_map.swift */; };
+		1B07E8A51B54C097001F20A1 /* Tab_Diary_View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07E8A41B54C097001F20A1 /* Tab_Diary_View2.swift */; };
 		1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910421B255F370014F0DF /* AppDelegate.swift */; };
 		1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910441B255F380014F0DF /* ochatto.xcdatamodeld */; };
 		1B49104B1B255F380014F0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4910491B255F380014F0DF /* Main.storyboard */; };
@@ -212,6 +214,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B07E8A21B53F1D4001F20A1 /* Profile_map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile_map.swift; sourceTree = "<group>"; };
+		1B07E8A41B54C097001F20A1 /* Tab_Diary_View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab_Diary_View2.swift; sourceTree = "<group>"; };
 		1B49103D1B255F370014F0DF /* ochatto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ochatto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4910411B255F370014F0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B4910421B255F370014F0DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -629,6 +633,7 @@
 			children = (
 				1B5745361B3C4C3700894571 /* Profile.storyboard */,
 				1B5745341B3C4C2400894571 /* Profile.swift */,
+				1B07E8A21B53F1D4001F20A1 /* Profile_map.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -681,6 +686,7 @@
 			isa = PBXGroup;
 			children = (
 				1B7295701B38CF28002D9BDE /* Tab_Diary_View.swift */,
+				1B07E8A41B54C097001F20A1 /* Tab_Diary_View2.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -1160,6 +1166,7 @@
 				1B5744FE1B3BF7E000894571 /* HelpInfo_ViewController.swift in Sources */,
 				1B7295C41B38CF28002D9BDE /* Tab_Prof_View.swift in Sources */,
 				1B55F09E1B3BD82E00A0FCC2 /* GroupeMake_Setting.swift in Sources */,
+				1B07E8A51B54C097001F20A1 /* Tab_Diary_View2.swift in Sources */,
 				1B7295A51B38CF28002D9BDE /* Tab_Friend_View.swift in Sources */,
 				1BA740311B3BDF3A0073FF6C /* RebuewKoukaiSet_View.swift in Sources */,
 				1B5745291B3C37D800894571 /* PasswordWhoViewController.swift in Sources */,
@@ -1188,6 +1195,7 @@
 				1B7295B21B38CF28002D9BDE /* Tab_Help_View.swift in Sources */,
 				1B57450F1B3BFD1D00894571 /* Privat_Fashon.swift in Sources */,
 				1B7295A31B38CF28002D9BDE /* SosViewController.swift in Sources */,
+				1B07E8A31B53F1D4001F20A1 /* Profile_map.swift in Sources */,
 				1B7295C51B38CF28002D9BDE /* Tab_TimeLine.swift in Sources */,
 				1B5745271B3C37D800894571 /* HonninViewController.swift in Sources */,
 				1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */,

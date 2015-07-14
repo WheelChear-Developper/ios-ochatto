@@ -25,7 +25,7 @@ class SosViewController: UIViewController, MKMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "Ochatto"
+        self.navigationItem.title = "お茶っと"
         
         // 左ボタンを作成する..
         myLeftButton = UIBarButtonItem(title: "", style: .Plain, target: nil, action: "")

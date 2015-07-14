@@ -10,6 +10,8 @@ import UIKit
 
 class HelpInfo_ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     
+    private var myLeftButton: UIBarButtonItem!
+    
     @IBOutlet weak var HelpInfo_TableView: UITableView!
     
     @IBAction func naviclose(sender: AnyObject) {
@@ -23,6 +25,21 @@ class HelpInfo_ViewController: UIViewController, UITableViewDataSource, UITableV
         self.navigationController?.pushViewController(groupeMake, animated: true)
     }
     
+    @IBAction func Select_push(sender: UIButton) {
+        let alertController = UIAlertController(title: "解決しましたか？", message: "", preferredStyle: .Alert)
+        let otherAction = UIAlertAction(title: "OK", style: .Default) {
+            action in println("pushed OK!")
+            self.navigationController?.popViewControllerAnimated(true)
+        }
+        let cancelAction = UIAlertAction(title: "CANCEL", style: .Cancel) {
+            action in println("Pushed CANCEL!")
+        }
+        
+        alertController.addAction(otherAction)
+        alertController.addAction(cancelAction)
+        presentViewController(alertController, animated: true, completion: nil)
+    }
+    
     // Tableで使用する配列を定義する.
     private let ListItems: NSArray = ["1", "2", "3", "4"]
     
@@ -33,6 +50,13 @@ class HelpInfo_ViewController: UIViewController, UITableViewDataSource, UITableV
         
         HelpInfo_TableView.delegate = self
         HelpInfo_TableView.dataSource = self
+        
+        // 左ボタンを作成する..
+        myLeftButton = UIBarButtonItem(title: "", style: .Plain, target: nil, action: "")
+        // tagを設定する.
+        myLeftButton.tag = 1
+        // ナビゲーションバーの左に設置する.
+        self.navigationItem.leftBarButtonItem = myLeftButton
         
     }
     

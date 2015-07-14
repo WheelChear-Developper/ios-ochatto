@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qmu-wG-3mL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qmu-wG-3mL">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -43,7 +43,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jee-aU-pEI">
                                 <rect key="frame" x="5" y="72" width="590" height="400"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito2.png" translatesAutoresizingMaskIntoConstraints="NO" id="79K-wN-QLL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="79K-wN-QLL">
                                         <rect key="frame" x="10" y="10" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="Nz4-E5-4vs"/>
@@ -180,7 +180,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hito2.png" width="341" height="341"/>
+        <image name="hito3.png" width="341" height="341"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
     </resources>
 </document>

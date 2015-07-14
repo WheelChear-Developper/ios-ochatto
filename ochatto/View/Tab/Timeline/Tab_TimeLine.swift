@@ -40,11 +40,6 @@ class Tab_TimeLine: UIViewController, UITableViewDataSource, UITableViewDelegate
         self.tabBarController?.selectedIndex = 6
     }
     
-    @IBAction func NewDiary_Cell_push(sender: AnyObject) {
-        
-        self.tabBarController?.selectedIndex = 6
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nxc-Nu-Soo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nxc-Nu-Soo">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -29,7 +29,7 @@
             </objects>
             <point key="canvasLocation" x="-352" y="4454"/>
         </scene>
-        <!--Ochatto-->
+        <!--お茶っと-->
         <scene sceneID="gxx-GD-oQB">
             <objects>
                 <viewController id="NSu-qJ-tqE" customClass="HelpRebuewWrite" customModule="ochatto" customModuleProvider="target" sceneMemberID="viewController">
@@ -206,7 +206,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" tag="5" title="Help" id="d4w-7V-Cfa"/>
-                    <navigationItem key="navigationItem" title="Ochatto" id="Snr-KL-rbc">
+                    <navigationItem key="navigationItem" title="お茶っと" id="Snr-KL-rbc">
                         <barButtonItem key="rightBarButtonItem" image="nabi-batsu.png" id="q0h-w9-rGL">
                             <connections>
                                 <action selector="naviclose:" destination="NSu-qJ-tqE" id="19r-5C-qWM"/>

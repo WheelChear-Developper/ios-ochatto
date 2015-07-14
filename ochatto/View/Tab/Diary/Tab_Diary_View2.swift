@@ -1,16 +1,20 @@
 //
-//  Tab_Diary_View.swift
+//  Tab_Diary_View2.swift
 //  ochatto
 //
-//  Created by MacServer on 2015/06/11.
+//  Created by MacServer on 2015/07/14.
 //  Copyright (c) 2015年 Mobile Innovation, LLC. All rights reserved.
 //
 
 import UIKit
 
-class Tab_Diary_View: UIViewController {
+class Tab_Diary_View2: UIViewController {
     
     @IBOutlet weak var txt_title: UITextField!
+    
+    @IBAction func naviclose(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
     
     @IBAction func delete_push(sender: AnyObject) {
         
@@ -47,4 +51,3 @@ class Tab_Diary_View: UIViewController {
     }
     
 }
-

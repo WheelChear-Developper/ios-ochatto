@@ -229,7 +229,7 @@ class home1ViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "Ochatto"
+        self.navigationItem.title = "お茶っと"
         
         Rebuew_TableView.delegate = self
         Rebuew_TableView.dataSource = self

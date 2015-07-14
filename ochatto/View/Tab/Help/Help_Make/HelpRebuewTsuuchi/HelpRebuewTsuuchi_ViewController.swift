@@ -24,7 +24,7 @@ class HelpRebuewTsuuchi_ViewController: UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "Ochatto"
+        self.navigationItem.title = "お茶っと"
         
     }
     

@@ -1,8 +1,8 @@
 //
-//  Tab_Map_View.swift
+//  Profile_map.swift
 //  ochatto
 //
-//  Created by MacServer on 2015/06/08.
+//  Created by MacServer on 2015/07/13.
 //  Copyright (c) 2015年 Mobile Innovation, LLC. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class Tab_Map_View: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class Profile_map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     //Configクラス定義
     var config_cls:NSObject.Type = NSClassFromString("Configuration") as! NSObject.Type
@@ -21,58 +21,12 @@ class Tab_Map_View: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
     //ロケーションマネージャー
     var myLocationManager: CLLocationManager!
     
-    @IBOutlet weak var frame1: UIView!
-    
-    @IBAction func tag_name_push(sender: AnyObject) {
-        self.tabBarController?.selectedIndex = 4
+    @IBAction func close_push(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
-    @IBAction func hito1_push(sender: AnyObject) {
-        frame1.hidden = false
-    }
-    
-    @IBAction func frame1_push(sender: AnyObject) {
-        frame1.hidden = true
-        
-        self.tabBarController?.selectedIndex = 4
-    }
-    @IBAction func frsme1_close(sender: AnyObject) {
-        frame1.hidden = true
-    }
-    
-    @IBOutlet weak var frame2: UIView!
-    @IBAction func house1_push(sender: AnyObject) {
-        frame2.hidden = false
-    }
-    
-    @IBAction func frame2_push(sender: AnyObject) {
-        frame2.hidden = true
-        
-        var storyboard: UIStoryboard = UIStoryboard(name: "home1ViewController", bundle: NSBundle.mainBundle())
-        var SetViewController: home1ViewController = storyboard.instantiateInitialViewController() as! home1ViewController
-        
-        self.navigationController?.pushViewController(SetViewController, animated: true)
-    }
-    @IBAction func frsme2_close(sender: AnyObject) {
-        frame2.hidden = true
-    }
-    
-    @IBAction func list1_push(sender: AnyObject) {
-        self.tabBarController?.selectedIndex = 4
-    }
-
-    @IBAction func alert_push(sender: AnyObject) {
-        var storyboard: UIStoryboard = UIStoryboard(name: "AlertViewController", bundle: NSBundle.mainBundle())
-        var SetViewController: AlertViewController = storyboard.instantiateInitialViewController() as! AlertViewController
-        
-        self.navigationController?.pushViewController(SetViewController, animated: true)
-    }
-    
-    @IBAction func sos_push(sender: AnyObject) {
-        var storyboard: UIStoryboard = UIStoryboard(name: "SosViewController", bundle: NSBundle.mainBundle())
-        var SetViewController: SosViewController = storyboard.instantiateInitialViewController() as! SosViewController
-        
-        self.navigationController?.pushViewController(SetViewController, animated: true)
+    @IBAction func save_push(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -81,8 +35,6 @@ class Tab_Map_View: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
         //Config用のクラス設定
         var config:Configuration = (config_cls() as! Configuration)
         
-        frame1.hidden = true
-        frame2.hidden = true
         
         // LocationManagerの生成.
         myLocationManager = CLLocationManager()
@@ -122,12 +74,24 @@ class Tab_Map_View: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
         let myRegion: MKCoordinateRegion = MKCoordinateRegionMakeWithDistance(myCoordinate, myLatDist, myLonDist)
         self.myMapView.setRegion(myRegion, animated:true)
         
-
+        
+        //ピンを生成
+        var theRoppongiAnnotation = MKPointAnnotation()
+        //ピンを置く場所を設定
+        theRoppongiAnnotation.coordinate  = myCoordinate
+        //ピンのタイトルの設定
+        theRoppongiAnnotation.title       = "ピン置いたぜぇ〜"
+        //ピンのサブタイトルを設定
+        theRoppongiAnnotation.subtitle    = "ワイルドだろぅ〜？"
+        //ピンを地図上に追加
+        myMapView.addAnnotation(theRoppongiAnnotation)
+        
+        
         //ナビゲーション表示
         self.myMapView.setUserTrackingMode(MKUserTrackingMode.None, animated: true)
         
         // 位置情報の更新を開始.
-//        myLocationManager.startUpdatingLocation()
+        //        myLocationManager.startUpdatingLocation()
         
     }
     
@@ -148,8 +112,8 @@ class Tab_Map_View: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
         myMapView.setRegion(myRegion, animated: true)
         
         
-
-
+        
+        
         
     }
     
@@ -184,4 +148,3 @@ class Tab_Map_View: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
     }
     
 }
-
