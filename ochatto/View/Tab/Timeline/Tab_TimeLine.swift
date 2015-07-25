@@ -40,6 +40,14 @@ class Tab_TimeLine: UIViewController, UITableViewDataSource, UITableViewDelegate
         self.tabBarController?.selectedIndex = 6
     }
     
+    @IBAction func ontime_cell1_push(sender: AnyObject) {
+        var storyboard: UIStoryboard = UIStoryboard(name: "Tab_Diary_View2", bundle: NSBundle.mainBundle())
+        var navigation: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("Diary_View2Root") as! UINavigationController
+        
+        self.presentViewController(navigation, animated: true, completion: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

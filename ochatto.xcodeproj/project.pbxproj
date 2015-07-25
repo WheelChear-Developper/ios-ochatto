@@ -207,6 +207,7 @@
 		1BD446441B6340DA008EA7C5 /* hito7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463E1B6340DA008EA7C5 /* hito7.png */; };
 		1BD446451B6340DA008EA7C5 /* hito8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463F1B6340DA008EA7C5 /* hito8.png */; };
 		1BD446471B6389DB008EA7C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD446461B6389DB008EA7C5 /* AppDelegate.swift */; };
+		1BD446491B63AB89008EA7C5 /* Tab_Diary_View2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD446481B63AB89008EA7C5 /* Tab_Diary_View2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -426,6 +427,7 @@
 		1BD4463E1B6340DA008EA7C5 /* hito7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito7.png; sourceTree = "<group>"; };
 		1BD4463F1B6340DA008EA7C5 /* hito8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito8.png; sourceTree = "<group>"; };
 		1BD446461B6389DB008EA7C5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BD446481B63AB89008EA7C5 /* Tab_Diary_View2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab_Diary_View2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -698,6 +700,7 @@
 			isa = PBXGroup;
 			children = (
 				1B7295701B38CF28002D9BDE /* Tab_Diary_View.swift */,
+				1BD446481B63AB89008EA7C5 /* Tab_Diary_View2.storyboard */,
 				1B07E8A41B54C097001F20A1 /* Tab_Diary_View2.swift */,
 			);
 			path = Diary;
@@ -1055,6 +1058,7 @@
 				1B98E6B01B37C4A100DA3750 /* jisyaku.png in Resources */,
 				1BD446431B6340DA008EA7C5 /* hito9.png in Resources */,
 				1B98E6BF1B37C4A100DA3750 /* pin_yellow.png in Resources */,
+				1BD446491B63AB89008EA7C5 /* Tab_Diary_View2.storyboard in Resources */,
 				1B98E6CC1B37C4A100DA3750 /* tabconer-green-left.png in Resources */,
 				1B98E6CA1B37C4A100DA3750 /* tab-time.png in Resources */,
 				1B5744FD1B3BF7E000894571 /* HelpInfo_ViewController.storyboard in Resources */,

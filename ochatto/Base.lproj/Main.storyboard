@@ -276,15 +276,6 @@
             <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
             <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
             <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
-            <string>MotoyaLMaru-W3-90ms-RKSJ-H</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -1042,6 +1033,9 @@
                                                                             <state key="normal" image="check-markdown.png">
                                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                             </state>
+                                                                            <connections>
+                                                                                <action selector="ontime_cell1_push:" destination="5sx-S8-pMW" eventType="touchUpInside" id="7Io-bd-zLv"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <constraints>
@@ -1616,7 +1610,7 @@
                                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                             </state>
                                                                             <connections>
-                                                                                <action selector="NewDiary_Cell_push:" destination="5sx-S8-pMW" eventType="touchUpInside" id="eEg-H4-Rx4"/>
+                                                                                <action selector="ontime_cell1_push:" destination="5sx-S8-pMW" eventType="touchUpInside" id="lmh-s0-tmb"/>
                                                                             </connections>
                                                                         </button>
                                                                     </subviews>
@@ -1910,9 +1904,6 @@
                                                                             <state key="normal" image="check-markdown.png">
                                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                             </state>
-                                                                            <connections>
-                                                                                <action selector="NewDiary_Cell_push:" destination="5sx-S8-pMW" eventType="touchUpInside" id="1tE-08-stv"/>
-                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <constraints>
@@ -2058,9 +2049,6 @@
                                                                             <state key="normal" image="check-markdown.png">
                                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                                             </state>
-                                                                            <connections>
-                                                                                <action selector="NewDiary_Cell_push:" destination="5sx-S8-pMW" eventType="touchUpInside" id="xQl-vF-5bk"/>
-                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <constraints>
@@ -10033,249 +10021,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0h-qe-O2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="298" y="2320"/>
-        </scene>
-        <!--日記の作成-->
-        <scene sceneID="BE6-Dv-2El">
-            <objects>
-                <viewController id="mRP-uE-ums" customClass="Tab_Diary_View2" customModule="ochatto" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YRp-VV-DQM"/>
-                        <viewControllerLayoutGuide type="bottom" id="Vnf-dq-vmF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1Yn-7F-aaB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="B1K-fU-cPO">
-                                <rect key="frame" x="16" y="80" width="215" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="215" id="yGi-iQ-pJO"/>
-                                </constraints>
-                                <segments>
-                                    <segment title="オフタイム"/>
-                                    <segment title="オンタイム"/>
-                                </segments>
-                            </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="タイトル" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSU-0Z-o0t">
-                                <rect key="frame" x="16" y="118" width="115" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="TeM-Co-cUU"/>
-                                    <constraint firstAttribute="width" constant="115" id="css-Sj-J60"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yWp-gx-cRh">
-                                <rect key="frame" x="139" y="118" width="437" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="H3V-5c-nuV"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="mRP-uE-ums" id="r3M-zm-jj2"/>
-                                </connections>
-                            </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8W4-dg-cez">
-                                <rect key="frame" x="16" y="160" width="215" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="215" id="B8h-a8-BWT"/>
-                                </constraints>
-                                <segments>
-                                    <segment title="公開"/>
-                                    <segment title="非公開"/>
-                                </segments>
-                            </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="○全てのユーザーに公開" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGu-UC-7Sw">
-                                <rect key="frame" x="16" y="196" width="267" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="20n-wW-mY2"/>
-                                    <constraint firstAttribute="width" constant="267" id="c6z-Rp-EH1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="リストの選択" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hd-E0-vbG">
-                                <rect key="frame" x="16" y="231" width="115" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="115" id="1k3-xA-znV"/>
-                                    <constraint firstAttribute="height" constant="30" id="vgD-JB-enk"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VXX-hC-V9e">
-                                <rect key="frame" x="139" y="231" width="389" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="shf-gb-ygF"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="＋追加" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j28-iK-QVd">
-                                <rect key="frame" x="534" y="231" width="42" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Acc-AA-F1A"/>
-                                    <constraint firstAttribute="width" constant="64" id="crM-Gb-bSV"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="crM-Gb-bSV"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="特定の個人に配信する" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVh-Nb-aUY">
-                                <rect key="frame" x="16" y="269" width="115" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="s9A-v3-ahP"/>
-                                    <constraint firstAttribute="width" constant="115" id="t8F-Rh-LfD"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="11"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ozm-Mu-Oo0">
-                                <rect key="frame" x="139" y="269" width="389" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="O0D-TF-guX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="＋追加" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LF0-GA-lVu">
-                                <rect key="frame" x="534" y="269" width="42" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="c2S-5e-Jpw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Zj3-g7-Lcj">
-                                <rect key="frame" x="16" y="307" width="568" height="153"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="153" id="5fM-ZE-Txn"/>
-                                </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aUQ-N9-LtY">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJL-Dx-yp5">
-                                <rect key="frame" x="16" y="468" width="172" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="kfL-Ei-PbQ"/>
-                                    <constraint firstAttribute="width" constant="172" id="mOt-P7-xFE"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="14"/>
-                                <state key="normal" title="○この日記を削除する">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="delete_push:" destination="mRP-uE-ums" eventType="touchUpInside" id="jcj-vg-Ahl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="op5-t0-a2X">
-                                <rect key="frame" x="538" y="468" width="46" height="30"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="WMC-Ob-7i0"/>
-                                    <constraint firstAttribute="height" constant="30" id="sLn-v2-hWI"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
-                                <state key="normal" title="公開">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.9847222444" blue="0.94073278900000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="op5-t0-a2X" secondAttribute="trailing" constant="16" id="0Q8-Nv-9Zg"/>
-                            <constraint firstItem="tVh-Nb-aUY" firstAttribute="leading" secondItem="1Yn-7F-aaB" secondAttribute="leading" constant="16" id="4OY-wJ-NHU"/>
-                            <constraint firstItem="Zj3-g7-Lcj" firstAttribute="leading" secondItem="1Yn-7F-aaB" secondAttribute="leading" constant="16" id="5Oa-Tj-i02"/>
-                            <constraint firstItem="SSU-0Z-o0t" firstAttribute="top" secondItem="B1K-fU-cPO" secondAttribute="bottom" constant="10" id="5c6-pu-ZC9"/>
-                            <constraint firstItem="Zj3-g7-Lcj" firstAttribute="top" secondItem="Ozm-Mu-Oo0" secondAttribute="bottom" constant="8" id="5md-Cn-HDP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="j28-iK-QVd" secondAttribute="trailing" constant="8" id="7WJ-1h-1xC"/>
-                            <constraint firstItem="LF0-GA-lVu" firstAttribute="top" secondItem="j28-iK-QVd" secondAttribute="bottom" constant="8" id="7fn-22-mP9"/>
-                            <constraint firstItem="8W4-dg-cez" firstAttribute="top" secondItem="yWp-gx-cRh" secondAttribute="bottom" constant="12" id="9gp-EL-39F"/>
-                            <constraint firstItem="SSU-0Z-o0t" firstAttribute="leading" secondItem="1Yn-7F-aaB" secondAttribute="leading" constant="16" id="EYl-Bd-ZgU"/>
-                            <constraint firstItem="B1K-fU-cPO" firstAttribute="leading" secondItem="1Yn-7F-aaB" secondAttribute="leadingMargin" id="JZT-Dq-LGV"/>
-                            <constraint firstItem="8Hd-E0-vbG" firstAttribute="top" secondItem="dGu-UC-7Sw" secondAttribute="bottom" constant="5" id="KaB-ij-Wrb"/>
-                            <constraint firstItem="Ozm-Mu-Oo0" firstAttribute="leading" secondItem="tVh-Nb-aUY" secondAttribute="trailing" constant="8" id="Kmc-do-ejA"/>
-                            <constraint firstItem="Zj3-g7-Lcj" firstAttribute="top" secondItem="LF0-GA-lVu" secondAttribute="bottom" constant="8" id="MMI-H4-89y"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="LF0-GA-lVu" secondAttribute="trailing" constant="8" id="Msd-tu-R70"/>
-                            <constraint firstItem="LF0-GA-lVu" firstAttribute="leading" secondItem="Ozm-Mu-Oo0" secondAttribute="trailing" constant="6" id="SFF-8I-F9T"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="yWp-gx-cRh" secondAttribute="trailing" constant="8" id="Sv0-Zs-3LB"/>
-                            <constraint firstItem="dGu-UC-7Sw" firstAttribute="top" secondItem="8W4-dg-cez" secondAttribute="bottom" constant="8" id="U9c-lb-zhw"/>
-                            <constraint firstItem="Ozm-Mu-Oo0" firstAttribute="top" secondItem="VXX-hC-V9e" secondAttribute="bottom" constant="8" id="ULn-aE-03o"/>
-                            <constraint firstItem="dJL-Dx-yp5" firstAttribute="top" secondItem="Zj3-g7-Lcj" secondAttribute="bottom" constant="8" id="Z4G-tT-aIU"/>
-                            <constraint firstItem="tVh-Nb-aUY" firstAttribute="top" secondItem="8Hd-E0-vbG" secondAttribute="bottom" constant="8" id="bGf-hs-6ft"/>
-                            <constraint firstItem="j28-iK-QVd" firstAttribute="leading" secondItem="VXX-hC-V9e" secondAttribute="trailing" constant="6" id="czX-3o-eVd"/>
-                            <constraint firstItem="8Hd-E0-vbG" firstAttribute="leading" secondItem="1Yn-7F-aaB" secondAttribute="leading" constant="16" id="dkY-5b-3rt"/>
-                            <constraint firstItem="VXX-hC-V9e" firstAttribute="top" secondItem="dGu-UC-7Sw" secondAttribute="bottom" constant="5" id="k82-s5-OqS"/>
-                            <constraint firstItem="dGu-UC-7Sw" firstAttribute="leading" secondItem="1Yn-7F-aaB" secondAttribute="leading" constant="16" id="msj-AI-2Yu"/>
-                            <constraint firstAttribute="trailing" secondItem="Zj3-g7-Lcj" secondAttribute="trailing" constant="16" id="nvz-qB-SEU"/>
-                            <constraint firstItem="8W4-dg-cez" firstAttribute="top" secondItem="SSU-0Z-o0t" secondAttribute="bottom" constant="12" id="s4x-os-5G9"/>
-                            <constraint firstItem="VXX-hC-V9e" firstAttribute="leading" secondItem="8Hd-E0-vbG" secondAttribute="trailing" constant="8" id="thQ-qc-0qi"/>
-                            <constraint firstItem="B1K-fU-cPO" firstAttribute="top" secondItem="YRp-VV-DQM" secondAttribute="bottom" constant="16" id="uEp-oS-mET"/>
-                            <constraint firstItem="dJL-Dx-yp5" firstAttribute="leading" secondItem="1Yn-7F-aaB" secondAttribute="leading" constant="16" id="vlG-l5-3z8"/>
-                            <constraint firstItem="yWp-gx-cRh" firstAttribute="leading" secondItem="SSU-0Z-o0t" secondAttribute="trailing" constant="8" id="xlx-Pm-8vN"/>
-                            <constraint firstItem="op5-t0-a2X" firstAttribute="top" secondItem="Zj3-g7-Lcj" secondAttribute="bottom" constant="8" id="yKe-o8-QKI"/>
-                            <constraint firstItem="8W4-dg-cez" firstAttribute="leading" secondItem="1Yn-7F-aaB" secondAttribute="leadingMargin" id="yLw-5v-Ybh"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" tag="6" title="日記の作成" id="C2q-ZT-a1d"/>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="QZi-pZ-usO">
-                        <barButtonItem key="rightBarButtonItem" image="nabi-batsu.png" id="t9j-Vx-W5n">
-                            <connections>
-                                <action selector="naviclose:" destination="mRP-uE-ums" id="gCK-d6-Ja7"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="txt_title" destination="yWp-gx-cRh" id="Cmm-Ib-02p"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WfP-YC-y5P" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1738" y="176"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="AOI-eM-KCD">
-            <objects>
-                <navigationController id="A0o-Jp-Pvm" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fDY-5T-FCv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="mRP-uE-ums" kind="relationship" relationship="rootViewController" id="ypB-Xv-ml8"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Pn-Kc-3yf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1029" y="176"/>
         </scene>
     </scenes>
     <resources>
