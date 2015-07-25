@@ -208,6 +208,8 @@
 		1BD446451B6340DA008EA7C5 /* hito8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463F1B6340DA008EA7C5 /* hito8.png */; };
 		1BD446471B6389DB008EA7C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD446461B6389DB008EA7C5 /* AppDelegate.swift */; };
 		1BD446491B63AB89008EA7C5 /* Tab_Diary_View2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD446481B63AB89008EA7C5 /* Tab_Diary_View2.storyboard */; };
+		1BD4464C1B63D2AB008EA7C5 /* icon-hertup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4464A1B63D2AB008EA7C5 /* icon-hertup.png */; };
+		1BD4464D1B63D2AB008EA7C5 /* icon-help2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4464B1B63D2AB008EA7C5 /* icon-help2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -428,6 +430,8 @@
 		1BD4463F1B6340DA008EA7C5 /* hito8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito8.png; sourceTree = "<group>"; };
 		1BD446461B6389DB008EA7C5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BD446481B63AB89008EA7C5 /* Tab_Diary_View2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab_Diary_View2.storyboard; sourceTree = "<group>"; };
+		1BD4464A1B63D2AB008EA7C5 /* icon-hertup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-hertup.png"; sourceTree = "<group>"; };
+		1BD4464B1B63D2AB008EA7C5 /* icon-help2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-help2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -835,6 +839,8 @@
 		1B98E61E1B37C4A100DA3750 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1BD4464A1B63D2AB008EA7C5 /* icon-hertup.png */,
+				1BD4464B1B63D2AB008EA7C5 /* icon-help2.png */,
 				1BD4463A1B6340DA008EA7C5 /* hito6.png */,
 				1BD4463B1B6340DA008EA7C5 /* hito10.png */,
 				1BD4463C1B6340DA008EA7C5 /* hito5.png */,
@@ -1079,6 +1085,7 @@
 				1B98E6A51B37C4A100DA3750 /* hito1.png in Resources */,
 				1B98E6731B37C4A100DA3750 /* DroidSansArabic.ttf in Resources */,
 				1B98E66E1B37C4A100DA3750 /* DroidNaskh-Bold.ttf in Resources */,
+				1BD4464C1B63D2AB008EA7C5 /* icon-hertup.png in Resources */,
 				1B98E6791B37C4A100DA3750 /* DroidSansFallbackLegacy.ttf in Resources */,
 				1B98E6891B37C4A100DA3750 /* README.txt in Resources */,
 				1B98E67A1B37C4A100DA3750 /* DroidSansGeorgian.ttf in Resources */,
@@ -1141,6 +1148,7 @@
 				1B98E69B1B37C4A100DA3750 /* button-off.png in Resources */,
 				1B98E6901B37C4A100DA3750 /* Roboto-Thin.ttf in Resources */,
 				1B98E66D1B37C4A100DA3750 /* DroidKufi-Regular.ttf in Resources */,
+				1BD4464D1B63D2AB008EA7C5 /* icon-help2.png in Resources */,
 				1B98E6981B37C4A100DA3750 /* acount-button.png in Resources */,
 				1B98E6C81B37C4A100DA3750 /* tab-pen.png in Resources */,
 				1B49104D1B255F380014F0DF /* Images.xcassets in Resources */,
