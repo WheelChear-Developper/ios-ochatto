@@ -46,7 +46,7 @@
                                         <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="16"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="qDM-DI-y5p">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito6.png" translatesAutoresizingMaskIntoConstraints="NO" id="qDM-DI-y5p">
                                         <rect key="frame" x="20" y="70" width="55" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="OS2-fd-BEr"/>
@@ -136,7 +136,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hito3.png" width="341" height="341"/>
+        <image name="hito6.png" width="341" height="341"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
     </resources>
 </document>

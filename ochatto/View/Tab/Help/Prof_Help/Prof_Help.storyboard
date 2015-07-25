@@ -480,7 +480,7 @@
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BNj-Bt-Xgp" id="lpW-tK-oUP">
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="MG7-pY-BLU">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito9.png" translatesAutoresizingMaskIntoConstraints="NO" id="MG7-pY-BLU">
                                                                     <rect key="frame" x="18" y="8" width="50" height="50"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="50" id="ORh-ze-HVp"/>
@@ -546,7 +546,7 @@
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vwx-9X-I5N" id="t6k-pa-vHC">
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito2.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Pw-7e-UvO">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito6.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Pw-7e-UvO">
                                                                     <rect key="frame" x="18" y="8" width="50" height="50"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="50" id="0Ha-Ar-v4P"/>
@@ -663,7 +663,8 @@
         <image name="face-normal.png" width="100" height="100"/>
         <image name="hito1.png" width="341" height="341"/>
         <image name="hito2.png" width="341" height="341"/>
-        <image name="hito3.png" width="341" height="341"/>
+        <image name="hito6.png" width="341" height="341"/>
+        <image name="hito9.png" width="341" height="341"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
         <image name="tabconer-green-center.png" width="5" height="26"/>
         <image name="tabconer-green-left.png" width="10" height="26"/>

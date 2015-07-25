@@ -76,7 +76,7 @@
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ra1-nC-1bz" id="0n7-mU-GDV">
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="GOf-4u-Xkd">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito10.png" translatesAutoresizingMaskIntoConstraints="NO" id="GOf-4u-Xkd">
                                                                     <rect key="frame" x="18" y="8" width="50" height="50"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="50" id="1oS-EJ-WKR"/>
@@ -133,7 +133,7 @@
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UCB-ma-jRs" id="vBQ-x5-Ka8">
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito2.png" translatesAutoresizingMaskIntoConstraints="NO" id="G3X-fj-BP9">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito5.png" translatesAutoresizingMaskIntoConstraints="NO" id="G3X-fj-BP9">
                                                                     <rect key="frame" x="18" y="8" width="50" height="50"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="50" id="BRf-pG-Bdv"/>
@@ -190,7 +190,7 @@
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2LP-ht-jYF" id="H3s-OB-wvn">
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="egC-o5-3Fd">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito8.png" translatesAutoresizingMaskIntoConstraints="NO" id="egC-o5-3Fd">
                                                                     <rect key="frame" x="18" y="8" width="50" height="50"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="50" id="M9H-Fe-L6i"/>
@@ -305,9 +305,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hito1.png" width="341" height="341"/>
-        <image name="hito2.png" width="341" height="341"/>
-        <image name="hito3.png" width="341" height="341"/>
+        <image name="hito10.png" width="341" height="341"/>
+        <image name="hito5.png" width="341" height="341"/>
+        <image name="hito8.png" width="341" height="341"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
     </resources>
 </document>

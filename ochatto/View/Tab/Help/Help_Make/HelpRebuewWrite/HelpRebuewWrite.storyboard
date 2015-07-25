@@ -44,7 +44,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dZQ-CO-4Ur">
                                 <rect key="frame" x="5" y="72" width="590" height="400"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="誰に助けてもらいますか？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glD-yB-gNY">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="誰に助けてもらいましたか？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glD-yB-gNY">
                                         <rect key="frame" x="198" y="8" width="195" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="195" id="3Be-7y-rwn"/>
@@ -70,7 +70,7 @@
                                                     <action selector="face_1:" destination="NSu-qJ-tqE" eventType="touchUpInside" id="ee7-aJ-m8M"/>
                                                 </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-3z-6TD">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito5.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-3z-6TD">
                                                 <rect key="frame" x="46" y="0.0" width="70" height="70"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="QQy-ZM-tk4"/>
@@ -113,7 +113,7 @@
                                                     <action selector="face_2:" destination="NSu-qJ-tqE" eventType="touchUpInside" id="Z1Y-aa-ONZ"/>
                                                 </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito4.png" translatesAutoresizingMaskIntoConstraints="NO" id="huO-3r-InB">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito7.png" translatesAutoresizingMaskIntoConstraints="NO" id="huO-3r-InB">
                                                 <rect key="frame" x="46" y="0.0" width="70" height="70"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="Sx8-tc-AAp"/>
@@ -156,7 +156,7 @@
                                                     <action selector="face_3:" destination="NSu-qJ-tqE" eventType="touchUpInside" id="TFS-wM-e2w"/>
                                                 </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ODT-CU-xFP">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito8.png" translatesAutoresizingMaskIntoConstraints="NO" id="ODT-CU-xFP">
                                                 <rect key="frame" x="46" y="0.0" width="70" height="70"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="2FI-0J-hJz"/>
@@ -227,9 +227,9 @@
     </scenes>
     <resources>
         <image name="button-on.png" width="100" height="100"/>
-        <image name="hito1.png" width="341" height="341"/>
-        <image name="hito3.png" width="341" height="341"/>
-        <image name="hito4.png" width="341" height="341"/>
+        <image name="hito5.png" width="341" height="341"/>
+        <image name="hito7.png" width="341" height="341"/>
+        <image name="hito8.png" width="341" height="341"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
     </resources>
 </document>

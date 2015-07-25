@@ -237,7 +237,7 @@
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <string key="text" base64-UTF8="YES">
 44KP44GC77yB44Of44K644Kt44GV44KT44GC44KK44GM44Go44GG44GU44GW44GE44G+44GZ77yBCuOB
-vuOBmuOBr+WQjOWDmuOBq+iBnuOBjeOBvuOBmeOBre+8gQjnlZnkvJrnpL7jgavjgYTjgovjgYvjgao
+vuOBmuOBr+WQjOWDmuOBq+iBnuOBjeOBvuOBmeOBre+8gQjnmobkvJrnpL7jgavjgYTjgovjgYvjgao
 </string>
                                                     <fontDescription key="fontDescription" name="MotoyaLMaru-W3-90ms-RKSJ-H" family="MotoyaLMaru" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -281,7 +281,7 @@ vuOBmuOBr+WQjOWDmuOBq+iBnuOBjeOBvuOBmeOBre+8gQjnlZnkvJrnpL7jgavjgYTjgovjgYvjgao
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0lZ-g0-HzE" id="vuD-Jk-z1w">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kut-kO-ph7">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito8.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kut-kO-ph7">
                                                     <rect key="frame" x="10" y="15" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="Nwg-Lu-6nk"/>
@@ -341,13 +341,6 @@ vuOBmuOBr+WQjOWDmuOBq+iBnuOBjeOBvuOBmeOBre+8gQjnlZnkvJrnpL7jgavjgYTjgovjgYvjgao
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yYD-rf-lB1" id="4G5-Lv-lo0">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="1WM-BS-TNP">
-                                                    <rect key="frame" x="10" y="15" width="50" height="50"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="50" id="07Q-Cr-0yr"/>
-                                                        <constraint firstAttribute="height" constant="50" id="h5J-Kf-fVo"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yus-N8-siB">
                                                     <rect key="frame" x="70" y="13" width="515" height="62"/>
                                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -373,6 +366,13 @@ vuOBmuOBr+WQjOWDmuOBq+iBnuOBjeOBvuOBmeOBre+8gQjnlZnkvJrnpL7jgavjgYTjgovjgYvjgao
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hito10.png" translatesAutoresizingMaskIntoConstraints="NO" id="1WM-BS-TNP">
+                                                    <rect key="frame" x="10" y="14" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="07Q-Cr-0yr"/>
+                                                        <constraint firstAttribute="height" constant="50" id="h5J-Kf-fVo"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="IPZ-MA-WJN" firstAttribute="leading" secondItem="4G5-Lv-lo0" secondAttribute="leading" constant="75" id="1Dp-RC-TZp"/>
@@ -401,7 +401,7 @@ vuOBmuOBr+WQjOWDmuOBq+iBnuOBjeOBvuOBmeOBre+8gQjnlZnkvJrnpL7jgavjgYTjgovjgYvjgao
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PY4-XV-09v" id="CX4-hA-FME">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito4.png" translatesAutoresizingMaskIntoConstraints="NO" id="KyA-wH-MyI">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="KyA-wH-MyI">
                                                     <rect key="frame" x="10" y="15" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="DxY-7O-Hsj"/>
@@ -626,8 +626,9 @@ vuOBmuOBr+WQjOWDmuOBq+iBnuOBjeOBvuOBmeOBre+8gQjnlZnkvJrnpL7jgavjgYTjgovjgYvjgao
     <resources>
         <image name="Toukou-push.png" width="22" height="22"/>
         <image name="hito1.png" width="341" height="341"/>
+        <image name="hito10.png" width="341" height="341"/>
         <image name="hito2.png" width="341" height="341"/>
-        <image name="hito4.png" width="341" height="341"/>
+        <image name="hito8.png" width="341" height="341"/>
         <image name="level-bikkuri.png" width="50" height="50"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
         <image name="plus.png" width="21" height="21"/>

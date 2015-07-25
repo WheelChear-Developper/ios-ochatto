@@ -43,7 +43,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jee-aU-pEI">
                                 <rect key="frame" x="5" y="72" width="590" height="400"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="79K-wN-QLL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito6.png" translatesAutoresizingMaskIntoConstraints="NO" id="79K-wN-QLL">
                                         <rect key="frame" x="10" y="10" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="Nz4-E5-4vs"/>
@@ -180,7 +180,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hito3.png" width="341" height="341"/>
+        <image name="hito6.png" width="341" height="341"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
     </resources>
 </document>

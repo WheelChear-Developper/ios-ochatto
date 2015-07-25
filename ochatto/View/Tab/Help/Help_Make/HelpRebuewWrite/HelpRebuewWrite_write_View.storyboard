@@ -36,7 +36,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Zu-D5-kWa">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ttb-ev-Bud">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito5.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ttb-ev-Bud">
                                                 <rect key="frame" x="10" y="10" width="70" height="70"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="72u-ks-f10"/>
@@ -354,7 +354,7 @@
         <image name="face-ded.png" width="100" height="100"/>
         <image name="face-niko.png" width="100" height="100"/>
         <image name="face-normal.png" width="100" height="100"/>
-        <image name="hito3.png" width="341" height="341"/>
+        <image name="hito5.png" width="341" height="341"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
     </resources>
 </document>

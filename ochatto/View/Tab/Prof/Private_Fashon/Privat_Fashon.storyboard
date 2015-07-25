@@ -66,7 +66,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45A-EM-xYG">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito3.png" translatesAutoresizingMaskIntoConstraints="NO" id="g3u-RG-61k">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito6.png" translatesAutoresizingMaskIntoConstraints="NO" id="g3u-RG-61k">
                                                             <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="60" id="6ps-mq-KiE"/>
@@ -132,7 +132,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJK-39-3Hu">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito2.png" translatesAutoresizingMaskIntoConstraints="NO" id="H8w-6r-THx">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito7.png" translatesAutoresizingMaskIntoConstraints="NO" id="H8w-6r-THx">
                                                             <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="60" id="9if-JQ-tb8"/>
@@ -198,7 +198,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Sb-eP-sHw">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="6yz-iy-RpL">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito9.png" translatesAutoresizingMaskIntoConstraints="NO" id="6yz-iy-RpL">
                                                             <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="60" id="B1L-dI-BJY"/>
@@ -396,7 +396,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unP-W2-GYT">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito1.png" translatesAutoresizingMaskIntoConstraints="NO" id="iax-1v-o9K">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito8.png" translatesAutoresizingMaskIntoConstraints="NO" id="iax-1v-o9K">
                                                             <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="60" id="35J-Fu-cws"/>
@@ -462,7 +462,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X5N-75-h3c">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mSb-IM-v5e">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hito10.png" translatesAutoresizingMaskIntoConstraints="NO" id="mSb-IM-v5e">
                                                             <rect key="frame" x="5" y="8" width="60" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="60" id="HRm-DT-JUE"/>
@@ -648,9 +648,13 @@
         <image name="button-batsu.png" width="30" height="30"/>
         <image name="button-maisasu.png" width="30" height="30"/>
         <image name="hito1.png" width="341" height="341"/>
-        <image name="hito2.png" width="341" height="341"/>
+        <image name="hito10.png" width="341" height="341"/>
         <image name="hito3.png" width="341" height="341"/>
         <image name="hito4.png" width="341" height="341"/>
+        <image name="hito6.png" width="341" height="341"/>
+        <image name="hito7.png" width="341" height="341"/>
+        <image name="hito8.png" width="341" height="341"/>
+        <image name="hito9.png" width="341" height="341"/>
         <image name="nabi-batsu.png" width="22" height="22"/>
     </resources>
 </document>

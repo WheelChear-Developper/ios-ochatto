@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1B07E8A31B53F1D4001F20A1 /* Profile_map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07E8A21B53F1D4001F20A1 /* Profile_map.swift */; };
 		1B07E8A51B54C097001F20A1 /* Tab_Diary_View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07E8A41B54C097001F20A1 /* Tab_Diary_View2.swift */; };
-		1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910421B255F370014F0DF /* AppDelegate.swift */; };
 		1B4910461B255F380014F0DF /* ochatto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B4910441B255F380014F0DF /* ochatto.xcdatamodeld */; };
 		1B49104B1B255F380014F0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4910491B255F380014F0DF /* Main.storyboard */; };
 		1B49104D1B255F380014F0DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B49104C1B255F380014F0DF /* Images.xcassets */; };
@@ -201,6 +200,13 @@
 		1BA740301B3BDF3A0073FF6C /* RebuewKoukaiSet_View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7401B1B3BDF3A0073FF6C /* RebuewKoukaiSet_View.storyboard */; };
 		1BA740311B3BDF3A0073FF6C /* RebuewKoukaiSet_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7401C1B3BDF3A0073FF6C /* RebuewKoukaiSet_View.swift */; };
 		1BAD07471B3A948800B84037 /* check-markdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAD07461B3A948800B84037 /* check-markdown.png */; };
+		1BD446401B6340DA008EA7C5 /* hito6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463A1B6340DA008EA7C5 /* hito6.png */; };
+		1BD446411B6340DA008EA7C5 /* hito10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463B1B6340DA008EA7C5 /* hito10.png */; };
+		1BD446421B6340DA008EA7C5 /* hito5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463C1B6340DA008EA7C5 /* hito5.png */; };
+		1BD446431B6340DA008EA7C5 /* hito9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463D1B6340DA008EA7C5 /* hito9.png */; };
+		1BD446441B6340DA008EA7C5 /* hito7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463E1B6340DA008EA7C5 /* hito7.png */; };
+		1BD446451B6340DA008EA7C5 /* hito8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4463F1B6340DA008EA7C5 /* hito8.png */; };
+		1BD446471B6389DB008EA7C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD446461B6389DB008EA7C5 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -218,7 +224,6 @@
 		1B07E8A41B54C097001F20A1 /* Tab_Diary_View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab_Diary_View2.swift; sourceTree = "<group>"; };
 		1B49103D1B255F370014F0DF /* ochatto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ochatto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4910411B255F370014F0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B4910421B255F370014F0DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B4910451B255F380014F0DF /* ochatto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ochatto.xcdatamodel; sourceTree = "<group>"; };
 		1B49104A1B255F380014F0DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B49104C1B255F380014F0DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -414,6 +419,13 @@
 		1BA7401B1B3BDF3A0073FF6C /* RebuewKoukaiSet_View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RebuewKoukaiSet_View.storyboard; sourceTree = "<group>"; };
 		1BA7401C1B3BDF3A0073FF6C /* RebuewKoukaiSet_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebuewKoukaiSet_View.swift; sourceTree = "<group>"; };
 		1BAD07461B3A948800B84037 /* check-markdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-markdown.png"; sourceTree = "<group>"; };
+		1BD4463A1B6340DA008EA7C5 /* hito6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito6.png; sourceTree = "<group>"; };
+		1BD4463B1B6340DA008EA7C5 /* hito10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito10.png; sourceTree = "<group>"; };
+		1BD4463C1B6340DA008EA7C5 /* hito5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito5.png; sourceTree = "<group>"; };
+		1BD4463D1B6340DA008EA7C5 /* hito9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito9.png; sourceTree = "<group>"; };
+		1BD4463E1B6340DA008EA7C5 /* hito7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito7.png; sourceTree = "<group>"; };
+		1BD4463F1B6340DA008EA7C5 /* hito8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito8.png; sourceTree = "<group>"; };
+		1BD446461B6389DB008EA7C5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -459,7 +471,7 @@
 		1B49103F1B255F370014F0DF /* ochatto */ = {
 			isa = PBXGroup;
 			children = (
-				1B4910421B255F370014F0DF /* AppDelegate.swift */,
+				1BD446461B6389DB008EA7C5 /* AppDelegate.swift */,
 				1B49104C1B255F380014F0DF /* Images.xcassets */,
 				1B49104E1B255F380014F0DF /* LaunchScreen.xib */,
 				1B4910491B255F380014F0DF /* Main.storyboard */,
@@ -820,6 +832,12 @@
 		1B98E61E1B37C4A100DA3750 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1BD4463A1B6340DA008EA7C5 /* hito6.png */,
+				1BD4463B1B6340DA008EA7C5 /* hito10.png */,
+				1BD4463C1B6340DA008EA7C5 /* hito5.png */,
+				1BD4463D1B6340DA008EA7C5 /* hito9.png */,
+				1BD4463E1B6340DA008EA7C5 /* hito7.png */,
+				1BD4463F1B6340DA008EA7C5 /* hito8.png */,
 				1B5745171B3C2F8300894571 /* level-bikkuri.png */,
 				1BAD07461B3A948800B84037 /* check-markdown.png */,
 				1B7296651B38E358002D9BDE /* button-hyuman.png */,
@@ -1018,6 +1036,7 @@
 				1B49104B1B255F380014F0DF /* Main.storyboard in Resources */,
 				1B98E6CD1B37C4A100DA3750 /* tabconer-green-right.png in Resources */,
 				1B98E6B51B37C4A100DA3750 /* photoplus.png in Resources */,
+				1BD446421B6340DA008EA7C5 /* hito5.png in Resources */,
 				1B55F0931B3BB91100A0FCC2 /* tabconer-orenge-left.png in Resources */,
 				1B98E69D1B37C4A100DA3750 /* check-no-mark.png in Resources */,
 				1B5745051B3BF7E000894571 /* HelpRebuewTsuuchi_write_ViewController.storyboard in Resources */,
@@ -1034,6 +1053,7 @@
 				1B55F0941B3BB91100A0FCC2 /* tabconer-orenge-right.png in Resources */,
 				1B98E69C1B37C4A100DA3750 /* button-on.png in Resources */,
 				1B98E6B01B37C4A100DA3750 /* jisyaku.png in Resources */,
+				1BD446431B6340DA008EA7C5 /* hito9.png in Resources */,
 				1B98E6BF1B37C4A100DA3750 /* pin_yellow.png in Resources */,
 				1B98E6CC1B37C4A100DA3750 /* tabconer-green-left.png in Resources */,
 				1B98E6CA1B37C4A100DA3750 /* tab-time.png in Resources */,
@@ -1050,6 +1070,7 @@
 				1B98E6951B37C4A100DA3750 /* RobotoCondensed-Regular.ttf in Resources */,
 				1B98E6931B37C4A100DA3750 /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				1B98E6AB1B37C4A100DA3750 /* icon-feelso.png in Resources */,
+				1BD446441B6340DA008EA7C5 /* hito7.png in Resources */,
 				1B57450E1B3BFD1D00894571 /* Privat_Fashon.storyboard in Resources */,
 				1B98E6A51B37C4A100DA3750 /* hito1.png in Resources */,
 				1B98E6731B37C4A100DA3750 /* DroidSansArabic.ttf in Resources */,
@@ -1066,6 +1087,7 @@
 				1B98E6661B37C4A100DA3750 /* Android.mk in Resources */,
 				1B98E6DE1B37C4A100DA3750 /* yellow-maru.png in Resources */,
 				1B98E6C01B37C4A100DA3750 /* plus.png in Resources */,
+				1BD446451B6340DA008EA7C5 /* hito8.png in Resources */,
 				1B98E6761B37C4A100DA3750 /* DroidSansEthiopic-Regular.ttf in Resources */,
 				1B98E6D41B37C4A100DA3750 /* tabconer-on-center.png in Resources */,
 				1B98E69F1B37C4A100DA3750 /* face-ded.png in Resources */,
@@ -1081,6 +1103,7 @@
 				1B98E6B21B37C4A100DA3750 /* level-star.png in Resources */,
 				1B98E6C51B37C4A100DA3750 /* tab-help.png in Resources */,
 				1B98E6A61B37C4A100DA3750 /* hito2.png in Resources */,
+				1BD446401B6340DA008EA7C5 /* hito6.png in Resources */,
 				1B98E67C1B37C4A100DA3750 /* DroidSansHebrew-Regular.ttf in Resources */,
 				1B98E6DD1B37C4A100DA3750 /* Toukou-push.png in Resources */,
 				1B57452F1B3C392A00894571 /* Setting_View.storyboard in Resources */,
@@ -1108,6 +1131,7 @@
 				1B98E67E1B37C4A100DA3750 /* DroidSansMono.ttf in Resources */,
 				1B98E6A41B37C4A100DA3750 /* hito.png in Resources */,
 				1B98E6C41B37C4A100DA3750 /* tab-friend.png in Resources */,
+				1BD446411B6340DA008EA7C5 /* hito10.png in Resources */,
 				1B5745011B3BF7E000894571 /* HelpMake_ViewController.storyboard in Resources */,
 				1B98E6C11B37C4A100DA3750 /* purasu.png in Resources */,
 				1B98E69B1B37C4A100DA3750 /* button-off.png in Resources */,
@@ -1165,6 +1189,7 @@
 			files = (
 				1B5744FE1B3BF7E000894571 /* HelpInfo_ViewController.swift in Sources */,
 				1B7295C41B38CF28002D9BDE /* Tab_Prof_View.swift in Sources */,
+				1BD446471B6389DB008EA7C5 /* AppDelegate.swift in Sources */,
 				1B55F09E1B3BD82E00A0FCC2 /* GroupeMake_Setting.swift in Sources */,
 				1B07E8A51B54C097001F20A1 /* Tab_Diary_View2.swift in Sources */,
 				1B7295A51B38CF28002D9BDE /* Tab_Friend_View.swift in Sources */,
@@ -1198,7 +1223,6 @@
 				1B07E8A31B53F1D4001F20A1 /* Profile_map.swift in Sources */,
 				1B7295C51B38CF28002D9BDE /* Tab_TimeLine.swift in Sources */,
 				1B5745271B3C37D800894571 /* HonninViewController.swift in Sources */,
-				1B4910431B255F370014F0DF /* AppDelegate.swift in Sources */,
 				1B5745261B3C37D800894571 /* AcountViewController.swift in Sources */,
 				1B72959E1B38CF28002D9BDE /* home1ViewController.swift in Sources */,
 			);
