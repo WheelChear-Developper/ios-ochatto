@@ -1192,8 +1192,8 @@
                                                             <constraint firstAttribute="centerX" secondItem="135-rS-k7E" secondAttribute="centerX" id="xrU-wT-bTq"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6jA-ar-C5J">
-                                                        <rect key="frame" x="0.0" y="186" width="147" height="186"/>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6jA-ar-C5J">
+                                                        <rect key="frame" x="0.0" y="186" width="148" height="186"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-okigen.png" translatesAutoresizingMaskIntoConstraints="NO" id="TX1-Xg-RH7">
                                                                 <rect key="frame" x="5" y="31" width="139" height="123"/>
