@@ -614,6 +614,7 @@ vuOBmuOBr+WQjOWDmuOBq+iBnuOBjeOBvuOBmeOBre+8gQjnmobkvJrnpL7jgavjgYTjgovjgYvjgao
                             </view>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="HelpInfo_TableView" destination="o42-st-l99" id="IKi-9z-zdt"/>
                     </connections>

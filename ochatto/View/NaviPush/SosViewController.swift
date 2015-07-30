@@ -53,6 +53,18 @@ class SosViewController: UIViewController, MKMapViewDelegate {
         // MapViewにUIGestureRecognizerを追加.
         self.myMapView.addGestureRecognizer(self.longtapGesture)
         
+        
+        //ピンを生成
+        var theRoppongiAnnotation = MKPointAnnotation()
+        //ピンを置く場所を設定
+        theRoppongiAnnotation.coordinate  = myCoordinate
+        //ピンのタイトルの設定
+        theRoppongiAnnotation.title       = ""
+        //ピンのサブタイトルを設定
+        theRoppongiAnnotation.subtitle    = ""
+        //ピンを地図上に追加
+        self.myMapView.addAnnotation(theRoppongiAnnotation)
+        
     }
     
     func longPressed(sender: UILongPressGestureRecognizer){
